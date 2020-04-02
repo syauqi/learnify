@@ -1,29 +1,30 @@
 ###################
-What is CodeIgniter
+Apa itu Learnify?
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Learnify adalah web edukasi yang dilengkapi video, materi, deskripsi dan soal(coming soon) yang dibuat oleh syaauqi zaaidan. dibuat semenarik mungkin agar kalian bisa menikmati nya! . ini tugas sekolah. namun komunitas dan teman teman saya sangat tertarik jiga saya mengembangkan ini lebih baik. oleh karena itu saya masukan ini di github dan open source.
 
 *******************
-Release Information
+Tanggal Liris
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Project ini rilis beta saat 31 maret 2020.
 
 **************************
-Changelog and New Features
+Fitur yang tersedia
 **************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+ -Login System
+ -Registrasi
+ -Verifikasi Email
+ -CRUD Siswa
+ -CRUD Guru
+ -CRUD Materi
+ -Minimalist UI
+ -Admin Page
+ -User Page
+ -Teacher Page
+ -Design Menarik!
+ -Sisanya bisa kalian lihat .
 
 *******************
 Server Requirements
@@ -39,32 +40,22 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Masukan file repo ini ke htdocs kalian.
+dan masukan database nya
 
 *********
 Resources
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+-  Landing Page Template by colorlib
+-  Admin Dashboard by Nauval Azhar ( Stisla )
+-  User page by me.
 
 ***************
-Acknowledgement
+Thanks to
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+God
+My Family
+My Friends
+And other people support me
