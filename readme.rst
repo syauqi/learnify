@@ -6,6 +6,7 @@ Learnify adalah web edukasi yang dilengkapi video, materi, deskripsi dan soal(co
 
 rename file htaccess menjadi .htaccess!
 saya juga menyediakan link downloadnya!
+simpan htaccess di folder root project ini
 
 htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
 
