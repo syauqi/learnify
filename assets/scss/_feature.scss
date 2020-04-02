@@ -1,0 +1,54 @@
+/* Finance Area css
+============================================================================================ */
+.finance_area{
+	background: #f9f9ff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.finance_inner{
+	
+}
+.finance_item{
+	.media{
+		.d-flex{
+			vertical-align: middle;
+			align-self: center;
+			padding-right: 25px;
+			i{
+				font-size: 36px;
+				color: $baseColor;
+			}
+		}
+		.media-body{
+			h5{
+				color: $dip;
+				font-size: 18px;
+				line-height: 27px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+/* End Finance Area css
+============================================================================================ */
+
+/* Looking Area css
+============================================================================================ */
+.impress_area{
+	background: url(../img/notify-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+	.impress_inner{
+		color: #fff;
+		h2{
+			text-transform: uppercase;
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		p{
+			max-width: 770px;
+			margin: 0px auto 45px;
+		}
+	}
+}
+/* End Looking Area css
+============================================================================================ */

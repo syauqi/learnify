@@ -1,0 +1,133 @@
+//
+// Markdown
+//
+
+
+
+
+// Base
+@mixin kt-bootstrap-markdown-base() {
+    .md-editor {
+        @include kt-rounded {
+            border-radius: $kt-border-radius;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        @include kt-not-rounded {
+            border-radius: 0 !important;
+        }
+
+        outline: none !important;
+
+        .md-footer, 
+        .md-header {
+            padding: 10px 10px;
+        }
+
+        .md-header {
+            @include kt-rounded {
+                border-top-left-radius: $kt-border-radius;
+                border-top-right-radius: $kt-border-radius;
+            }
+
+            @include kt-not-rounded {
+                border-radius: 0 !important;
+            }
+
+            .btn-group {
+                margin-right: 10px;
+
+                .btn {
+                    background: white;
+                    border: 1px solid kt-base-color(grey, 2);
+                    color: kt-base-color(label, 2);
+                    @include kt-transition();
+
+                    &:hover,
+                    &:focus,
+                    &:active,
+                    &.active {
+                        @include kt-transition();
+                        color: kt-base-color(label, 3);
+                        background: transparent;
+                    }
+                }
+            }
+        }
+
+        .md-footer {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+
+            @include kt-not-rounded {
+                border-radius: 0 !important;
+            }
+        }
+
+        > textarea {
+            padding: 10px 10px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+
+            @include kt-not-rounded {
+                border-radius: 0 !important;
+            }
+        }
+    }
+}
+
+// Skin
+@mixin kt-bootstrap-markdown-skin() {
+    .md-editor {
+        border: 1px solid $input-border-color; 
+
+        &.active {
+            border: 1px solid  $input-border-color; 
+            box-shadow: none;
+        }
+
+        .md-footer, 
+        .md-header {
+            background: kt-base-color(grey, 1);
+        }
+
+        > textarea {
+            background: kt-base-color(grey, 1);
+        }
+
+        &.active {
+            > textarea {
+                background: kt-base-color(grey, 1);
+            }
+        }
+    }
+
+    // Validation
+    .is-valid {
+        .md-editor {
+            border-color: kt-state-color(success, base);
+        }
+    }
+
+    .is-invalid {
+        .md-editor {
+            border-color: kt-state-color(danger, base);
+        }
+    }
+}
+
+@mixin kt-bootstrap-markdown-validation-state($state, $color) {
+    .kt-form.kt-form--state .has-#{$state} {
+        .md-editor {
+            border: 1px solid $color; 
+        }
+    }
+}
+
+
+// Base
+@include kt-bootstrap-markdown-base();
+
+// Skin
+@include kt-bootstrap-markdown-skin();

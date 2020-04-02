@@ -1,0 +1,47 @@
+{
+  "name": "raphael",
+  "version": "2.2.7",
+  "description": "JavaScript Vector Library",
+  "main": "raphael.min.js",
+  "author": {
+    "name": "Dmitry Baranovskiy"
+  },
+  "contributors": [
+    {
+      "name": "Tomas Alabes",
+      "url": "https://github.com/tomasAlabes"
+    }
+  ],
+  "dependencies": {
+    "eve-raphael": "0.5.0"
+  },
+  "devDependencies": {
+    "bower": "1.8.0",
+    "eslint": "3.10.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-loader": "1.6.1",
+    "eslint-plugin-promise": "3.3.2",
+    "eslint-plugin-standard": "2.0.1",
+    "qunitjs": "2.0.1",
+    "webpack": "1.13.3"
+  },
+  "scripts": {
+    "start": "npm install && bower install",
+    "build": "webpack && webpack --min && webpack --no-deps && webpack --no-deps --min",
+    "test": "echo \"Open dev/test/index.html with your browser\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DmitryBaranovskiy/raphael.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DmitryBaranovskiy/raphael/issues"
+  },
+  "keywords": [
+    "svg",
+    "vml",
+    "javascript"
+  ],
+  "homepage": "http://dmitrybaranovskiy.github.io/raphael/",
+  "license": "MIT"
+}

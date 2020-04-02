@@ -1,0 +1,195 @@
+/* Courses Area css
+============================================================================================ */
+.courses_area{
+	overflow: hidden;
+}
+.grid_inner{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.courses_inner{
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+	margin-bottom: -30px;
+	.grid_item{
+	}
+	.courses_item{
+		padding-left: 15px;
+		padding-right: 15px;
+		position: relative;
+		overflow: hidden;
+	}
+	.course_item{
+		position: relative;
+		.hover_text{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+	.hover_text{
+		position: absolute;
+		left: 0px;
+		bottom: 15px;
+		padding-left: 35px;
+		padding-right: 35px;
+		.cat{
+			display: inline-block;
+			background: $baseColor;
+			color: #fff;
+			padding: 0px 25px;
+			border-radius: 5px;
+			line-height: 30px;
+			font-size: 14px;
+			font-weight: 500;
+			font-family: $rob;
+			margin-bottom: 20px;
+		}
+		h4{
+			font-size: 18px;
+			color: #fff;
+			margin-bottom: 15px;
+			@include transition;
+		}
+		.list{
+			li{
+				display: inline-block;
+				margin-right: 16px;
+				a{
+					color: #fff;
+					font-size: 14px;
+					font-family: $rob;
+					i{
+						padding-right: 6px;
+					}
+				}
+				&:last-child{
+					margin-right: 0px;
+				}
+			}
+		}
+		&:hover{
+			h4{
+				color: $baseColor;
+			}
+		}
+	}
+}
+.wd55{
+	width: 55.55%;
+	float: left;
+	margin-bottom: 30px;
+}
+.wd44{
+	width: 44.45%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+/* End Courses Area css
+============================================================================================ */
+
+/* Course Details Area css
+============================================================================================ */
+.course_details_area{
+	
+}
+.course_details_inner{
+	.nav.nav-tabs{
+		border: none;
+		margin-top: 30px;
+		li{
+			margin: 0px;
+			margin-right: 35px;
+			a{
+				border: none;
+				padding: 0px;
+				margin-bottom: 0px;
+				line-height: 55px;
+				font-size: 14px;
+				font-family: $rob;
+				color: $dip;
+				border-bottom: 1px solid transparent;
+				&.active{
+					border-color: $baseColor;
+				}
+			}
+			&:last-child{
+				margin-right: 0px;
+			}
+		}
+	}
+	.tab-content{
+		background: #f9f9ff;
+		.comments-area{
+			margin-top: 0px;
+			border-bottom: 0px;
+		}
+		.comment-form{
+			margin-top: 0px;
+			margin-bottom: 0px;
+			border-top: 0px;
+			.submit_btn{
+				line-height: 40px;
+				border-radius: 5px;
+			}
+		}
+		.objctive_text{
+			padding: 25px;
+			border: 1px solid #eeeeee;
+			.list{
+				padding-top: 15px;
+				padding-bottom: 15px;
+				li{
+					margin-bottom: 28px;
+					a{
+						color: $pfont;
+						font-family: $rob;
+						font-size: 14px;
+						@include transition;
+						&:hover{
+							color: $baseColor;
+						}
+					}
+					&:last-child{
+						margin-bottom: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.c_details_list{
+	.list{
+		li{
+			margin-bottom: 10px;
+			a{
+				background: #f9f9ff;
+				display: block;
+				line-height: 40px;
+				padding: 0px 18px;
+				font-size: 14px;
+				font-family: $rob;
+				color: $pfont;
+				span{
+					float: right;
+				}
+			}
+			&:first-child{
+				a{
+					span{
+						color: $baseColor;
+					}
+				}
+			}
+		}
+	}
+	.main_btn{
+		display: block;
+	}
+}
+
+/* End Course Details Area css
+============================================================================================ */

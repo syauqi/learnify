@@ -1,0 +1,68 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-error-v3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .kt-error-v3 .kt-error_container .kt-error_number > h1 {
+    font-size: 15.7rem;
+    margin-left: 7.85rem;
+    margin-top: 11.4rem;
+    font-weight: 500;
+    -webkit-text-stroke-width: 0.35rem;
+    -moz-text-stroke-width: 0.35rem;
+    text-stroke-width: 0.35rem;
+    color: #A3DCF0;
+    -webkit-text-stroke-color: white;
+    -moz-text-stroke-color: white;
+    text-stroke-color: white; }
+    @media screen\0 {
+      .kt-error-v3 .kt-error_container .kt-error_number > h1 {
+        color: white; } }
+  .kt-error-v3 .kt-error_container .kt-error_title {
+    margin-left: 7.85rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #464457; }
+  .kt-error-v3 .kt-error_container .kt-error_subtitle {
+    margin-left: 7.85rem;
+    margin-top: 3.57rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #6c7293; }
+  .kt-error-v3 .kt-error_container .kt-error_description {
+    margin-left: 7.85rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #a7abc3; }
+
+@media (max-width: 768px) {
+  .kt-error-v3 .kt-error_container .kt-error_number > h1 {
+    font-size: 8rem;
+    margin-left: 4rem;
+    margin-top: 3.5rem; }
+  .kt-error-v3 .kt-error_container .kt-error_title {
+    margin-left: 4rem; }
+  .kt-error-v3 .kt-error_container .kt-error_subtitle {
+    margin-left: 4rem;
+    padding-right: 0.5rem; }
+  .kt-error-v3 .kt-error_container .kt-error_description {
+    margin-left: 4rem;
+    padding-right: 0.5rem; } }

@@ -1,0 +1,195 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-pricing-4 {
+  padding-bottom: 4rem; }
+  .kt-pricing-4 .kt-pricing-4__top {
+    background-color: #E0306E; }
+    .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed {
+      width: 80%;
+      margin: 0 auto; }
+      .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-header .kt-pricing-4__top-title {
+        padding-top: 5rem;
+        margin-bottom: 5rem;
+        text-align: center; }
+        .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-header .kt-pricing-4__top-title > h1 {
+          font-size: 2.3rem; }
+      .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body {
+        margin-left: 14.3rem; }
+        .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items {
+          display: table;
+          width: 100%;
+          table-layout: fixed;
+          -webkit-box-shadow: 0 -1.3rem 1.07rem 0.71rem #D93371;
+          box-shadow: 0 -1.3rem 1.07rem 0.71rem #D93371; }
+          .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item {
+            display: table-cell;
+            text-align: center;
+            border-right: 1px solid #e1f1ff;
+            background-color: white; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item:last-child {
+              border-right: none; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__icon > i {
+              font-size: 5rem;
+              margin-top: 3.6rem; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__subtitle {
+              font-size: 1.64rem;
+              color: #6c7293;
+              margin-top: 2.14rem;
+              font-weight: 500; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__features {
+              font-size: 1rem;
+              margin-top: 2.14rem;
+              font-weight: 400;
+              margin-bottom: 1.43rem;
+              padding: 0 0.71rem 0 0.71rem;
+              color: #a7abc3; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__price {
+              font-size: 3.2rem;
+              color: #6c7293;
+              font-weight: 700; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__label {
+              font-size: 1.64rem;
+              vertical-align: 43%;
+              color: #a7abc3; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__btn {
+              margin-top: 1.43rem;
+              margin-bottom: 3.6rem; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__btn .btn {
+                padding: 0.8rem 3.6rem 0.8rem 3.6rem; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile {
+              display: none; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile > span {
+                display: block; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile {
+                color: #a7abc3; }
+                .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile > span:first-child {
+                  color: #6c7293; }
+                .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile:nth-child(odd) {
+                  background-color: #FAFBFF; }
+  .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed {
+    width: 80%;
+    margin: 0 auto; }
+    .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed .kt-pricing-4__bottom-items {
+      display: table;
+      width: 100%;
+      text-align: center;
+      table-layout: fixed; }
+      .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed .kt-pricing-4__bottom-items .kt-pricing-4__bottom-item {
+        display: table-cell;
+        padding: 1.43rem 0;
+        font-weight: 700;
+        color: #a7abc3; }
+        .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed .kt-pricing-4__bottom-items .kt-pricing-4__bottom-item:first-child {
+          width: 14.3rem;
+          text-align: left;
+          padding-left: 1.43rem;
+          font-weight: 700;
+          color: #696B84; }
+      .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed .kt-pricing-4__bottom-items:nth-child(odd) {
+        background-color: #FAFBFF; }
+
+@media (min-width: 1025px) and (max-width: 1399px) {
+  .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed {
+    width: 90%;
+    margin: 0 auto; }
+    .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body {
+      margin-left: 14.3rem; }
+  .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed {
+    width: 90%;
+    margin: 0 auto; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .kt-pricing-4 .kt-pricing-4__top {
+    background: none; }
+    .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed {
+      width: 90%;
+      margin: 0 auto; }
+      .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-header {
+        background-color: #E0306E;
+        padding-bottom: 21.43rem; }
+      .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -21.4rem; }
+        .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items {
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+          .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item {
+            display: block;
+            border-right: none;
+            padding-bottom: 3.6rem;
+            border-bottom: 1px solid #e1f1ff; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__features {
+              padding: 0 0.71rem 0 0.71rem; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__btn {
+              display: none; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile {
+              display: block;
+              margin: 0 auto; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile {
+                padding: 0.71rem 0 0.71rem 0; }
+                .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile > span:first-child {
+                  font-weight: 700; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-btn {
+              margin-top: 2.86rem; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-btn .btn {
+                padding: 0.8rem 3.6rem 0.8rem 3.6rem; }
+  .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed {
+    display: none; } }
+
+@media (max-width: 768px) {
+  .kt-pricing-4 .kt-pricing-4__top {
+    background: none; }
+    .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed {
+      width: 100%;
+      margin: 0 auto; }
+      .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-header {
+        background-color: #E0306E;
+        padding-bottom: 21.43rem; }
+        .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-header .kt-pricing-4__top-title > h1 {
+          font-size: 1.8rem; }
+      .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -21.43rem; }
+        .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items {
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+          .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item {
+            display: block;
+            border-right: none;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e1f1ff; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__btn {
+              display: none; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__features {
+              padding: 0 0.71rem 0 0.71rem; }
+            .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile {
+              display: block;
+              margin: 2.14rem auto; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile {
+                padding: 0.71rem 0 0.71rem 0; }
+                .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-item-mobile > span:first-child {
+                  font-weight: 700; }
+              .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-btn {
+                margin-top: 2.86rem; }
+                .kt-pricing-4 .kt-pricing-4__top .kt-pricing-4__top-container.kt-pricing-4__top-container--fixed .kt-pricing-4__top-body .kt-pricing-4__top-items .kt-pricing-4__top-item .kt-pricing-4__top-items-mobile .kt-pricing-4__top-btn .btn {
+                  padding: 0.8rem 3.6rem 0.8rem 3.6rem; }
+  .kt-pricing-4 .kt-pricing-4__bottom .kt-pricing-4__bottok-container.kt-pricing-4__bottok-container--fixed {
+    display: none; } }

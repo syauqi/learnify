@@ -1,0 +1,38 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-error-v2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .kt-error-v2 .kt-error_container .kt-error_title2 > h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 45rem;
+    font-weight: 500; }
+  .kt-error-v2 .kt-error_container .kt-error_desc {
+    font-size: 2.5rem;
+    text-align: center;
+    display: block;
+    font-weight: 700; }
+
+@media (max-width: 768px) {
+  .kt-error-v2 .kt-error_container .kt-error_desc {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem; } }

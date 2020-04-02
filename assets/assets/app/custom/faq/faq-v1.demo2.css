@@ -1,0 +1,34 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-faq-v1 .kt-nav .kt-nav__item {
+  padding: 0.5rem 0; }
+  .kt-faq-v1 .kt-nav .kt-nav__item .kt-nav__link {
+    background-color: transparent !important; }
+    .kt-faq-v1 .kt-nav .kt-nav__item .kt-nav__link > .kt-nav__link-text {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #a7abc3;
+      -webkit-transition: color 0.3s ease;
+      transition: color 0.3s ease; }
+  .kt-faq-v1 .kt-nav .kt-nav__item:hover > .kt-nav__link > .kt-nav__link-text, .kt-faq-v1 .kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link > .kt-nav__link-text {
+    color: #374afb;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease; }
+  .kt-faq-v1 .kt-nav .kt-nav__item .kt-nav__sub .kt-nav__item {
+    padding: 0.25rem 0; }

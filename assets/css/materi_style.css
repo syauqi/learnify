@@ -1,0 +1,63 @@
+.card {
+	border-radius: 25px;
+	border: none;
+	box-shadow:
+		0 2.3px 1.9px rgba(0, 0, 0, 0.002),
+		0 5.4px 4.3px rgba(0, 0, 0, 0.005),
+		0 9.7px 7.7px rgba(0, 0, 0, 0.007),
+		0 16.1px 12.8px rgba(0, 0, 0, 0.01),
+		0 26.5px 21.2px rgba(0, 0, 0, 0.014),
+		0 46.2px 37px rgba(0, 0, 0, 0.019),
+		0 100px 80px rgba(0, 0, 0, 0.03);
+	transition: 0.5s ease;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.materi {
+	background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+	color: white !important;
+}
+
+.btn-white {
+	background-color: white;
+	border-radius: 6px;
+	box-shadow:
+		0 2.8px 2.2px rgba(0, 0, 0, 0.006),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.008),
+		0 12.5px 10px rgba(0, 0, 0, 0.01),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.012),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.014),
+		0 100px 80px rgba(0, 0, 0, 0.02);
+
+}
+
+.buat-text {
+	box-shadow:
+		0 2.3px 1.9px rgba(0, 0, 0, 0.002),
+		0 5.4px 4.3px rgba(0, 0, 0, 0.005),
+		0 9.7px 7.7px rgba(0, 0, 0, 0.007),
+		0 16.1px 12.8px rgba(0, 0, 0, 0.01),
+		0 26.5px 21.2px rgba(0, 0, 0, 0.014),
+		0 46.2px 37px rgba(0, 0, 0, 0.019),
+		0 100px 80px rgba(0, 0, 0, 0.03);
+}
+
+.navbar {
+	box-shadow:
+		0 0.3px 5.6px rgba(0, 0, 0, 0.007),
+		0 0.7px 12.6px rgba(0, 0, 0, 0.01),
+		0 1.2px 22px rgba(0, 0, 0, 0.013),
+		0 1.9px 34.9px rgba(0, 0, 0, 0.015),
+		0 2.9px 53.9px rgba(0, 0, 0, 0.017),
+		0 4.5px 84.1px rgba(0, 0, 0, 0.02),
+		0 7.5px 139.6px rgba(0, 0, 0, 0.023),
+		0 15px 279px rgba(0, 0, 0, 0.03);
+
+
+}
+
+.card:hover {
+	transform: scale(1.08);
+}

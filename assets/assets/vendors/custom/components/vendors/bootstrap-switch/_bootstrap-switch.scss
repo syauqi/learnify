@@ -1,0 +1,113 @@
+//
+// Bootstrap Switch
+//
+
+
+
+
+[data-switch=true] {
+    opacity: 0;
+}
+
+.bootstrap-switch {
+    // Label
+    .bootstrap-switch-label {
+        background: #fff;
+    }
+
+    .bootstrap-switch-handle-on, 
+    .bootstrap-switch-handle-off, 
+    .bootstrap-switch-label {
+        padding-top: $input-btn-padding-y;
+        padding-bottom: $input-btn-padding-y;
+        padding-left:  $input-btn-padding-x;
+        padding-right:  $input-btn-padding-x;
+        line-height: $input-btn-line-height;
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    &.bootstrap-switch-mini .bootstrap-switch-handle-on,
+    &.bootstrap-switch-mini .bootstrap-switch-handle-off,
+    &.bootstrap-switch-mini .bootstrap-switch-label {
+        font-size: 0.85rem;
+        line-height: $input-btn-line-height;
+    }
+
+    &.bootstrap-switch-small .bootstrap-switch-handle-on,  
+    &.bootstrap-switch-small .bootstrap-switch-handle-off,
+    &.bootstrap-switch-small .bootstrap-switch-label {
+        padding-top: $input-btn-padding-y-sm;
+        padding-bottom: $input-btn-padding-y-sm;
+        padding-left:  $input-btn-padding-x-sm;
+        padding-right:  $input-btn-padding-x-sm;
+        font-size: 0.9rem;
+        line-height: $input-btn-line-height-sm;
+    }
+
+    &.bootstrap-switch-large .bootstrap-switch-handle-on,
+    &.bootstrap-switch-large .bootstrap-switch-handle-off,
+    &.bootstrap-switch-large .bootstrap-switch-label {
+        padding: $input-btn-padding-y-lg $input-btn-padding-x-lg;
+        font-size: 1.1rem;
+        line-height: $input-btn-line-height-lg;
+    }
+}
+
+.bootstrap-switch {
+    display: inline-block;
+
+    &.bootstrap-switch--pill {
+        .bootstrap-switch {
+            border-radius: $input-border-radius;
+        }
+    }
+
+    &.bootstrap-switch--square {
+        .bootstrap-switch {
+            border-radius: 0 !important;
+
+            .bootstrap-switch-handle-off,
+            .bootstrap-switch-handle-on {
+                border-radius: 0 !important;
+            }
+        }
+    }
+}
+
+.bootstrap-switch {
+    border-color: $input-border-color;
+
+    // Label
+    .bootstrap-switch-label {
+        color: kt-base-color(label, 2);
+        background: #fff;
+    }
+
+    // State colors
+    @each $name, $color in $kt-state-colors {
+        .bootstrap-switch-handle-on.bootstrap-switch-#{$name},
+        .bootstrap-switch-handle-off.bootstrap-switch-#{$name} {
+            background-color: kt-get($color, base);
+            border-color: kt-get($color, base);
+            color: kt-get($color, inverse);
+        } 
+    }
+
+    // Default state
+    .bootstrap-switch-handle-on.bootstrap-switch-default,
+    .bootstrap-switch-handle-off.bootstrap-switch-default {
+        background-color: $input-border-color;
+        border-color: $input-border-color;
+        color: kt-base-color(label, 2);
+    }
+}
+
+.bootstrap-switch {
+    &.bootstrap-switch--air {
+        .bootstrap-switch {
+            box-shadow: $btn-elevate-shadow-1;
+        }
+    }
+}

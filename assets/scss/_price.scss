@@ -1,0 +1,116 @@
+/* Price Area css
+============================================================================================ */
+.packages_area{
+	background: #f9f9ff;
+}
+.packages_inner{
+	.col-lg-4{
+		vertical-align: middle;
+		align-self: center;
+	}
+}
+.packages_text{
+	h3{
+		color: $dip;
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+}
+.packages_item{
+	background: #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 55px;
+	padding-right: 55px;
+	.pack_head{
+		i{
+			height: 140px;
+			width: 140px;
+			background: #edf8e8;
+			display: block;
+			border-radius: 50%;
+			margin: 0px auto 25px;
+			font-size: 36px;
+			color: $dip;
+			line-height: 140px;
+			@include transition;
+		}
+		h3{
+			color: $dip;
+			margin-bottom: 12px;
+		}
+		p{
+			margin-bottom: 25px;
+		}
+	}
+	.pack_body{
+		.list{
+			li{
+				a{
+					color: $pfont;
+					line-height: 50px;
+					border-bottom: 1px solid #eeeeee;
+					display: block;
+				}
+				&:first-child{
+					a{
+						border-top: 1px solid #eeeeee;
+					}
+				}
+			}
+		}
+	}
+	.pack_footer{
+		position: relative;
+		h4{
+			color: $dip;
+			font-family: $rob;
+			font-size: 30px;
+			font-weight: normal;
+			margin-top: 40px;
+			margin-bottom: 0px;
+		}
+		.main_btn{
+			padding: 0px 35px;
+			position: absolute;
+			top: -20px;
+			width: 100%;
+			max-width: 138px;
+			left: 50%;
+			transform: translateX(-50%);
+			box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+			opacity: 0;
+		}
+		&:hover{
+			h4{
+				opacity: 0;
+			}
+			.main_btn{
+				opacity: 1;
+			}
+		}
+	}
+	&:hover{
+		.pack_head{
+			i{
+				background: $baseColor;
+				color: #fff;
+			}
+		}
+		.pack_footer{
+			h4{
+				opacity: 0;
+			}
+			.main_btn{
+				opacity: 1;
+			}
+		}
+	}
+}
+/* End Price Area css
+============================================================================================ */

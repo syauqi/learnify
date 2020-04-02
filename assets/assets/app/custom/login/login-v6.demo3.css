@@ -1,0 +1,229 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-login.kt-login--v6 {
+  background: #fff; }
+  .kt-login.kt-login--v6 .kt-login__aside {
+    padding: 2rem;
+    background: #fff;
+    width: 600px; }
+    .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 2rem; }
+      .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 400px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-bottom: 5rem; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__body {
+          width: 100%;
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__logo {
+          text-align: center;
+          margin: 1rem auto 4rem auto; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__head {
+          margin-top: 1rem;
+          text-align: center; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__head .kt-login__title {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #6c7293;
+            font-weight: 500; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__head .kt-login__desc {
+            text-align: center;
+            font-size: 1rem;
+            color: #a7abc3;
+            font-weight: 400;
+            margin-top: 1rem; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form {
+          margin-top: 4rem; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form .form-group {
+            margin: 0;
+            padding: 0;
+            position: relative; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form .form-control {
+            height: 46px;
+            border-radius: 0;
+            border: 0;
+            border-bottom: 1px solid rgba(235, 237, 242, 0.8);
+            padding: 1rem 0;
+            margin-top: 0.1rem;
+            color: #6c7293; }
+            .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form .form-control::-moz-placeholder {
+              color: #a7abc3;
+              opacity: 1; }
+            .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form .form-control:-ms-input-placeholder {
+              color: #a7abc3; }
+            .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form .form-control::-webkit-input-placeholder {
+              color: #a7abc3; }
+            .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__form .form-control.form-control-last {
+              border: 0; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__actions {
+          margin: 3rem 0;
+          text-align: center; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__extra {
+          margin-top: 2rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__extra label {
+            margin: 0; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__extra a {
+            font-weight: 500;
+            color: #6c7293;
+            -webkit-transition: color 0.3s ease;
+            transition: color 0.3s ease;
+            display: inline-block; }
+            .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__extra a:hover {
+              -webkit-transition: color 0.3s ease;
+              transition: color 0.3s ease;
+              color: #2c77f4; }
+      .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__account {
+        text-align: center; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__account .kt-login__account-msg {
+          font-size: 1rem;
+          font-weight: 500;
+          color: #a7abc3; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__account .kt-login__account-link {
+          font-size: 1rem;
+          font-weight: 500;
+          color: #6c7293;
+          -webkit-transition: color 0.3s ease;
+          transition: color 0.3s ease; }
+          .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__account .kt-login__account-link:hover {
+            -webkit-transition: color 0.3s ease;
+            transition: color 0.3s ease;
+            color: #2c77f4; }
+  .kt-login.kt-login--v6 .btn {
+    height: 46px;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+    .kt-login.kt-login--v6 .btn ~ .btn {
+      margin-left: 0.5rem; }
+  .kt-login.kt-login--v6 .kt-login__content {
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .kt-login.kt-login--v6 .kt-login__content .kt-login__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1; }
+      .kt-login.kt-login--v6 .kt-login__content .kt-login__section .kt-login__title {
+        color: #ffffff;
+        font-size: 3.5rem;
+        font-weight: 500;
+        margin-bottom: 2rem; }
+      .kt-login.kt-login--v6 .kt-login__content .kt-login__section .kt-login__desc {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.1rem;
+        font-weight: 400; }
+
+.kt-login.kt-login--v6.kt-login--signin .kt-login__signup {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--signin .kt-login__signin {
+  display: block; }
+
+.kt-login.kt-login--v6.kt-login--signin .kt-login__forgot {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--signup .kt-login__signup {
+  display: block; }
+
+.kt-login.kt-login--v6.kt-login--signup .kt-login__signin {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--signup .kt-login__forgot {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--signup .kt-login__account {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--forgot .kt-login__signup {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--forgot .kt-login__signin {
+  display: none; }
+
+.kt-login.kt-login--v6.kt-login--forgot .kt-login__forgot {
+  display: block; }
+
+@media (max-width: 1024px) {
+  .kt-login.kt-login--v6 {
+    height: 100%; }
+    .kt-login.kt-login--v6 .kt-login__aside {
+      padding: 3rem 1.5rem;
+      width: 100%; }
+      .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding-top: 1.5rem; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container {
+          padding-bottom: 2rem; }
+        .kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__logo {
+          margin: 1.5rem auto 2rem auto; }
+      .kt-login.kt-login--v6 .kt-login__aside .kt-login__account {
+        margin-top: 1.5rem; }
+    .kt-login.kt-login--v6 .kt-login__content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 4rem 1.5rem; }
+      .kt-login.kt-login--v6 .kt-login__content .kt-login__section .kt-login__title {
+        font-size: 1.3rem;
+        margin-bottom: 1rem; }
+      .kt-login.kt-login--v6 .kt-login__content .kt-login__section .kt-login__desc {
+        font-size: 1rem;
+        margin: 0; } }

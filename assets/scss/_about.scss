@@ -1,0 +1,86 @@
+/* About Area css
+============================================================================================ */
+.about_area{
+	
+}
+.about_inner{
+	.accordion{
+		.card{
+			border: none;
+			margin-bottom: 10px;
+			.card-header{
+				padding: 0px;
+				border: none;
+				background: transparent;
+				button{
+					padding: 0px;
+					display: block;
+					width: 100%;
+					text-align: left;
+					position: relative;
+					border-radius: 0px;
+					padding-left: 20px;
+					padding-right: 20px;
+					padding-top: 12px;
+					padding-bottom: 12px;
+					font-size: 14px;
+					color: $dip;
+					font-family: $play;
+					font-weight: bold;
+					text-decoration: none;
+					cursor: pointer;
+					background: $baseColor;
+					color: #fff;
+					i{
+						position: absolute;
+						right: 20px;
+						top: 50%;
+						transform: translateY(-50%);
+						display: none;
+						& + i{
+							display: inline-block;
+						}
+					}
+					&.collapsed{
+						background: #f9f9ff;
+						color: $dip;
+						i{
+							display: inline-block;
+							& + i{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			.card-body{
+				padding-top: 15px;
+				padding-bottom: 10px;
+			}
+		}
+	}
+}
+.video_area{
+	float: right;
+	display: inline-block;
+	position: relative;
+	.popup-youtube{
+		position: absolute;
+		left: 0px;
+		text-align: center;
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+.about_details{
+	margin-top: 55px;
+	p{
+		margin-bottom: 20px;
+		&:last-child{
+			margin-bottom: 0px;
+		}
+	}
+}
+/* End About Area css
+============================================================================================ */

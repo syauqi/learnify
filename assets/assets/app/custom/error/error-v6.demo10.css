@@ -1,0 +1,42 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-error-v6 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .kt-error-v6 .kt-error_container {
+    text-align: center; }
+    .kt-error-v6 .kt-error_container .kt-error_subtitle > h1 {
+      font-size: 10rem;
+      margin-top: 12rem;
+      font-weight: 700; }
+    .kt-error-v6 .kt-error_container .kt-error_description {
+      margin-top: 3rem;
+      font-size: 2.3rem;
+      font-weight: 500;
+      line-height: 3rem; }
+
+@media (max-width: 768px) {
+  .kt-error-v6 .kt-error_container .kt-error_subtitle > h1 {
+    font-size: 5rem; }
+  .kt-error-v6 .kt-error_container .kt-error_description {
+    font-size: 1.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; } }

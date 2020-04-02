@@ -1,0 +1,88 @@
+/*
+$kt-media-breakpoints: (
+    // Small screen / phone
+    sm: 576px,
+    
+    // Medium screen / tablet
+    md: 768px,
+    
+    // Large screen / desktop
+    lg: 1024px,
+    
+    // Extra large screen / wide desktop
+    xl: 1200px,
+
+    // Extra large screen / wide desktop
+    xxl: 1600px
+)!default;
+*/
+.kt-error-v5 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .kt-error-v5 .kt-error_container .kt-error_title > h1 {
+    font-size: 14rem;
+    margin-left: 25rem;
+    margin-top: 18rem;
+    font-weight: 700;
+    color: #314DA7;
+    -webkit-text-stroke-color: white; }
+  .kt-error-v5 .kt-error_container .kt-error_subtitle {
+    margin-left: 26rem;
+    margin-top: 3.57rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #6c7293; }
+  .kt-error-v5 .kt-error_container .kt-error_description {
+    margin-left: 26rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: #a7abc3; }
+
+@media (min-width: 1025px) and (max-width: 1399px) {
+  .kt-error-v5 {
+    background-position: bottom -80px left 1300px; }
+    .kt-error-v5 .kt-error_container .kt-error_title > h1 {
+      font-weight: 700;
+      font-size: 12rem;
+      margin-left: 7rem; }
+    .kt-error-v5 .kt-error_container .kt-error_subtitle {
+      margin-left: 7rem;
+      font-size: 2.3rem;
+      font-weight: 700; }
+    .kt-error-v5 .kt-error_container .kt-error_description {
+      margin-left: 7rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 130%; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .kt-error-v5 .kt-error_container .kt-error_title > h1 {
+    font-weight: 700;
+    font-size: 12rem;
+    margin-left: 7rem; }
+  .kt-error-v5 .kt-error_container .kt-error_subtitle {
+    margin-left: 7rem;
+    font-size: 2.3rem;
+    font-weight: 700; }
+  .kt-error-v5 .kt-error_container .kt-error_description {
+    margin-left: 7rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 130%; } }
+
+@media (max-width: 768px) {
+  .kt-error-v5 .kt-error_container .kt-error_title > h1 {
+    font-size: 6rem;
+    margin-top: 5rem;
+    margin-left: 4rem; }
+  .kt-error-v5 .kt-error_container .kt-error_subtitle {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    line-height: 2rem; }
+  .kt-error-v5 .kt-error_container .kt-error_description {
+    font-size: 1.4rem;
+    margin-left: 4rem; } }

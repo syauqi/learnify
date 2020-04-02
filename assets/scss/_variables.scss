@@ -1,0 +1,31 @@
+/*font Variables*/
+$rob: 'Roboto', sans-serif;
+$play: 'Playfair Display', serif;
+
+
+/*Color Variables*/
+$baseColor: #4dbf1c;
+$dip: #222222;
+$pfont: #777777; 
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:300,400,500,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+
+
+
