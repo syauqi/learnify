@@ -9,7 +9,7 @@ saya juga menyediakan link downloadnya!
 
 htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
 
-<br>
+
 *******************
 Tanggal Liris
 *******************
