@@ -10,6 +10,66 @@ simpan htaccess di folder root project ini
 
 htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
 
+#Deskripsi
+
+Web E-Learning Dilengkapi Video, Materi dan Kelas. Dibuat pakai Codeigniter3. Ini Project Sekolah, yang belum 100% selesai. Tapi kalau mau kalian kembangkan boleh hubungi saya yaa. 
+
+*kalau ada apa apa hubungi saya saja ya.
+
+NOTE : Khusus yang download di Github.  Saya sediakan link untuk file htaccess nya. silahkan simpat di folder root Codeigniter. Terimakasih!
+.
+GITHUB : https://github.com/Syauqizaidan/Learnify .
+silahkan fork ya kalau mau wkwk
+.
+HTACCESS = https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view
+.
+GOOGLE DRIVE = https://drive.google.com/open?id=1nJTBlqFPa1gDPJ7s3ojVHhB5bK7qJc4-
+.
+DATABASE = https://drive.google.com/open?id=1DVCUqXwy4dDvIijX6Cex1oS4DeM5oPvG
+
+Feature :
+
+- Login System
+- Registrasi
+- Verifikasi Email
+- CRUD Siswa 
+- CRUD Guru
+- CRUD Materi
+- Minimalist UI
+- Admin Page
+- User Page
+- Teacher Page
+- Sisanya bisa kalian lihat .
+
+HALAMAN GURU & ADMIN
+halaman admin : learnify/welcome/admin
+halaman guru : learnify/welcome/guru
+.
+ADMIN USER
+email : admin@gmail.com 
+password : admin
+.
+USER SISWA
+email : zaidanline67@Gmail.com
+password : 123456
+.
+Database silahkan download diatas..
+Project size 290mb.
+.
+Oh iya landing page pake template dari colorlib! soalnya dikerjar deadline, jadi terpaksa deh pake template landing page haha!
+but,
+user page made by me! hope u all like it!
+.
+Thanks to Muhamad Nauval Azhar Buat Stisla nya <3
+.
+Semoga Bermanfaat! 😁❤️
+Made with  <3 by descienfy.
+.
+UPDATE : 
+- sql changes. ( karena ada data dummy saya ganti )
+- Penambahan info di deskripsi
+- Penambahan Foto
+- .htaccess in github deleted. maybe kalian yang download dari github kagak bisa. aku udah update di github. baca readme aja ya!  enjoy!
 
 *******************
 Tanggal Liris
