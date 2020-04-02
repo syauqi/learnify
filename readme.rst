@@ -4,6 +4,7 @@ Apa itu Learnify?
 
 Learnify adalah web edukasi yang dilengkapi video, materi, deskripsi dan soal(coming soon) yang dibuat oleh syaauqi zaaidan. dibuat semenarik mungkin agar kalian bisa menikmati nya! . ini tugas sekolah. namun komunitas dan teman teman saya sangat tertarik jiga saya mengembangkan ini lebih baik. oleh karena itu saya masukan ini di github dan open source.
 
+rename file htaccess menjadi .htaccess!
 htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
 *******************
 Tanggal Liris
