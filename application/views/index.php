@@ -16,6 +16,7 @@
 </section>
 <!--================End Home Banner Area =================-->
 
+
 <!--================Finance Area =================-->
 <section class="finance_area">
     <div class="container">
@@ -51,7 +52,7 @@
                             <i class="lnr lnr-smile"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Mudah & <br />Praktis</h5>
+                            <h5>User <br /> Friendly</h5>
                         </div>
                     </div>
                 </div>
@@ -73,13 +74,15 @@
 </section>
 <!--================End Finance Area =================-->
 
+
 <!--================Courses Area =================-->
 <section class="courses_area p_40">
     <div class="container">
         <div class="main_title">
-            <h2>Pelajaran Yang Tersedia</h2>
-            <p>Dibawah ini merupakan materi atau pelajaran yang tersedia di website learnify. tiap kelas mempunyai
-                materi yang berbeda. oleh karena itu nikmati materi dan selamat belajar!</p>
+            <h2>Pelajaran yang tersedia di Learnify</h2>
+            <p>Dibawah ini merupakan mata pelajaran yang tersedia di website Learnify. Tiap kelas mempunyai
+                materi yang berbeda namun dengan mata pelajaran yang sama. Oleh karena itu nikmati materi dan selamat
+                belajar! tunggu update selanjutnya untuk penambahan mata pelajaran!</p>
         </div>
         <div class="row courses_inner">
             <div class="col-lg-9">
@@ -89,11 +92,11 @@
                             <img src="<?=base_url('assets/')?>img/courses/course-1.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
-                                <a href="#">
+                                <a href="javaScript:void(0);">
                                     <h4>Kelas Matematika Gratis</h4>
                                 </a>
                                 <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i> 34</a></li>
+                                    <li><a href="#"><i class="lnr lnr-users"></i>54</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i>Guru Matematika SMKN 1 Ciamis</a>
                                     </li>
@@ -106,7 +109,7 @@
                             <img src="<?=base_url('assets/')?>img/courses/course-2.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
-                                <a href="#">
+                                <a href="javaScript:void(0);">
                                     <h4>Kelas IPA Gratis</h4>
                                 </a>
                                 <ul class="list">
@@ -122,11 +125,11 @@
                             <img src="<?=base_url('assets/')?>img/courses/course-4.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
-                                <a href="#">
+                                <a href="javaScript:void(0);">
                                     <h4>Kelas Bahasa Inggris Gratis</h4>
                                 </a>
                                 <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i> 34</a></li>
+                                    <li><a href="#"><i class="lnr lnr-users"></i> 63</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Guru English SMKN 1 Ciamis</a></li>
                                 </ul>
@@ -138,11 +141,11 @@
                             <img src="<?=base_url('assets/')?>img/courses/course-5.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
-                                <a href="#">
+                                <a href="javaScript:void(0);">
                                     <h4>Kelas Bahasa Indonesia Gratis</h4>
                                 </a>
                                 <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i> 34</a></li>
+                                    <li><a href="#"><i class="lnr lnr-users"></i> 24</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Guru Indonesia SMKN 1 Ciamis</a>
                                     </li>
@@ -157,7 +160,7 @@
                     <img src="<?=base_url('assets/')?>img/courses/course-3.jpg" alt="">
                     <div class="hover_text">
                         <a class="cat" href="#">Gratis</a>
-                        <a href="#">
+                        <a href="javaScript:void(0);">
                             <h4>Kelas Pendidikan Agama Islam Gratis</h4>
                         </a>
                         <ul class="list">
@@ -173,15 +176,17 @@
 </section>
 <!--================End Courses Area =================-->
 
+
 <!--================Team Area =================-->
-<section class="team_area p_40">
+<section class="team_area p_20">
     <div class="container">
         <div class="main_title">
             <h2>Testimonial Para Siswa Learnify</h2>
             <p>Berikut kesan dan pesan para siswa yang sudah menggunakan layanan website Learnify. Pastikan kamu
-                juga mencoba layanan kami ya! selamat belajar!</p>
+                juga mencoba layanan kami ya! di Learnify semoga kamu menikmati semua materi dan pelajaran yang guru
+                guru kami buat! Selamat Belajar! </p>
         </div>
-        <section class="testimonials_area p_40">
+        <section class="testimonials_area p_20">
             <div class="container">
                 <div class="testi_slider owl-carousel">
                     <div class="item">
@@ -243,6 +248,8 @@
         </section>
     </div>
 </section>
+
+
 <!--================Impress Area =================-->
 <section class="impress_area p_120">
     <div class="container">

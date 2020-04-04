@@ -5,7 +5,7 @@
         </div>
         <div class="container">
             <div class="banner_content text-center">
-                <h2>Tentang Kami</h2>
+                <h2>Tentang Learnify</h2>
                 <div class="page_link">
                     <a href="<?=base_url('welcome')?>">Beranda</a>
                     <a href="">Tentang</a>
@@ -16,13 +16,16 @@
 </section>
 <!--================End Home Banner Area =================-->
 
+
 <!--================About Area =================-->
-<section class="about_area p_120">
+<section class="about_area p_60">
     <div class="container">
         <div class="main_title">
-            <h2>Tentang Learnify</h2>
-            <p>Learnify adalah website pembelajaran dimana para siswa dapat belajar dimana saja dan kapan saja.
-                dan guru dapat mengupload video dirinya sendiri sedang mengajar. sehingga tanpa takut adanya Jam
+            <h2 style="font-size: 33px !important;">Tentang Learnify - Web Edukasi Open Source</h2>
+            <p>Learnify adalah web open source yang dibuat oleh <a
+                    href="https://web.facebook.com/zaidan.syauqi.9">Syauqi Zaidan Khairan Khalaf</a> website
+                pembelajaran dimana para siswa dapat belajar dimana saja dan kapan saja.
+                Guru dapat mengupload video dirinya sendiri sedang mengajar, sehingga tanpa takut adanya jam
                 kosong atau pun keadaan yang tidak terduga apapun karena Learnify dapat diakses dimana saja dan
                 kapan saja untuk belajar.
             </p>
@@ -128,14 +131,14 @@
 <!--================End About Area =================-->
 
 <!--================Team Area =================-->
-<section class="team_area p_40">
+<section class="team_area p_20">
     <div class="container">
         <div class="main_title">
             <h2>Testimonial Para Siswa Learnify</h2>
             <p>Berikut kesan dan pesan para siswa yang sudah menggunakan layanan website Learnify. Pastikan kamu
                 juga mencoba layanan kami ya! selamat belajar!</p>
         </div>
-        <section class="testimonials_area p_40">
+        <section class="testimonials_area p_20">
             <div class="container">
                 <div class="testi_slider owl-carousel">
                     <div class="item">
@@ -206,7 +209,7 @@
             <p>Jika anda adalah seorang guru, anda dapat mendaftar dan masuk untuk mengajar para siswa di Learnify.
                 Tidak dikenakan biaya dan anda dapat segera mengajar setelah disetujui oleh pihak sekolah.
             </p>
-            <a class="main_btn2" href="#">Daftar sebagai Guru</a>
+            <a class="main_btn2" href="<?=base_url('welcome/guru')?>">Login sebagai Guru</a>
         </div>
     </div>
 </section>

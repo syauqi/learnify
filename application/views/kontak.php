@@ -17,12 +17,12 @@
 <!--================End Home Banner Area =================-->
 
 <!--================Contact Area =================-->
-<section class="contact_area p_120">
+<section class="contact_area p_40">
     <div class="container">
-        <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13"
-            data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083"
-            data-mlon="-74.1522848">
-        </div>
+        <div style="width: 100%"><iframe width="100%" height="600"
+                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=SMKN%201%20CIAMIS+(Learnify)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=A&amp;output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+                    href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe></div><br />
         <div class="row">
             <div class="col-lg-3">
                 <div class="contact_info">
@@ -49,25 +49,26 @@
                     novalidate="novalidate">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Masukan nama anda ">
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" name="email"
-                                placeholder="Enter email address">
+                                placeholder="Masukan email anda">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="subject" name="subject"
-                                placeholder="Enter Subject">
+                                placeholder="Masukan subject anda ">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <textarea class="form-control" name="message" id="message" rows="1"
-                                placeholder="Enter Message"></textarea>
+                                placeholder="Masukan pesan anda "></textarea>
                         </div>
                     </div>
                     <div class="col-md-12 text-right">
-                        <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                        <button type="submit" value="submit" class="btn submit_btn">Kirim Pesan</button>
                     </div>
                 </form>
             </div>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
-    <title>Learnify - Belajar Dimana Saja & Kapan Saja !</title>
+    <title>Learnify - Pelajaran yang tersedia | Learnify</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/bootstrap.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>vendors/linericon/style.css">
@@ -38,8 +38,8 @@
                     </ul>
                 </div>
                 <div class="float-right">
-                    <a class="dn_btn" href="tel:+4400123654896">(0265) 771204</a>
-                    <a class="dn_btn" href="mailto:support@colorlib.com">surat@smkn1cms.net</a>
+                    <a class="dn_btn" href="tel:+6287830016267">087830016267</a>
+                    <a class="dn_btn" href="mailto:learnifyedu@gmail.com">learnifyedu@gmail.com</a>
                 </div>
             </div>
         </div>

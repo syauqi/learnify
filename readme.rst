@@ -1,70 +1,130 @@
 ###################
-What is CodeIgniter
+Apa itu Learnify?
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Learnify adalah web edukasi yang dilengkapi video, materi, deskripsi dan soal(coming soon) yang dibuat oleh syaauqi zaaidan. dibuat semenarik mungkin agar kalian bisa menikmati nya! . ini tugas sekolah. namun komunitas dan teman teman saya sangat tertarik jiga saya mengembangkan ini lebih baik. oleh karena itu saya masukan ini di github dan open source.
+
+rename file htaccess menjadi .htaccess!
+saya juga menyediakan link downloadnya!
+simpan htaccess di folder root project ini
+
+htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
+
+#Deskripsi
+
+Web E-Learning Dilengkapi Video, Materi dan Kelas. Dibuat pakai Codeigniter3. Ini Project Sekolah, yang belum 100% selesai. Tapi kalau mau kalian kembangkan boleh hubungi saya yaa. 
+
+*kalau ada apa apa hubungi saya saja ya.
+
+NOTE : Khusus yang download di Github.  Saya sediakan link untuk file htaccess nya. silahkan simpat di folder root Codeigniter. Terimakasih!
+.
+GITHUB : https://github.com/Syauqizaidan/Learnify .
+silahkan fork ya kalau mau wkwk
+.
+HTACCESS = https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view
+.
+GOOGLE DRIVE = https://drive.google.com/open?id=1nJTBlqFPa1gDPJ7s3ojVHhB5bK7qJc4-
+.
+DATABASE = https://drive.google.com/open?id=1DVCUqXwy4dDvIijX6Cex1oS4DeM5oPvG
+
+Feature :
+
+- Login System
+- Registrasi
+- Verifikasi Email
+- CRUD Siswa 
+- CRUD Guru
+- CRUD Materi
+- Minimalist UI
+- Admin Page
+- User Page
+- Teacher Page
+- Sisanya bisa kalian lihat .
+
+HALAMAN GURU & ADMIN
+halaman admin : learnify/welcome/admin
+halaman guru : learnify/welcome/guru
+.
+ADMIN USER
+email : admin@gmail.com 
+password : admin
+.
+USER SISWA
+email : zaidanline67@Gmail.com
+password : 123456
+.
+Database silahkan download diatas..
+Project size 290mb.
+.
+Oh iya landing page pake template dari colorlib! soalnya dikerjar deadline, jadi terpaksa deh pake template landing page haha!
+but,
+user page made by me! hope u all like it!
+.
+Thanks to Muhamad Nauval Azhar Buat Stisla nya <3
+.
+Semoga Bermanfaat! 😁❤️
+Made with  <3 by descienfy.
+.
+UPDATE : 
+- sql changes. ( karena ada data dummy saya ganti )
+- Penambahan info di deskripsi
+- Penambahan Foto
+- .htaccess in github deleted. maybe kalian yang download dari github kagak bisa. aku udah update di github. baca readme aja ya!  enjoy!
 
 *******************
-Release Information
+Tanggal Liris
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Project ini rilis beta saat 31 maret 2020.
 
 **************************
-Changelog and New Features
+Fitur yang tersedia
 **************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+ -Login System
+ -Registrasi
+ -Verifikasi Email
+ -CRUD Siswa
+ -CRUD Guru
+ -CRUD Materi
+ -Minimalist UI
+ -Admin Page
+ -User Page
+ -Teacher Page
+ -Design Menarik!
+ -Sisanya bisa kalian lihat .
 
 *******************
 Server Requirements
 *******************
 
-PHP version 5.6 or newer is recommended.
+PHP version 7 or newer is recommended.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
+It should work 7 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
+
+HARUS MEMAKAI PHP 7. Karena Memakai function random_bytes. thank you!
 
 ************
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Masukan file repo ini ke htdocs kalian.
+dan masukan database nya
 
 *********
 Resources
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+-  Landing Page Template by colorlib
+-  Admin Dashboard by Nauval Azhar ( Stisla )
+-  User page by me.
 
 ***************
-Acknowledgement
+Thanks to
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+God
+My Family
+My Friends
+And other people support me

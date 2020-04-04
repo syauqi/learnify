@@ -23,8 +23,9 @@
     <div class="container">
         <div class="main_title">
             <h2>Pelajaran Yang Tersedia</h2>
-            <p>Dibawah ini merupakan materi atau pelajaran yang tersedia di website learnify. tiap kelas mempunyai
-                materi yang berbeda. oleh karena itu nikmati materi dan selamat belajar!</p>
+            <p>Dibawah ini merupakan mata pelajaran yang tersedia di website Learnify. Tiap kelas mempunyai
+                materi yang berbeda namun dengan mata pelajaran yang sama. Oleh karena itu nikmati materi dan selamat
+                belajar! tunggu update selanjutnya untuk penambahan mata pelajaran!</p>
         </div>
         <div class="row courses_inner">
             <div class="col-lg-9">
