@@ -2,33 +2,34 @@
 Apa itu Learnify?
 ###################
 
-Learnify adalah web edukasi yang dilengkapi video, materi, deskripsi dan soal(coming soon) yang dibuat oleh syaauqi zaaidan. dibuat semenarik mungkin agar kalian bisa menikmati nya! . ini tugas sekolah. namun komunitas dan teman teman saya sangat tertarik jiga saya mengembangkan ini lebih baik. oleh karena itu saya masukan ini di github dan open source.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf. Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini.
 
-rename file htaccess menjadi .htaccess!
-saya juga menyediakan link downloadnya!
-simpan htaccess di folder root project ini
+**************************
+Hal yang wajib diperhatikan
+**************************
+Rename file htaccess menjadi .htaccess di Vscode atau code editor lainnya!
 
-htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
+Saya juga menyediakan link downloadnya!
+.htaccess file : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view?fbclid=IwAR015aPIxWk19ha5viUlSQPjVp6CXHWM_aKYP9YMnVhjqbYTG-8-JiDA-eI
+simpan htaccess di folder root project (learnify) ini.
+
 
 #Deskripsi
+Web E-Learning Dilengkapi Video, Materi dan Kelas. Dibuat menggunakan Codeigniter3.Ini Project Open Source pertama saya, dikarenakan teman teman komunitas di facebook sangat semangat untuk mengembangkannya.
 
-Web E-Learning Dilengkapi Video, Materi dan Kelas. Dibuat pakai Codeigniter3. Ini Project Sekolah, yang belum 100% selesai. Tapi kalau mau kalian kembangkan boleh hubungi saya yaa. 
+*jika ada problem, issues dan bug. silahkan buat issues di repository ini.
 
-*kalau ada apa apa hubungi saya saja ya.
+Github : https://github.com/Syauqizaidan/Learnify .
 
-NOTE : Khusus yang download di Github.  Saya sediakan link untuk file htaccess nya. silahkan simpat di folder root Codeigniter. Terimakasih!
-.
-GITHUB : https://github.com/Syauqizaidan/Learnify .
-silahkan fork ya kalau mau wkwk
-.
-HTACCESS = https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view
-.
-GOOGLE DRIVE = https://drive.google.com/open?id=1nJTBlqFPa1gDPJ7s3ojVHhB5bK7qJc4-
-.
-DATABASE = https://drive.google.com/open?id=1DVCUqXwy4dDvIijX6Cex1oS4DeM5oPvG
+.htaccess : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view
 
-Feature :
+Google Drive : https://drive.google.com/open?id=1nJTBlqFPa1gDPJ7s3ojVHhB5bK7qJc4-
 
+Database (sql) : https://drive.google.com/open?id=1DVCUqXwy4dDvIijX6Cex1oS4DeM5oPvG
+
+**************************
+Fitur yang tersedia
+**************************
 - Login System
 - Registrasi
 - Verifikasi Email
@@ -41,18 +42,31 @@ Feature :
 - Teacher Page
 - Sisanya bisa kalian lihat .
 
-HALAMAN GURU & ADMIN
-halaman admin : learnify/welcome/admin
-halaman guru : learnify/welcome/guru
-.
-ADMIN USER
-email : admin@gmail.com 
-password : admin
-.
-USER SISWA
-email : zaidanline67@Gmail.com
-password : 123456
-.
+**************************
+Default Account
+**************************
+
+Halaman Guru & Admin
+<br>
+Halaman Admin : learnify/welcome/admin
+Halaman Guru : learnify/welcome/guru
+<br>
+-------------
+Admin Default Account
+Email : admin@gmail.com 
+Password : admin
+<br>
+------------
+Students Default Account
+Email : zaidanline67@Gmail.com
+Password : 123456
+<br>
+------------
+Teacher Default Account
+Email : imas@Gmail.com
+Password : 123456
+
+
 Database silahkan download diatas..
 Project size 290mb.
 .
