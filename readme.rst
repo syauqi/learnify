@@ -14,7 +14,9 @@ Saya juga menyediakan link downloadnya!
 simpan htaccess di folder root project (learnify) ini.
 
 
-#Deskripsi
+###################
+Deskripsi
+###################
 Web E-Learning Dilengkapi Video, Materi dan Kelas. Dibuat menggunakan Codeigniter3.Ini Project Open Source pertama saya, dikarenakan teman teman komunitas di facebook sangat semangat untuk mengembangkannya.
 
 *jika ada problem, issues dan bug. silahkan buat issues di repository ini.
@@ -46,18 +48,20 @@ Fitur yang tersedia
 Default Account
 **************************
 
-Halaman Guru & Admin
 Halaman Admin : learnify/welcome/admin
+
 Halaman Guru : learnify/welcome/guru
--------------
+
 Admin Default Account
 Email : admin@gmail.com 
 Password : admin
-------------
+
+
 Students Default Account
 Email : zaidanline67@Gmail.com
 Password : 123456
-------------
+
+
 Teacher Default Account
 Email : imas@Gmail.com
 Password : 123456
