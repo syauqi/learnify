@@ -34,12 +34,12 @@
                     <div class="info_item">
                         <i class="lnr lnr-phone-handset"></i>
                         <h6><a href="#">
-                                (0265) 771204</a></h6>
+                                087830016267</a></h6>
                         <p>Senin - Jumat | Jam 7 - Jam 5</p>
                     </div>
                     <div class="info_item">
                         <i class="lnr lnr-envelope"></i>
-                        <h6><a href="#">surat@smkn1cms.net</a></h6>
+                        <h6><a href="#">learnifyedu@Gmail.com</a></h6>
                         <p>Email diatas hanya untuk keperluan penting!</p>
                     </div>
                 </div>
