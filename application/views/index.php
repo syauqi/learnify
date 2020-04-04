@@ -8,7 +8,7 @@
                 <h3>Belajar Dimana Saja & Kapan Saja <br /> Mudah Dengan Learnify</h3>
                 <p>Dengan Learnify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat
                     belajar meski banyak halangan atau rintangan. Pembelajaran Terstruktur dan Efektif hanya di
-                    Learnify!</p>
+                    Learnify! Nikmati kemudahan belajar dan materi terlengkap dari kami! </p>
                 <a class="main_btn" href="<?=base_url('user/registration')?>#registration">Daftar Sekarang</a>
             </div>
         </div>

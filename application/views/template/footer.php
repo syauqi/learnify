@@ -6,10 +6,10 @@
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Tentang Kami</h6>
                     <ul class="list">
-                        <li><a href="#">Tentang</a></li>
-                        <li><a href="#">Materi</a></li>
-                        <li><a href="#">Kontak</a></li>
-                        <li><a href="#">Website Resmi Sekolah</a></li>
+                        <li><a href="<?=base_url('welcome/tentang')?>">Tentang Learnify</a></li>
+                        <li><a href="<?=base_url('welcome/materi')?>">Materi Learnify</a></li>
+                        <li><a href="<?=base_url('welcome/kontak')?>">Kontak Learnify</a></li>
+                        <li><a href="http://smkn1ciamis.id/">Website Resmi Sekolah</a></li>
                     </ul>
                 </div>
             </div>
@@ -17,8 +17,8 @@
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Masuk - Sign in</h6>
                     <ul class="list">
-                        <li><a href="#">Untuk Siswa</a></li>
-                        <li><a href="#">Untuk Guru</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter">Untuk Siswa</a></li>
+                        <li><a href="<?=base_url('welcome/guru')?>">Untuk Guru</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,11 +26,11 @@
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Pelajaran - Materi</h6>
                     <ul class="list">
-                        <li><a href="#">IPA</a></li>
-                        <li><a href="#">Matematika</a></li>
-                        <li><a href="#">Bahasa Indonesia</a></li>
-                        <li><a href="#">Bahasa Inggris</a></li>
-                        <li><a href="#">Pendidikan Agama Islam</a></li>
+                        <li><a href="javaScript:void(0);">IPA</a></li>
+                        <li><a href="javaScript:void(0);">Matematika</a></li>
+                        <li><a href="javaScript:void(0);">Bahasa Indonesia</a></li>
+                        <li><a href="javaScript:void(0);">Bahasa Inggris</a></li>
+                        <li><a href="javaScript:void(0);">Pendidikan Agama Islam</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,10 +56,10 @@
         <div class="row footer-bottom d-flex justify-content-between align-items-center">
             <p class="col-lg-8 col-md-8 footer-text m-0">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                <!-- Copyright &copy;<script>
+                Thank you colorlib for allow me to use this template. <br> Copyright &copy;<script>
                 document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                    aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> <br> -->
+                </script> All rights reserved | This template is made with <span class="text-danger"> &#10084;</span> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a> <br>
                 Made with <span class="text-danger"> &#10084;</span> by syaauqi
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>

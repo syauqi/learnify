@@ -283,7 +283,7 @@
                                                                 style="font-size:0px;padding:10px 25px;word-break:break-word;">
                                                                 <div
                                                                     style="font-family: 'Poppins', sans-serif !important;font-size:20px;font-weight:bold;line-height:24px;text-align:left;color:#212b35;">
-                                                                    Learnify - Account Verification</div>
+                                                                    Learnify - Verifikasi Akun</div>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -299,10 +299,10 @@
                                                                 style="font-size:0px;padding:10px 25px;word-break:break-word;">
                                                                 <div
                                                                     style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
-                                                                    Sebelum resmi menjadi siswa Learnify,
+                                                                    Sebelum resmi menjadi siswa di website Learnify,
                                                                     Kamu harus terlebih dahulu memverifikasi akun kamu.
-                                                                    dengan begitu kamu mengetahui kalau kamu bukan
-                                                                    robot.</div>
+                                                                    dengan begitu kami mengetahui kalau kamu bukan
+                                                                    robot dan bisa belajar deh!</div>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -311,7 +311,8 @@
                                                                 <div
                                                                     style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
                                                                     Cukup klik tombol dibawah untuk memverifikasi akun
-                                                                    kamu, agar dapat masuk ke website Learnify!
+                                                                    kamu, dan akan langsung kami arahakan ke website
+                                                                    Learnify!
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -329,7 +330,7 @@
                                                                                 href="<?php echo $link ?>"
                                                                                 style="display:inline-block;width:250px;background:#296e32;color:#ffffff;font-family: 'Poppins', sans-serif !important;font-size:17px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;"
                                                                                 target="_blank">
-                                                                                Klik disini untuk verifikasi.
+                                                                                Klik disini untuk verifikasi !
                                                                             </a> </td>
                                                                     </tr>
                                                                 </table>
