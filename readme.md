@@ -1,9 +1,9 @@
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
 
-### Apa itu Learnify?
+### 🤔 Apa itu Learnify?
 Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a>. **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini.
 
-# Fitur yang tersedia
+#  Fitur yang tersedia
 - Student Login System
 - Student Registration w/ email verification
 - Email Verification System
@@ -28,7 +28,7 @@ Release date : 1 April 2020 v 0.1.0
 ------------
 
 
- ## Default Account for testing
+ ## 👤 Default Account for testing
 **Admin Default Account**
 - Email : admin@gmail.com 
 - Password : admin
@@ -52,11 +52,11 @@ Release date : 1 April 2020 v 0.1.0
 - Web Browser
 - XAMPP ( Atau apps web server lain )
 
-## Install
+## 💻 Install
 Clone repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
 Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 
-## Author
+## 🧑 Author
 
 👤 <a href="https://web.facebook.com/zaidan.syauqi.9"> **Syaauqi Zaaidan Khairan Khalaf**</a>
 - Twitter : <a href="https://twitter.com/syauqykhairan"> @syauqykhairan</a>
@@ -69,7 +69,7 @@ Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.
 
-## Thanks to
+## 💙 Thanks to
 - Colorlib.com untuk template landing page.
 - Student page made by me.
 - Mas Nauval Irvansyah untuk Stisla Admin Dashboard
@@ -88,6 +88,5 @@ This project is MIT licensed.
 
 
 Made with  ❤️ by Syauqi Zaidan Khairan Khalaf .
-
 
 
