@@ -65,9 +65,11 @@ Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 - Dribbble : <a href="https://dribbble.com/syauqyzaidan">@syauqyzaidan </a>
 - Behance :  <a href="https://www.behance.net/syaauqizaaidan">@syaauqizaaidan </a>
 
-# 📝 License
+## 🤝 Contributing
+Contributions, issues and feature requests di persilahkan.
+Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.
+
+
+## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 This project is MIT licensed.
-
-
-
