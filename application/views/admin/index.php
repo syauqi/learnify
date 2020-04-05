@@ -7,6 +7,7 @@
     <title>Admin Dashboard - Learnify</title>
 
     <!-- General CSS Files -->
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -38,9 +39,9 @@
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" style="margin-bottom:4px !important;"
-                                src="./assets/stisla-assets/img/avatar/avatar-1.png"
+                                src="./assets/stisla-assets/img/avatar/avatar-2.png"
                                 class="rounded-circle mr-1 my-auto">
-                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Selamat datang, <?php
+                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hai, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['username'];
@@ -58,9 +59,13 @@ echo $data['user']['username'];
             <div class="main-sidebar">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
-                        <a href="<?=base_url('admin')?>"
-                            style="font-size: 35px; font-weight:900;font-family: 'Roboto', sans-serif;"
-                            class="text-success">&#9795;Learnify.&not;</a>
+                        <div>
+                            <a href="<?=base_url('admin')?>"
+                                style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;"
+                                class="text-success text-center"><i style="font-size: 30px;"
+                                    class="fas fa-graduation-cap"></i> |
+                                Learnify</a>
+                        </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
                         <a href="<?=base_url('admin')?>">LY</a>
@@ -114,7 +119,7 @@ echo $data['user']['username'];
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
-                        <h1>Dashboard</h1>
+                        <h1 style="font-size: 28px;">Dashboard</h1>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -172,7 +177,7 @@ echo $data['user']['username'];
                                         <h4>Kelas</h4>
                                     </div>
                                     <div class="card-body">
-                                        <?php echo $this->db->count_all('kelas'); ?>
+                                        3
                                     </div>
                                 </div>
                             </div>
