@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Learnify - Admin Login</title>
-
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <!-- General CSS Files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -170,6 +170,18 @@
         icon: 'error',
         title: 'Password Salah!',
         text: 'Silahkan Periksa Kembali Password Kamu!',
+        showConfirmButton: false,
+        timer: 2500
+    });
+    </script>
+    <?php endif;?>
+
+    <?php if ($this->session->flashdata('not-login')): ?>
+    <script>
+    Swal.fire({
+        icon: 'error',
+        title: 'Harap Login Terlebih Dahulu !',
+        text: 'Silahkan Login Dahulu !',
         showConfirmButton: false,
         timer: 2500
     });

@@ -7,6 +7,7 @@
     <title>Learnify - Teacher Login</title>
 
     <!-- General CSS Files -->
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -172,6 +173,18 @@
         icon: 'error',
         title: 'Password Salah!',
         text: 'Silahkan Periksa Kembali Password Kamu!',
+        showConfirmButton: false,
+        timer: 2500
+    });
+    </script>
+    <?php endif;?>
+
+    <?php if ($this->session->flashdata('not-login')): ?>
+    <script>
+    Swal.fire({
+        icon: 'error',
+        title: 'Harap Login Terlebih Dahulu !',
+        text: 'Silahkan Login Dahulu !',
         showConfirmButton: false,
         timer: 2500
     });

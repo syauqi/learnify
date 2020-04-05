@@ -8,6 +8,10 @@ class Guru extends CI_Controller
     {
         parent::__construct();
         $this->load->helper('url');
+        $this->session->set_flashdata('not-login', 'Gagal!');
+        if (!$this->session->userdata('email')) {
+            redirect('welcome/guru');
+        }
     }
 
     public function index()

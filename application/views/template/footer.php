@@ -228,6 +228,18 @@ Swal.fire({
 </script>
 <?php endif;?>
 
+<?php if ($this->session->flashdata('not-login')): ?>
+<script>
+Swal.fire({
+    icon: 'error',
+    title: 'Harap Login Terlebih Dahulu !',
+    text: 'Silahkan Login Dahulu !',
+    showConfirmButton: false,
+    timer: 2500
+});
+</script>
+<?php endif;?>
+
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
 <script src="<?=base_url('assets/')?>js/jquery-3.3.1.min.js"></script>
 <script src="<?=base_url('assets/')?>js/popper.js"></script>
