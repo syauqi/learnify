@@ -28,18 +28,18 @@ Halaman Guru : learnify/welcome/guru**
 ------------
 
 
-### ## Default Account for testing
+ ## Default Account for testing
 **Admin Default Account**
-Email : admin@gmail.com 
-Password : admin
+- Email : admin@gmail.com 
+- Password : admin
 
 **Students Default Account**
-Email : zaidanline67@gmail.com
-Password : 123456
+- Email : zaidanline67@gmail.com
+- Password : 123456
 
 **Teacher Default Account**
-Email : imas@gmail.com
-Password : 123456
+- Email : imas@gmail.com
+- Password : 123456
 
 ------------
 
