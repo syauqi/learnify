@@ -1,128 +1,33 @@
-
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
-<p>
-<% if (isProjectOnNpm) { -%>
-  <a href="https://www.npmjs.com/package/<%= projectName %>" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/<%= projectName %>.svg">
-  </a>
-<% } -%>
-<% if (projectVersion && !isProjectOnNpm) { -%>
-  <img alt="Version" src="https://img.shields.io/badge/version-<%= projectVersion %>-blue.svg?cacheSeconds=2592000" />
-<% } -%>
-<% if (projectPrerequisites) { -%>
-<% projectPrerequisites.map(({ name, value }) => { -%>
-  <img src="https://img.shields.io/badge/<%= name %>-<%= encodeURIComponent(value) %>-blue.svg" />
-<% }) -%>
-<% } -%>
-<% if (projectDocumentationUrl) { -%>
-  <a href="<%= projectDocumentationUrl %>" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-<% } -%>
-<% if (isGithubRepos) { -%>
-  <a href="<%= repositoryUrl %>/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-<% } -%>
-<% if (licenseName) { -%>
-  <a href="<%= licenseUrl ? licenseUrl : '#' %>" target="_blank">
-    <img alt="License: <%= licenseName %>" src="https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>" />
-  </a>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-  <a href="https://twitter.com/<%= authorTwitterUsername %>" target="_blank">
-    <img alt="Twitter: <%= authorTwitterUsername %>" src="https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social" />
-  </a>
-<% } -%>
-</p>
-<% if (projectDescription) { -%>
+### Apa itu Learnify?
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a>. **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini.
 
-> <%= projectDescription %>
-<% } -%>
-<% if (projectHomepage) { -%>
+### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
+Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
-### 🏠 [Homepage](<%= projectHomepage %>)
-<% } -%>
-<% if (projectDemoUrl) { -%>
+### ✨ <a href="http://syauqi.js.org/">Demo</a>
+Demo sementara ini belum saya hosting. dikarenakan project ini masih beta dan dana yang kurang. kalian cukup fork dan jalankan di localhost saja ya!
 
-### ✨ [Demo](<%= projectDemoUrl %>)
-<% } -%>
-<% if (projectPrerequisites && projectPrerequisites.length) { -%>
-
-## Prerequisites
-
-<% projectPrerequisites.map(({ name, value }) => { -%>
-- <%= name %> <%= value %>
-<% }) -%>
-<% } -%>
-<% if (installCommand) { -%>
+# Prasyarat yang diperlukan 
+- Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
+- Internet ( Karena saya memakai CDN Bootstrap )
+- Setting max_upload di php.ini
+- Setting post_max di php.ini
+- Web Browser
+- XAMPP ( Atau apps web server lain )
 
 ## Install
-
-```sh
-<%= installCommand %>
-```
-<% } -%>
-<% if (usage) { -%>
-
-## Usage
-
-```sh
-<%= usage %>
-```
-<% } -%>
-<% if (testCommand) { -%>
-
-## Run tests
-
-```sh
-<%= testCommand %>
-```
-<% } -%>
-<% if (authorName || authorTwitterUsername || authorGithubUsername) { -%>
+Clone repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
+Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 
 ## Author
-<% if (authorName) { %>
-👤 **<%= authorName %>**
-<% } %>
-<% if (authorWebsite) { -%>
-* Website: <%= authorWebsite %>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
-<% } -%>
-<% if (authorGithubUsername) { -%>
-* GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
-<% } -%>
-<% if (authorLinkedInUsername) { -%>
-* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
-<% } -%>
-<% } -%>
-<% if (issuesUrl) { -%>
 
-## 🤝 Contributing
+👤 <a href="https://web.facebook.com/?_rdc=1&_rdr"> **Syaauqi Zaaidan Khairan Khalaf**</a>
+- Twitter : <a href="https://twitter.com/syauqykhairan"> @syauqykhairan</a>
+- Facebook : <a href="https://web.facebook.com/zaidan.syauqi.9"> Syauqi Zaidan Khairan Khalaf</a>
+- Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
+- Dribble : <a href="https://www.instagram.com/syaufy/">@syauqizaidan </a>
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
-<% } -%>
 
-## Show your support
 
-Give a ⭐️ if this project helped you!
-<% if (authorPatreonUsername) { -%>
 
-<a href="https://www.patreon.com/<%= authorPatreonUsername %>">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-<% } -%>
-<% if (licenseName && licenseUrl) { -%>
-
-## 📝 License
-
-<% if (authorName && authorGithubUsername) { -%>
-Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= authorGithubUsername %>).<br />
-<% } -%>
-This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
-<% } -%>
-
-***
-<%- include('footer.md'); -%>
