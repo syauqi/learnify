@@ -28,7 +28,7 @@
                             <i class="lnr lnr-rocket"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Cepat & <br />Mudah~</h5>
+                            <h5>Cepat & <br />Mudah</h5>
                         </div>
                     </div>
                 </div>
