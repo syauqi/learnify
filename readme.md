@@ -1,4 +1,5 @@
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
+<br>
 <p>
 <% if (isProjectOnNpm) { -%>
   <a href="https://www.npmjs.com/package/<%= projectName %>" target="_blank">
