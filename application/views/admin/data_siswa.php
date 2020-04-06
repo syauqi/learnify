@@ -79,7 +79,7 @@ echo $data['user']['username'];
                         <li class="menu-header ">Dashboard</li>
                         <li class="nav-item dropdown">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
-                                    class="fas fa-fire"></i><span>Dashboard</span></a>
+                                    class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
 
                         <li class="menu-header">Management Siswa</li>
@@ -125,14 +125,10 @@ echo $data['user']['username'];
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
-                    <div class="section-header">
-                        <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Management Data Siswa Learnify
-                        </h1>
-                    </div>
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Jumlah Data Siswa di Learnify</h2>
+                                <h2 class="card-title" style="color: black;">Management Data Siswa Learnify</h2>
                                 <hr>
                                 <p class="card-text"> Jumlah Siswa yang terdaftar di Learnify sekarang adalah <span
                                         class="font-weight-bold" style="color:black;">

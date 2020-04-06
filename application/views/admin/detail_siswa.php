@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior:smooth !important;">
 
 <head>
     <meta charset="UTF-8">
@@ -77,7 +77,7 @@ echo $data['user']['username'];
                         <li class="menu-header ">Dashboard</li>
                         <li class="nav-item dropdown ">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
-                                    class="fas fa-fire"></i><span>Dashboard</span></a>
+                                    class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
 
                         <li class="menu-header">Management Siswa</li>
@@ -130,24 +130,57 @@ echo $data['user']['username'];
                                     Kita tidak bisa mengubah password siswa, Hanya siswa yang dapat mengubah passwordnya
                                     sendiri.
                                 </p>
-                                <a href="javascript:void(0)" class="btn btn-primary">Saya paham dan
+                                <a href="#detail" class="btn btn-primary">Saya paham dan
                                     ingin melanjutkan</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 bg-white p-3"
+                        <div class="">
+                            <div class="hero text-white hero-bg-image"
+                                data-background="<?=base_url('assets/')?>stisla-assets/img/unsplash/eberhard-grossgasteiger-1207565-unsplash.jpg">
+                                <div class="col-md-4 mx-auto rounded-circle bg-white p-3"
+                                    style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
+                                    <img src="<?=base_url() . 'assets/profile_picture/' . $detail->image;?>"
+                                        class="card-img-top  rounded-circle img-responsive" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+                        <div class="col-md-12 bg-white p-3" id="detail"
                             style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
-                            <h3 class="font-weight-bold" style="color: #34395e!important">Detail Siswa</h3>
+                            <h1 class="font-weight-bold card-title text-center" style="color: black;">Detail Siswa </h1>
+                            <p class="text-center" style="line-height: 5px;">Berikut data detail yang terdapat di
+                                database, meliputi Nama, Email,
+                                Photo, Akun aktif
+                                dan Date Created.</p>
                             <hr>
+                            <table style="width: 100%" class="container text-center">
+                                <tbody>
+                                    <tr style="border-bottom: 0.5px solid #6c757d;">
+                                        <td><span class="font-weight-bold">Nama Siswa :</span></td>
+                                        <td> <?=$detail->nama?></td>
+                                    </tr>
+                                    <tr style="border-bottom: 0.5px solid #6c757d;">
+                                        <td><span class="font-weight-bold">Alamat Email :</span></td>
+                                        <td> <?=$detail->email?></td>
+                                    </tr>
+                                    <tr style="border-bottom: 0.5px solid #6c757d;">
+                                        <td><span class="font-weight-bold">Password : </span></td>
+                                        <td>Terenkripsi</td>
+                                    </tr>
+                                    <tr style="border-bottom: 0.5px solid #6c757d;">
+                                        <td><span class="font-weight-bold">Akun Aktif? :</span></td>
+                                        <td><?=$detail->is_active?></td>
+                                    </tr>
+                                    <tr style="border-bottom: 0.5px solid #6c757d;">
+                                        <td><span class="font-weight-bold">Terdaftar pada :</span></td>
+                                        <td><?=$detail->date_created?></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
                             <p style="font-weight:500px!important;font-size:18px;text-align:justify;"
                                 class="text-justify">
-                                <span class="font-weight-bold">Nama Siswa :</span> <?=$detail->nama?>
-                                <br> <span class="font-weight-bold">Alamat Email :</span>
-                                <?=$detail->email?><br><span class="font-weight-bold">Password : </span>
-                                Terenkripsi<br><span class="font-weight-bold">Akun Aktif? :</span>
-                                <?=$detail->is_active?><br><span class="font-weight-bold">Terdaftar pada :</span>
-                                <?=$detail->date_created?><br>
                             </p>
 
 
@@ -155,25 +188,20 @@ echo $data['user']['username'];
                             <a href="<?=base_url('admin/data_siswa')?>" class="btn btn-success btn-block">Kembali</a>
                         </div>
 
-                        <div class="col-md-4 bg-white p-3"
-                            style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
-                            <img src="<?=base_url() . 'assets/profile_picture/' . $detail->image;?>"
-                                class="card-img-top img-responsive" alt="...">
-                        </div>
-                    </div>
 
+                    </div>
             </div>
         </div>
-    </div>
-    <footer class="main-footer">
-        <div class="footer-left">
-            Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
-                href="https://syauqizaidan.github.io/">Syaauqi</a>
-        </div>
-        <div class="footer-right">
-            Made with <span class="text-danger"> &#10084;</span> by Syaauqi
-        </div>
-    </footer>
+
+        <footer class="main-footer">
+            <div class="footer-left">
+                Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
+                    href="https://syauqizaidan.github.io/">Syaauqi</a>
+            </div>
+            <div class="footer-right">
+                Made with <span class="text-danger"> &#10084;</span> by Syaauqi
+            </div>
+        </footer>
     </div>
     </div>
 
