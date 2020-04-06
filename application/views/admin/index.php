@@ -75,7 +75,7 @@ echo $data['user']['username'];
                         <li class="menu-header ">Dashboard</li>
                         <li class="nav-item dropdown active">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
-                                    class="fas fa-fire"></i><span>Dashboard</span></a>
+                                    class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
 
                         <li class="menu-header">Management Siswa</li>
