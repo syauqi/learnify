@@ -7,10 +7,9 @@ class User extends CI_Controller
     {
         parent::__construct();
         $this->load->library('form_validation');
-        $this->session->set_flashdata('not-login', 'Gagal!');
-        if (!$this->session->userdata('email')) {
-            redirect('welcome');
-        }
+        // $this->session->set_flashdata('not-login', 'Gagal!');
+        // if (!$this->session->userdata('email')) {
+        //     redirect('welcome');
     }
 
     public function index()
