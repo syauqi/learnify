@@ -40,7 +40,7 @@
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" style="margin-bottom:4px !important;"
                                 src="./assets/stisla-assets/img/avatar/avatar-2.png"
-                                class="rounded-circle mr-1 my-auto">
+                                class="rounded-circle mr-1 my-auto border-white">
                             <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hello, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
     $this->session->userdata('email')])->row_array();
@@ -119,7 +119,7 @@ echo $data['user']['username'];
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
-                        <h1 style="font-size: 28px;">Dashboard</h1>
+                        <h1 style="font-size: 30px; letter-spacing:-1.5px;">Dashboard</h1>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
