@@ -7,6 +7,7 @@
     <title>Data Detail Siswa - Learnify </title>
 
     <!-- General CSS Files -->
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -40,9 +41,9 @@
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" style="margin-bottom:4px !important;"
-                                src="../../assets/stisla-assets/img/avatar/avatar-1.png"
+                                src="../../assets/stisla-assets/img/avatar/avatar-2.png"
                                 class="rounded-circle mr-1 my-auto">
-                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Selamat datang, <?php
+                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hello, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['username'];
@@ -60,9 +61,13 @@ echo $data['user']['username'];
             <div class="main-sidebar">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
-                        <a href="<?=base_url('admin')?>"
-                            style="font-size: 35px; font-weight:900;font-family: 'Roboto', sans-serif;"
-                            class="text-success">&#9795;Learnify.</a>
+                        <div>
+                            <a href="<?=base_url('admin')?>"
+                                style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;"
+                                class="text-success text-center"><i style="font-size: 30px;"
+                                    class="fas fa-graduation-cap"></i> |
+                                Learnify</a>
+                        </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
                         <a href="<?=base_url('admin')?>">LY</a>
@@ -115,19 +120,29 @@ echo $data['user']['username'];
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
-                    <div class="section-header">
-                        <h1>Management Detail Data Siswa Learnify </h1>
+                    <div class="">
+                        <div class="card" style="width:100%;">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: black;">Detail Siswa | <?=$detail->nama?> </h2>
+                                <hr>
+                                <p class="card-text"> Detail siswa meliputi Nama, Photo, E-mail, Akun aktif, dan Date
+                                    Created.
+                                    Kita tidak bisa mengubah password siswa, Hanya siswa yang dapat mengubah passwordnya
+                                    sendiri.
+                                </p>
+                                <a href="javascript:void(0)" class="btn btn-primary">Saya paham dan
+                                    ingin melanjutkan</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row container">
-                        <div class="col-md-7 bg-white p-3"
+                    <div class="row">
+                        <div class="col-md-8 bg-white p-3"
                             style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
                             <h3 class="font-weight-bold" style="color: #34395e!important">Detail Siswa</h3>
                             <hr>
                             <p style="font-weight:500px!important;font-size:18px;text-align:justify;"
                                 class="text-justify">
-                                <span class="font-weight-bold">ID Siswa :</span>
-                                <?=$detail->id?>
-                                <br> <span class="font-weight-bold">Nama Siswa :</span> <?=$detail->nama?>
+                                <span class="font-weight-bold">Nama Siswa :</span> <?=$detail->nama?>
                                 <br> <span class="font-weight-bold">Alamat Email :</span>
                                 <?=$detail->email?><br><span class="font-weight-bold">Password : </span>
                                 Terenkripsi<br><span class="font-weight-bold">Akun Aktif? :</span>
@@ -140,14 +155,13 @@ echo $data['user']['username'];
                             <a href="<?=base_url('admin/data_siswa')?>" class="btn btn-success btn-block">Kembali</a>
                         </div>
 
-                        <div class="col-md-4 bg-white p-3 ml-3"
+                        <div class="col-md-4 bg-white p-3"
                             style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
                             <img src="<?=base_url() . 'assets/profile_picture/' . $detail->image;?>"
                                 class="card-img-top img-responsive" alt="...">
                         </div>
-
-
                     </div>
+
             </div>
         </div>
     </div>

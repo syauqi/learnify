@@ -129,8 +129,20 @@ echo $data['user']['username'];
                         <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Management Data Siswa Learnify
                         </h1>
                     </div>
-                    <div class="section-header">
-                        <a href="<?=base_url('user/registration')?>" class="btn btn-primary">Tambah Data Siswa</a>
+                    <div class="">
+                        <div class="card" style="width:100%;">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: black;">Jumlah Data Siswa di Learnify</h2>
+                                <hr>
+                                <p class="card-text"> Jumlah Siswa yang terdaftar di Learnify sekarang adalah <span
+                                        class="font-weight-bold" style="color:black;">
+                                        <?php echo $this->db->count_all('siswa'); ?> siswa.</span> Perlu diperhatikan,
+                                    Siswa yang terdaftar namun tidak mengaktivasi email nya dalam kurun 24 jam setelah
+                                    pendaftaran akan langsung terhapus otomatis. </p>
+                                <a href="<?=base_url('user/registration')?>" class="btn btn-primary">Tambah
+                                    Data Siswa</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
