@@ -119,7 +119,7 @@ echo $data['user']['username'];
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
-                        <h1 style="font-size: 30px; letter-spacing:-1.5px;">Dashboard</h1>
+                        <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Dashboard | Halaman Utama</h1>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -183,7 +183,18 @@ echo $data['user']['username'];
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mb-4">
+                    <div class="">
+                        <div class="card" style="width:100%;">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: black;">Tambah Materi?</h2>
+                                <p class="card-text">Klik tombol dibawah untuk menambah materi . Materi yang
+                                    ditambahkan, akan langsung terupload di database Learnify. Dan para siswa bisa
+                                    segera belajar! </p>
+                                <a href="<?=base_url('admin/tambah_materi')?>" class="btn btn-primary">Tambah Materi</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
                         <div class="hero text-white hero-bg-image"
                             data-background="<?=base_url('assets/')?>stisla-assets/img/unsplash/eberhard-grossgasteiger-1207565-unsplash.jpg">
                             <div class=" hero-inner">
