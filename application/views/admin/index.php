@@ -187,6 +187,7 @@ echo $data['user']['username'];
                         <div class="card" style="width:100%;">
                             <div class="card-body">
                                 <h2 class="card-title" style="color: black;">Tambah Materi?</h2>
+                                <hr>
                                 <p class="card-text">Klik tombol dibawah untuk menambah materi . Materi yang
                                     ditambahkan, akan langsung terupload di database Learnify. Dan para siswa bisa
                                     segera belajar! </p>

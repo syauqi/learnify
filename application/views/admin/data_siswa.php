@@ -8,6 +8,7 @@
     <title>Data Siswa - Learnify</title>
 
     <!-- General CSS Files -->
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -41,9 +42,9 @@
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" style="margin-bottom:3px !important;"
-                                src="../assets/stisla-assets/img/avatar/avatar-1.png"
+                                src="../assets/stisla-assets/img/avatar/avatar-2.png"
                                 class="rounded-circle mr-1 my-auto">
-                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Selamat datang, <?php
+                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hello, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['username'];
@@ -61,9 +62,13 @@ echo $data['user']['username'];
             <div class="main-sidebar">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
-                        <a href="<?=base_url('admin')?>"
-                            style="font-size: 35px; font-weight:900;font-family: 'Roboto', sans-serif;"
-                            class="text-success">&#9795;Learnify.&not;</a>
+                        <div>
+                            <a href="<?=base_url('admin')?>"
+                                style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;"
+                                class="text-success text-center"><i style="font-size: 30px;"
+                                    class="fas fa-graduation-cap"></i> |
+                                Learnify</a>
+                        </div>
                     </div>
 
                     <div class="sidebar-brand sidebar-brand-sm">
@@ -121,79 +126,83 @@ echo $data['user']['username'];
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
-                        <h1>Management Data Siswa Learnify </h1>
+                        <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Management Data Siswa Learnify
+                        </h1>
                     </div>
                     <div class="section-header">
                         <a href="<?=base_url('user/registration')?>" class="btn btn-primary">Tambah Data Siswa</a>
                     </div>
-                    <div class="row" style="overflow: scroll">
+                    <div class="row">
                         <div class="col-md-12">
                             <div class="container bg-white p-4"
                                 style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px">
-                                <table id="example" class="table align-items-center table-flush">
-                                    <thead class="thead-light">
-                                        <tr class="text-center">
-                                            <th scope="col">ID</th>
-                                            <th scope="col">Nama Siswa</th>
-                                            <th scope="col">Email</th>
-                                            <th scope="col">Gambar</th>
-                                            <th scope="col">Akun Aktif*</th>
-                                            <th scope="col">Detail</th>
-                                            <th scope="col">Option</th>
-                                        </tr>
-                                    </thead>
+                                <div class="table-responsive">
+                                    <table id="example" class="table align-items-center table-flush">
+                                        <thead class="thead-light">
+                                            <tr class="text-center">
+                                                <th scope="col">ID</th>
+                                                <th scope="col">Nama Siswa</th>
+                                                <th scope="col">Email</th>
+                                                <th scope="col">Gambar</th>
+                                                <th scope="col">Akun Aktif*</th>
+                                                <th scope="col">Detail</th>
+                                                <th scope="col">Option</th>
+                                            </tr>
+                                        </thead>
 
-                                    <tbody>
-                                        <?php
+                                        <tbody>
+                                            <?php
 
 foreach ($user as $u) {
     ?>
-                                        <tr class="text-center">
+                                            <tr class="text-center">
 
-                                            <th scope="row">
-                                                <?php echo $u->id ?>
-                                            </th>
+                                                <th scope="row">
+                                                    <?php echo $u->id ?>
+                                                </th>
 
-                                            <td>
-                                                <?php echo $u->nama ?>
-                                            </td>
+                                                <td>
+                                                    <?php echo $u->nama ?>
+                                                </td>
 
-                                            <td>
-                                                <?php echo $u->email ?>
-                                            </td>
+                                                <td>
+                                                    <?php echo $u->email ?>
+                                                </td>
 
-                                            <td>
-                                                <img height="20px"
-                                                    src="<?=base_url() . 'assets/profile_picture/' . $u->image;?>">
-                                            </td>
+                                                <td>
+                                                    <img height="20px"
+                                                        src="<?=base_url() . 'assets/profile_picture/' . $u->image;?>">
+                                                </td>
 
-                                            <td>
-                                                <?php echo $u->is_active ?>
-                                            </td>
+                                                <td>
+                                                    <?php echo $u->is_active ?>
+                                                </td>
 
-                                            <td class="text-center">
-                                                <a href="<?php echo site_url('admin/detail_siswa/' . $u->id); ?>"
-                                                    class="btn btn-success">Detail</a>
-                                            </td>
+                                                <td class="text-center">
+                                                    <a href="<?php echo site_url('admin/detail_siswa/' . $u->id); ?>"
+                                                        class="btn btn-success">Detail</a>
+                                                </td>
 
-                                            <td class="text-center">
-                                                <a href="<?php echo site_url('admin/update_siswa/' . $u->id); ?>"
-                                                    class="btn btn-info">Update</a>
+                                                <td class="text-center">
+                                                    <a href="<?php echo site_url('admin/update_siswa/' . $u->id); ?>"
+                                                        class="btn btn-info">Update</a>
 
-                                                <a href="<?php echo site_url('admin/delete_siswa/' . $u->id); ?>"
-                                                    class="btn btn-danger remove">Delete</a>
-                                            </td>
+                                                    <a href="<?php echo site_url('admin/delete_siswa/' . $u->id); ?>"
+                                                        class="btn btn-danger remove">Delete</a>
+                                                </td>
 
-                                        </tr>
-                                        <?php
+                                            </tr>
+                                            <?php
 }
 ?>
-                                    </tbody>
-                                </table>
-                                <p class="small font-weight-bold">* Angka 1 Menunjukan Akun Telah Aktif Sedangkan Angka
-                                    0 Menunjukan Akun
-                                    belum
-                                    aktif</p>
+                                        </tbody>
+                                    </table>
+                                    <p class="small font-weight-bold">* Angka 1 Menunjukan Akun Telah Aktif Sedangkan
+                                        Angka
+                                        0 Menunjukan Akun
+                                        belum
+                                        aktif</p>
+                                </div>
                             </div>
                         </div>
                     </div>
