@@ -8,6 +8,7 @@
     <title>Data Guru - Learnify</title>
 
     <!-- General CSS Files -->
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -41,9 +42,9 @@
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" style="margin-bottom:3px !important;"
-                                src="../assets/stisla-assets/img/avatar/avatar-1.png"
+                                src="../assets/stisla-assets/img/avatar/avatar-2.png"
                                 class="rounded-circle mr-1 my-auto">
-                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Selamat datang, <?php
+                            <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hello, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['username'];
@@ -61,9 +62,13 @@ echo $data['user']['username'];
             <div class="main-sidebar">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
-                        <a href="<?=base_url('admin')?>"
-                            style="font-size: 35px; font-weight:900;font-family: 'Roboto', sans-serif;"
-                            class="text-success">&#9795;Learnify.&not;</a>
+                        <div>
+                            <a href="<?=base_url('admin')?>"
+                                style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;"
+                                class="text-success text-center"><i style="font-size: 30px;"
+                                    class="fas fa-graduation-cap"></i> |
+                                Learnify</a>
+                        </div>
                     </div>
 
                     <div class="sidebar-brand sidebar-brand-sm">
@@ -74,7 +79,7 @@ echo $data['user']['username'];
                         <li class="menu-header ">Dashboard</li>
                         <li class="nav-item dropdown">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
-                                    class="fas fa-fire"></i><span>Dashboard</span></a>
+                                    class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
 
                         <li class="menu-header">Management Siswa</li>
@@ -120,11 +125,20 @@ echo $data['user']['username'];
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
-                    <div class="section-header">
-                        <h1>Management Data Guru Learnify </h1>
-                    </div>
-                    <div class="section-header">
-                        <a href="<?=base_url('admin/add_guru')?>" class="btn btn-primary">Tambah Data Guru</a>
+                    <div class="">
+                        <div class="card" style="width:100%;">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: black;">Management Data Guru Learnify</h2>
+                                <hr>
+                                <p class="card-text"> Jumlah Guru yang terdaftar di Learnify sekarang adalah <span
+                                        class="font-weight-bold" style="color:black;">
+                                        <?php echo $this->db->count_all('guru'); ?> Guru.</span> Untuk sementara, Guru
+                                    tidak dapat melakukan pendaftaran online sendiri. Hanya admin yang diperkenankan
+                                    untuk mendaftarkan guru. </p>
+                                <a href="<?=base_url('admin/add_guru')?>" class="btn btn-primary">Tambah
+                                    Data Guru</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="row" style="overflow: scroll">
                         <div class="col-md-12">
