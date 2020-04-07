@@ -31,85 +31,81 @@
                         <div class="card card-primary">
                             <div class="col-md-12 text-center">
                                 <p class="registration-title font-weight-bold display-4 mt-4" style="font-size: 50px;">
-                                    Pendaftaran Guru</p>
+                                    Tambah Materi</p>
                                 <p style="line-height:-30px;margin-top:-20px;">Silahkan isi data data yang diperlukan
                                     dibawah </p>
                                 <hr>
                             </div>
 
                             <div class="card-body">
-                                <form method="POST" action="<?=base_url('admin/add_guru')?>">
+                                <form method="POST" enctype="multipart/form-data"
+                                    action="<?=base_url('admin/tambah_materi')?>">
 
-                                    <div class="form-group">
-                                        <label for="nip">Nomor Induk Pegawai</label>
-                                        <input id="nip" type="text" class="form-control" name="nip">
-                                        <?=form_error('nip', '<small class="text-danger">', '</small>');?>
-                                        <div class="invalid-feedback">
-                                        </div>
 
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input id="email" type="email" class="form-control" name="email">
-                                        <?=form_error('email', '<small class="text-danger">', '</small>');?>
-                                        <div class="invalid-feedback">
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="nama">Nama Lengkap</label>
-                                        <input id="nama" type="text" class="form-control" name="nama">
-                                        <?=form_error('nama', '<small class="text-danger">', '</small>');?>
-                                        <div class="invalid-feedback">
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="form-group col-6">
-                                            <label for="password" class="d-block">Password</label>
-                                            <input id="password" type="password" class="form-control pwstrength"
-                                                data-indicator="pwindicator" name="password">
-                                            <?=form_error('password', '<small class="text-danger">', '</small>');?>
-                                            <div id="pwindicator" class="pwindicator">
-                                                <div class="bar"></div>
-                                                <div class="label"></div>
+                                    <div class="col-md-12 bg-white"
+                                        style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px">
+                                        <form method="post" enctype="multipart/form-data"
+                                            action="<?=base_url('guru/add_materi')?>">
+                                            <input type="hidden" name="id">
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <label for="inputEmail4">Nama Guru</label>
+                                                    <input autocomplete="off" required type="text" list="nama_guru"
+                                                        name="nama_guru" class="form-control" id="inputEmail4">
+                                                    <datalist id=nama_guru>
+                                                        <?php
+include "koneksi.php";
+$qry = mysqli_query($koneksi, "SELECT nama_guru From guru");
+while ($t = mysqli_fetch_array($qry)) {
+    echo "<option value='$t[nama_guru]'>";
+}
+?>
+                                                    </datalist>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="form-group col-6">
-                                            <label for="password2" class="d-block">Konfirmasi Password</label>
-                                            <input id="password2" type="password" class="form-control" name="password2">
-                                            <?=form_error('password2', '<small class="text-danger">', '</small>');?>
-                                        </div>
+                                            <div class="form-group">
+                                                <label for="inputState">Kelas</label>
+                                                <select required id="inputState" name="nama_mapel" class="form-control">
+                                                    <option selected>Pilih disini</option>
+                                                    <option>IPA</option>
+                                                    <option>Matematika</option>
+                                                    <option>Bahasa Inggris</option>
+                                                    <option>Bahasa Indonesia</option>
+                                                    <option>Pendidikan Agama Islam</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="custom-file">
+                                                        <input required type="file" name="video"
+                                                            class="custom-file-input" id="inputGroupFile01"
+                                                            aria-describedby="inputGroupFileAddon01">
+                                                        <label class="custom-file-label" for="inputGroupFile01">Upload
+                                                            Video
+                                                            Materi Disini</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Deskripsi Materi</label>
+                                                <textarea class="form-control" required name="deskripsi"
+                                                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputState">Kelas</label>
+                                                <select required id="inputState" name="kelas" class="form-control">
+                                                    <option selected>Pilih disini</option>
+                                                    <option value="X">X ( Kelas Sepuluh )</option>
+                                                    <option value="XI">XI ( Kelas Sebelas )</option>
+                                                    <option value="XII">XII ( Kelas Dua Belas )</option>
+                                                </select>
+                                            </div>
+                                            <button type="submit" class="btn btn-block btn-success">Tambah
+                                                materi</button>
                                     </div>
 
-                                    <div class="row">
-                                        <div class="form-group col-12">
-                                            <label>Mata Pelajaran yang diajar</label>
-                                            <select class="form-control selectric" name="mapel">
-                                                <option>Matematika</option>
-                                                <option>IPA</option>
-                                                <option>Bahasa Inggris</option>
-                                                <option>Bahasa Indonesia</option>
-                                                <option>Pendidikan Agama Islam</option>
-                                            </select>
-                                            <?=form_error('mapel', '<small class="text-danger">', '</small>');?>
-                                        </div>
-                                    </div>
 
-                                    <div class="form-group">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" name="agree" class="custom-control-input" id="agree">
-                                            <label class="custom-control-label" for="agree">Saya Mengerti dan ingin
-                                                melajutkan.</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary btn-lg btn-block">
-                                            Daftar
-                                        </button>
-                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -125,6 +121,12 @@
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+    $('.custom-file-input').on('change', function() {
+        let fileName = $(this).val().split('\\').pop();
+        $(this).next('.custom-file-label').addClass("selected").html(fileName);
+    });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>

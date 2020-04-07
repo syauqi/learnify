@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -158,7 +158,7 @@ echo $data['user']['username'];
                         </div>
                         <br>
 
-                        <div class="col-md-12 bg-white p-3"
+                        <div id="detail" class="col-md-12 bg-white p-3"
                             style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
                             <h1 class="font-weight-bold card-title text-center" style="color: black;">Update Data
                                 Siswa

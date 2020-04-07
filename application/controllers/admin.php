@@ -167,25 +167,27 @@ class Admin extends CI_Controller
 
     public function materi_edit()
     {
-        $this->load->model('m_guru');
-        $nip = $this->input->post('nip');
-        $nama = $this->input->post('nama');
-        $email = $this->input->post('email');
+        $this->load->model('m_materi');
+
+        $id = $this->input->post('id');
+        $nama_guru = $this->input->post('nama_guru');
+        $nama_mapel = $this->input->post('nama_mapel');
+        $deskripsi = $this->input->post('deskripsi');
 
         $data = array(
-            'nip' => $nip,
-            'nama_guru' => $nama,
-            'email' => $email,
+            'nama_guru' => $nama_guru,
+            'nama_mapel' => $nama_mapel,
+            'deskripsi' => $deskripsi,
 
         );
 
         $where = array(
-            'nip' => $nip,
+            'id' => $id,
         );
 
-        $this->m_guru->update_data($where, $data, 'guru');
+        $this->m_materi->update_data($where, $data, 'materi');
         $this->session->set_flashdata('success-edit', 'berhasil');
-        redirect('admin/data_guru');
+        redirect('admin/data_materi');
 
     }
 

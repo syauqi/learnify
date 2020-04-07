@@ -135,7 +135,7 @@ echo $data['user']['username'];
                         </div>
                     </div>
 
-                    <div class="card card-success">
+                    <div id="detail" class="card card-success">
                         <div class="col-md-12 text-center">
                             <p class="registration-title font-weight-bold display-4 mt-4"
                                 style="color:black; font-size: 50px;">
@@ -148,7 +148,7 @@ echo $data['user']['username'];
                         <div class="card-body">
                             <form method="POST" action="<?=base_url('admin/add_guru')?>">
 
-                                <div class="form-group">
+                                <div id="" class="form-group">
                                     <label for="nip">Nomor Induk Pegawai</label>
                                     <input id="nip" type="text" class="form-control" name="nip">
                                     <?=form_error('nip', '<small class="text-danger">', '</small>');?>
@@ -191,7 +191,7 @@ echo $data['user']['username'];
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div id="" class="row">
                                     <div class="form-group col-12">
                                         <label>Mata Pelajaran yang diajar</label>
                                         <select class="form-control selectric" name="mapel">

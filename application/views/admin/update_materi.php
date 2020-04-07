@@ -123,11 +123,11 @@ echo $data['user']['username'];
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Update Data Guru</h2>
+                                <h2 class="card-title" style="color: black;">Update Data Materi</h2>
                                 <hr>
-                                <p class="card-text"> Update data siswa meliputi Email dan Nama Lengkap.
-                                    Kita tidak bisa mengubah password guru, Hanya guru yang dapat mengubah passwordnya
-                                    sendiri.
+                                <p class="card-text"> Update data materi meliputi Nama Guru, Nama Mapel dan Deskripsi
+                                    Materi.
+                                    Hanya deskripsi materi yang dapat diubah.
                                 </p>
                                 <a href="#detail" class="btn btn-primary">Saya paham dan
                                     ingin melanjutkan</a>
@@ -146,7 +146,7 @@ echo $data['user']['username'];
                         <?php foreach ($user as $u) {?>
                         <div class="card-body">
                             <form method="POST" action="<?=base_url('admin/materi_edit')?>">
-
+                                <input type="hidden" name="id" value="<?=$u->id?>">
                                 <div class="form-group">
                                     <label for="nip">Nama Guru</label>
                                     <input readonly id="nama_guru" type="text" class="form-control"
@@ -167,7 +167,8 @@ echo $data['user']['username'];
 
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">Deskripsi Materi</label>
-                                    <textarea class="form-control txtarea" id="exampleFormControlTextarea1" rows="3">
+                                    <textarea class="form-control txtarea" name="deskripsi"
+                                        id="exampleFormControlTextarea1" rows="3">
                                         <?=$u->deskripsi?></textarea>
                                 </div>
 
