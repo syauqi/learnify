@@ -190,6 +190,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 	}
 }
 
+
 h1,
 h2,
 h3,
@@ -239,7 +240,7 @@ select.form-control:not([size]):not([multiple]),
 }
 
 textarea.form-control {
-	height: 64px;
+	height: 200px !important;
 }
 
 .custom-control {

@@ -157,6 +157,38 @@ class Admin extends CI_Controller
 
     }
 
+    public function update_materi($id)
+    {
+        $this->load->model('m_materi');
+        $where = array('id' => $id);
+        $data['user'] = $this->m_materi->update_materi($where, 'materi')->result();
+        $this->load->view('admin/update_materi', $data);
+    }
+
+    public function materi_edit()
+    {
+        $this->load->model('m_guru');
+        $nip = $this->input->post('nip');
+        $nama = $this->input->post('nama');
+        $email = $this->input->post('email');
+
+        $data = array(
+            'nip' => $nip,
+            'nama_guru' => $nama,
+            'email' => $email,
+
+        );
+
+        $where = array(
+            'nip' => $nip,
+        );
+
+        $this->m_guru->update_data($where, $data, 'guru');
+        $this->session->set_flashdata('success-edit', 'berhasil');
+        redirect('admin/data_guru');
+
+    }
+
     public function delete_guru($nip)
     {
         $this->load->model('m_guru');

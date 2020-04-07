@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Data Materi - Learnify</title>
+    <title>Update Data Guru - Learnify</title>
 
     <!-- General CSS Files -->
     <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
@@ -22,10 +21,10 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.0/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <body>
+
     <div id="app">
         <div class="main-wrapper">
             <div class="navbar-bg"></div>
@@ -41,8 +40,8 @@
                 <ul class="navbar-nav navbar-right">
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                            <img alt="image" style="margin-bottom:3px !important;"
-                                src="../assets/stisla-assets/img/avatar/avatar-2.png"
+                            <img alt="image" style="margin-bottom:4px !important;"
+                                src="../../assets/stisla-assets/img/avatar/avatar-2.png"
                                 class="rounded-circle mr-1 my-auto">
                             <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hello, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
@@ -70,20 +69,18 @@ echo $data['user']['username'];
                                 Learnify</a>
                         </div>
                     </div>
-
                     <div class="sidebar-brand sidebar-brand-sm">
                         <a href="<?=base_url('admin')?>">LY</a>
                     </div>
 
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
-                                    class="fas fa-fire"></i><span>Dashboard</span></a>
+                                    class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
 
                         <li class="menu-header">Management Siswa</li>
-
                         <li class="nav-item dropdown ">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-user"></i>
                                 <span>Siswa</span></a>
@@ -93,8 +90,7 @@ echo $data['user']['username'];
                         </li>
 
                         <li class="menu-header">Management Guru</li>
-
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
                                 <span>Guru</span></a>
                             <ul class="dropdown-menu">
@@ -102,12 +98,12 @@ echo $data['user']['username'];
                                 </li>
                                 <li><a class="nav-link" href="<?=base_url('admin/add_guru')?>">Tambah Data Guru</a>
                                 </li>
+
                             </ul>
                         </li>
 
                         <li class="menu-header">Management Materi</li>
-
-                        <li class="nav-item dropdown active">
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i>
                                 <span>Materi</span></a>
                             <ul class="dropdown-menu">
@@ -118,7 +114,6 @@ echo $data['user']['username'];
 
                             </ul>
                         </li>
-
                 </aside>
             </div>
 
@@ -128,131 +123,88 @@ echo $data['user']['username'];
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Management Data Materi Learnify</h2>
+                                <h2 class="card-title" style="color: black;">Update Data Guru</h2>
                                 <hr>
-                                <p class="card-text"> Jumlah Materi yang terdata di Learnify sekarang adalah <span
-                                        class="font-weight-bold" style="color:black;">
-                                        <?php echo $this->db->count_all('materi'); ?> Materi.</span> Materi dapat
-                                    ditambah oleh guru maupun admin, materi meliputi video, deskripsi dan soal. </p>
-                                <a href="<?=base_url('admin/tambah_materi')?>" class="btn btn-primary">Tambah
-                                    Data Materi</a>
+                                <p class="card-text"> Update data siswa meliputi Email dan Nama Lengkap.
+                                    Kita tidak bisa mengubah password guru, Hanya guru yang dapat mengubah passwordnya
+                                    sendiri.
+                                </p>
+                                <a href="#detail" class="btn btn-primary">Saya paham dan
+                                    ingin melanjutkan</a>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style="overflow: scroll">
-                        <div class="col-md-12">
-                            <div class="container bg-white p-4"
-                                style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px">
-                                <table id="example" class="table align-items-center table-flush">
-                                    <thead class="thead-light">
-                                        <tr class="text-center">
-                                            <th scope="col">ID</th>
-                                            <th scope="col">Nama Guru</th>
-                                            <th scope="col">Nama Mapel</th>
-                                            <th scope="col">Deskripsi</th>
-                                            <th scope="col">Kelas</th>
-                                            <th scope="col">Option</th>
-                                        </tr>
-                                    </thead>
+                    <div class="card card-success">
+                        <div class="col-md-12 text-center">
+                            <p class="registration-title font-weight-bold display-4 mt-4"
+                                style="color:black; font-size: 50px;">
+                                Update Data Materi</p>
+                            <p style="line-height:-30px;margin-top:-20px;">Silahkan isi data data yang diperlukan
+                                dibawah </p>
+                            <hr>
+                        </div>
+                        <?php foreach ($user as $u) {?>
+                        <div class="card-body">
+                            <form method="POST" action="<?=base_url('admin/materi_edit')?>">
 
-                                    <tbody>
-                                        <?php
+                                <div class="form-group">
+                                    <label for="nip">Nama Guru</label>
+                                    <input readonly id="nama_guru" type="text" class="form-control"
+                                        value="<?=$u->nama_guru?>" name="nama_guru">
+                                    <?=form_error('nama_guru', '<small class="text-danger">', '</small>');?>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
 
-foreach ($user as $u) {
-    ?>
-                                        <tr class="text-center">
+                                <div class="form-group">
+                                    <label for="nama_mapel">Mata Pelajaran</label>
+                                    <input readonly id="nama_mapel" type="text" value="<?=$u->nama_mapel?>"
+                                        class="form-control" name="nama_mapel">
+                                    <?=form_error('email', '<small class="text-danger">', '</small>');?>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
 
-                                            <th scope="row">
-                                                <?php echo $u->id ?>
-                                            </th>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Deskripsi Materi</label>
+                                    <textarea class="form-control txtarea" id="exampleFormControlTextarea1" rows="3">
+                                        <?=$u->deskripsi?></textarea>
+                                </div>
 
-                                            <td>
-                                                <?php echo $u->nama_guru ?>
-                                            </td>
-
-                                            <td>
-                                                <?php echo $u->nama_mapel ?>
-                                            </td>
-                                            <td>
-                                                <?=substr($u->deskripsi, 0, 50);?>
-                                                .&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.
-                                            </td>
-
-                                            <td>
-                                                <?php echo $u->kelas ?>
-                                            </td>
-
-                                            <td class="text-center">
-                                                <a href="<?php echo site_url('admin/update_materi/' . $u->id); ?>"
-                                                    class="btn btn-info">Update</a>
-
-                                                <a href="<?php echo site_url('admin/delete_materi/' . $u->id); ?>"
-                                                    class="btn btn-danger remove">Delete</a>
-                                            </td>
-
-                                        </tr>
-                                        <?php
-}
-?>
-                                    </tbody>
-                                </table>
-                                <p class="small font-weight-bold">Sebelum mengupload file, harus terlebih dahulu
-                                    melakukan config max_upload di php.ini</p>
-                            </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success btn-lg btn-block">
+                                        Update data
+                                    </button>
+                                </div>
+                            </form>
+                            <?php }?>
                         </div>
                     </div>
             </div>
         </div>
     </div>
-    <?php if ($this->session->flashdata('success-edit')): ?>
-    <script>
-    Swal.fire({
-        icon: 'success',
-        title: 'Data Materi Telah Dirubah!',
-        text: 'Selamat data berubah!',
-        showConfirmButton: false,
-        timer: 2500
-    })
-    </script>
-    <?php endif;?>
-    <?php if ($this->session->flashdata('user-delete')): ?>
-    <script>
-    Swal.fire({
-        icon: 'success',
-        title: 'Data Materi Telah Dihapus!',
-        text: 'Selamat data telah Dihapus!',
-        showConfirmButton: false,
-        timer: 2500
-    })
-    </script>
-    <?php endif;?>
-    <?php if ($this->session->flashdata('success-reg')): ?>
-    <script>
-    Swal.fire({
-        icon: 'success',
-        title: 'Data Materi Telah Ditambah!',
-        text: 'Selamat data telah Ditambah!',
-        showConfirmButton: false,
-        timer: 2500
-    })
-    </script>
-    <?php endif;?>
     <footer class="main-footer">
         <div class="footer-left">
-            Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
-                href="https://syauqizaidan.github.io/">Syaauqi</a>
+            Copyright &copy; 2020 <div class="bullet"></div> Program & Design by <a
+                href="syauqizaidan.github.io">Syaauqi</a> and Nauval Azhar - Stisla Developer
         </div>
         <div class="footer-right">
-            Made with <span class="text-danger"> &#10084;</span> by Syaauqi
+            Made with <span class="text-danger"> &#10084;</span> by syaauqi
         </div>
     </footer>
     </div>
     </div>
 
-
     <!-- General JS Scripts -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+    $('.custom-file-input').on('change', function() {
+        let fileName = $(this).val().split('\\').pop();
+        $(this).next('.custom-file-label').addClass("selected").html(fileName);
+    });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
