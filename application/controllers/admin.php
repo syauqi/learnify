@@ -141,9 +141,10 @@ class Admin extends CI_Controller
         $email = $this->input->post('email');
 
         $data = array(
+            'nip' => $nip,
             'nama_guru' => $nama,
             'email' => $email,
-            'nip' => $nip,
+
         );
 
         $where = array(

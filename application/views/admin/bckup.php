@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Update Data Guru - Learnify</title>
+    <title>Update Data Siswa - Learnify</title>
 
     <!-- General CSS Files -->
     <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
@@ -81,7 +81,7 @@ echo $data['user']['username'];
                         </li>
 
                         <li class="menu-header">Management Siswa</li>
-                        <li class="nav-item dropdown ">
+                        <li class="nav-item dropdown active">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-user"></i>
                                 <span>Siswa</span></a>
                             <ul class="dropdown-menu">
@@ -90,7 +90,7 @@ echo $data['user']['username'];
                         </li>
 
                         <li class="menu-header">Management Guru</li>
-                        <li class="nav-item dropdown active">
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
                                 <span>Guru</span></a>
                             <ul class="dropdown-menu">
@@ -123,10 +123,10 @@ echo $data['user']['username'];
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Update Data Guru</h2>
+                                <h2 class="card-title" style="color: black;">Update data siswa</h2>
                                 <hr>
-                                <p class="card-text"> Update data siswa meliputi Email dan Nama Lengkap.
-                                    Kita tidak bisa mengubah password guru, Hanya guru yang dapat mengubah passwordnya
+                                <p class="card-text"> Update data siswa meliputi Nama, Photo dan E-mail.
+                                    Kita tidak bisa mengubah password siswa, Hanya siswa yang dapat mengubah passwordnya
                                     sendiri.
                                 </p>
                                 <a href="#detail" class="btn btn-primary">Saya paham dan
@@ -134,58 +134,64 @@ echo $data['user']['username'];
                             </div>
                         </div>
                     </div>
-                    <div class="card card-success">
-                        <div class="col-md-12 text-center">
-                            <p class="registration-title font-weight-bold display-4 mt-4"
-                                style="color:black; font-size: 50px;">
-                                Update Data Guru</p>
-                            <p style="line-height:-30px;margin-top:-20px;">Silahkan isi data data yang diperlukan
-                                dibawah </p>
-                            <hr>
-                        </div>
+                    <form action="<?=base_url('admin/user_edit')?>" enctype="multipart/form-data" method="post">
                         <?php foreach ($user as $u) {?>
-                        <div class="card-body">
-                            <form method="POST" action="<?=base_url('admin/guru_edit')?>">
-
-                                <div class="form-group">
-                                    <label for="nip">Nomor Induk Pegawai</label>
-                                    <input readonly id="nip" type="text" class="form-control" value="<?=$u->nip?>"
-                                        name="nip">
-                                    <?=form_error('nip', '<small class="text-danger">', '</small>');?>
-                                    <div class="invalid-feedback">
-                                    </div>
-
+                        <div class="">
+                            <div class="hero text-white hero-bg-image"
+                                data-background="<?=base_url('assets/')?>stisla-assets/img/unsplash/eberhard-grossgasteiger-1207565-unsplash.jpg">
+                                <div class="col-md-4 mx-auto rounded-circle bg-white p-3"
+                                    style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
+                                    <img src="<?=base_url() . 'assets/profile_picture/' . $u->image;?>"
+                                        class="card-img-top  rounded-circle img-responsive" alt="...">
                                 </div>
-
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input id="email" type="email" value="<?=$u->email?>" class="form-control"
-                                        name="email">
-                                    <?=form_error('email', '<small class="text-danger">', '</small>');?>
-                                    <div class="invalid-feedback">
+                                <div class="input-group mt-3 mx-auto" style="width: 50%;">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                                    </div>
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="image" name="image"
+                                            aria-describedby="inputGroupFileAddon01">
+                                        <label class="custom-file-label" for="inputGroupFile01">Upload Photo</label>
                                     </div>
                                 </div>
-
-                                <div class="form-group" id="detail">
-                                    <label for="nama">Nama Lengkap</label>
-                                    <input id="nama" type="text" value="<?=$u->nama_guru?>" class="form-control"
-                                        name="nama">
-                                    <?=form_error('nama', '<small class="text-danger">', '</small>');?>
-                                    <div class="invalid-feedback">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-success btn-lg btn-block">
-                                        Update data
-                                    </button>
-                                </div>
-                            </form>
-                            <?php }?>
+                            </div>
                         </div>
-                    </div>
+                        <br>
+
+                        <div class="col-md-12 bg-white p-3"
+                            style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
+                            <h1 class="font-weight-bold card-title text-center" style="color: black;">Update Data
+                                Siswa
+                            </h1>
+                            <p class="text-center" style="line-height: 5px;">Silahkan isi data dibawah untuk update
+                                data, dan upload file diatas untuk update data profile picture. Terima Kasih!</p>
+                            <hr>
+
+
+
+                            <div class="form-group">
+                                <input type="hidden" name="id" value="<?=$u->id?>">
+                                <input type="hidden" name="password" value="<?=$u->password?>">
+                                <input type="hidden" name="is_active" value="<?=$u->is_active?>">
+                                <input type="hidden" name="date_created" value="<?=$u->date_created?>">
+                                <label for="exampleInputEmail1" class="font-weight-bold"
+                                    style="font-size: 20px;">Nama</label>
+                                <input type=" text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required name="nama" value="<?=$u->nama?>">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1" class="font-weight-bold"
+                                    style="font-size: 20px;">Email</label>
+                                <input type="email" class="form-control" readonly name="email" value="<?=$u->email?>"
+                                    id="exampleInputPassword1">
+                            </div>
+                            <input type="submit" value="Update" class="btn btn-success btn-block">
+                        </div>
+                        <?php }?>
+                    </form>
             </div>
         </div>
+    </div>
     </div>
     <footer class="main-footer">
         <div class="footer-left">
@@ -236,3 +242,50 @@ echo $data['user']['username'];
 </body>
 
 </html>
+
+<div class="card card-primary">
+    <div class="col-md-12 text-center">
+        <p class="registration-title font-weight-bold display-4 mt-4" style="font-size: 50px;">
+            Update Data Guru</p>
+        <p style="line-height:-30px;margin-top:-20px;">Silahkan isi data data yang diperlukan
+            dibawah </p>
+        <hr>
+    </div>
+    <?php foreach ($user as $u) {?>
+    <div class="card-body">
+        <form method="POST" action="<?=base_url('admin/guru_edit')?>">
+
+            <div class="form-group">
+                <label for="nip">Nomor Induk Pegawai</label>
+                <input readonly id="nip" type="text" class="form-control" value="<?=$u->nip?>" name="nip">
+                <?=form_error('nip', '<small class="text-danger">', '</small>');?>
+                <div class="invalid-feedback">
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" value="<?=$u->email?>" class="form-control" name="email">
+                <?=form_error('email', '<small class="text-danger">', '</small>');?>
+                <div class="invalid-feedback">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input id="nama" type="text" value="<?=$u->nama_guru?>" class="form-control" name="nama">
+                <?=form_error('nama', '<small class="text-danger">', '</small>');?>
+                <div class="invalid-feedback">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">
+                    Update data
+                </button>
+            </div>
+        </form>
+        <?php }?>
+    </div>
+</div>
