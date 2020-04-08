@@ -14,7 +14,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 - Administrator Page for data management
 - Student Page for learning
 - Teacher Page for uploading a lesson
-- Sisanya bisa kalian lihat !
+- Etc
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
@@ -73,6 +73,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.
 - Colorlib.com untuk template landing page.
 - Student page made by me.
 - Mas Nauval Irvansyah untuk Stisla Admin Dashboard
+- My Family
 
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
@@ -86,7 +87,7 @@ This project is MIT licensed.
 
 ------------
 
+Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
 
-Made with  ❤️ by Syauqi Zaidan Khairan Khalaf .
 
 
