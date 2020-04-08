@@ -73,6 +73,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.
 - Colorlib.com untuk template landing page.
 - Student page made by me.
 - Mas Nauval Irvansyah untuk Stisla Admin Dashboard
+- My Family
 
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
@@ -86,7 +87,7 @@ This project is MIT licensed.
 
 ------------
 
+Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
 
-Made with  ❤️ by Syauqi Zaidan Khairan Khalaf .
 
 
