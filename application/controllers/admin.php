@@ -22,6 +22,22 @@ class Admin extends CI_Controller
         $this->load->view('admin/index');
     }
 
+    public function about_developer()
+    {
+        $data['user'] = $this->db->get_where('admin', ['email' =>
+            $this->session->userdata('email')])->row_array();
+
+        $this->load->view('admin/about_developer');
+    }
+
+    public function about_learnify()
+    {
+        $data['user'] = $this->db->get_where('admin', ['email' =>
+            $this->session->userdata('email')])->row_array();
+
+        $this->load->view('admin/about_learnify');
+    }
+
     // Management Siswa
 
     public function data_siswa()
