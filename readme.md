@@ -88,6 +88,7 @@ This project is MIT licensed.
 ------------
 
 Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
+Copyright 2020 Syauqi Zaidan . All rights reserved
 
 
 
