@@ -73,7 +73,7 @@ echo $data['user']['username'];
 
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
-                        <li class="nav-item dropdown active">
+                        <li class="nav-item dropdown ">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
                                     class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
@@ -114,7 +114,7 @@ echo $data['user']['username'];
                         </li>
 
                         <li class="menu-header">About Developer</li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-address-card"></i>
                                 <span>Developer</span></a>
                             <ul class="dropdown-menu">
@@ -133,101 +133,48 @@ echo $data['user']['username'];
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
-                    <div class="section-header">
-                        <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Tentang Developer | Learnify
-                        </h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card card-statistic-1">
-                                <div class="card-icon bg-primary">
-                                    <i class="far fa-user"></i>
-                                </div>
-                                <div class="card-wrap">
-                                    <div class="card-header">
-                                        <h4>Siswa</h4>
-                                    </div>
-                                    <div class="card-body">
-                                        <?php echo $this->db->count_all('siswa'); ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card card-statistic-1">
-                                <div class="card-icon bg-danger">
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                </div>
-                                <div class="card-wrap">
-                                    <div class="card-header">
-                                        <h4>Guru</h4>
-                                    </div>
-                                    <div class="card-body">
-                                        <?php echo $this->db->count_all('guru'); ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card card-statistic-1">
-                                <div class="card-icon bg-warning">
-                                    <i class="fas fa-book"></i>
-                                </div>
-                                <div class="card-wrap">
-                                    <div class="card-header">
-                                        <h4>Materi</h4>
-                                    </div>
-                                    <div class="card-body">
-                                        <?php echo $this->db->count_all('materi'); ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card card-statistic-1">
-                                <div class="card-icon bg-success">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <div class="card-wrap">
-                                    <div class="card-header">
-                                        <h4>Kelas</h4>
-                                    </div>
-                                    <div class="card-body">
-                                        3
-                                    </div>
-                                </div>
+                    <div class="">
+                        <div class="hero text-white hero-bg-image"
+                            data-background="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80">
+                            <div class="col-md-4 mx-auto rounded-circle bg-white p-3"
+                                style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
+                                <img src="<?=base_url('assets/')?>syauqi.jpg"
+                                    class="card-img-top  rounded-circle img-responsive" alt="...">
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Tambah Materi?</h2>
+                                <h2 class="card-title" style="color: black;">Tentang Syaauqi Zaaidan</h2>
                                 <hr>
-                                <p class="card-text">Klik tombol dibawah untuk menambah materi . Materi yang
-                                    ditambahkan, akan langsung terupload di database Learnify. Dan para siswa bisa
-                                    segera belajar! </p>
-                                <a href="<?=base_url('admin/tambah_materi')?>" class="btn btn-primary">Tambah Materi</a>
+                                <p class="card-text">Syaauqi Zaaidan merupakan junior programmmer yang membuat project
+                                    learnify ini. Kalian dapat menghubungi dengan kontak atau URL yang telah saya taruh
+                                    dibawah. Saya Harap anda menikmati dan puas dengan project saya :) </p>
+                                <a href="https://syauqi.js.org/" class="btn btn-primary">Web Portofolio</a>
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="">
-                        <div class="hero text-white hero-bg-image"
-                            data-background="<?=base_url('assets/')?>stisla-assets/img/unsplash/eberhard-grossgasteiger-1207565-unsplash.jpg">
-                            <div class=" hero-inner">
-                                <h1>Selamat Datang, <?php
-$data['user'] = $this->db->get_where('admin', ['email' =>
-    $this->session->userdata('email')])->row_array();
-echo $data['user']['username'];
-?>!</h1>
-                                <p class="lead">Di halaman admin Learnify - Web Edukasi Sekolah Menengah Kejuruan Satu
-                                    Ciamis.<br></p>
-                                <div class="mt-4">
-                                    <a href="<?=base_url('admin/data_siswa')?>"
-                                        class="btn btn-outline-white btn-lg btn-icon icon-left"><i
-                                            class="far fa-user"></i>
-                                        Data Siswa</a>
-                                </div>
+                        <div class="card" style="width:100%;">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: black;">Social Media</h2>
+                                <hr>
+                                <a href="https://syauqi.js.org/" class="btn btn-primary">Web Portofolio</a>
+                                <a href="https://dribbble.com/syauqyzaidan" style="background-color:pink; color:white;"
+                                    class="btn">Dribbble</a>
+                                <a href="https://www.behance.net/syaauqizaaidan"
+                                    style="background-color:blue; color:white;" class="btn">Behance</a>
+                                <a style="background-color:purple; color:white;"
+                                    href="https://www.instagram.com/syaufy/" class="btn">Instagram</a>
+                                <a href="https://web.facebook.com/zaidan.syauqi.9/"
+                                    style="background-color:blue; color:white;" class="btn ">Facebook</a>
+                                <a href="https://github.com/Syauqizaidan" style="background-color:black; color:white;"
+                                    class="btn">Github</a>
+                                <a href="https://medium.com/@zaidanline67" style="background-color:black; color:white;"
+                                    class="btn">Medium</a>
                             </div>
                         </div>
                     </div>
