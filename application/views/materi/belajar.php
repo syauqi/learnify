@@ -86,7 +86,7 @@ echo $data['user']['nama'];
                         <hr align="left" width="600;">
                         <p style="line-height: 3px;">Kita akan mempelajari tentang</p>
                         <p class="font-weight-bold mt--5">
-                            <?=substr($detail->deskripsi, 0, 100);?>
+                            <?=substr($detail->deskripsi, 0, 120);?>
 
                         </p>
                 </div>
