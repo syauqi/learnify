@@ -106,9 +106,9 @@ echo $data['user']['nama'];
                     <div class="card materi w-150 border-0">
                         <div class="card-body p-5">
                             <h1 class="card-title display-4"><?=$detail->nama_guru;?></h1>
-                            <hr style="background-color: white">
-                            <h5 class=" card-text"><?=$detail->nama_mapel;?></h5>
-                            <p class=" card-text"> Deskripsi materi pelajaran : <br> <?=$detail->deskripsi;?></p>
+                            <hr style="background-color: white;">
+                            <h5 class="card-text"><?=$detail->nama_mapel;?></h5>
+                            <p class="card-text"> Deskripsi materi pelajaran : <br> <?=$detail->deskripsi;?></p>
                         </div>
                     </div>
                 </div>
@@ -136,6 +136,8 @@ echo $data['user']['nama'];
 
 
 
+    <br>
+    <br>
     <br>
 
 
