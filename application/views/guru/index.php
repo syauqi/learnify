@@ -300,8 +300,8 @@ echo $data['user']['nama_guru'];
                     <div class="kt-subheader   kt-grid__item" id="kt_subheader">
                         <div class="kt-subheader__main">
                             <h1 class="kt-subheader__title font-weight-bold"
-                                style="font-size: 25px !important; letter-spacing:-1px;">
-                                Dashboard - Teacher Learnify </h1>
+                                style="font-size: 33px !important; letter-spacing:-1px; line-height:3px;">
+                                Dashboard </h1>
                         </div>
                         <div class="kt-subheader__toolbar">
                             <div class="kt-subheader__wrapper">
@@ -385,6 +385,8 @@ echo $data['user']['nama_guru'];
                                                 dapat menikmati Learnify!, kontak Administrator jika terjadi masalah
                                                 apapun yang terkait upload materi. terima kasih telah menggunakan
                                                 learnify!
+                                                <br>
+                                                Selamat Bekerja :)
                                             </div>
                                         </div>
                                         <div class="kt-widget19__action">
@@ -405,7 +407,7 @@ echo $data['user']['nama_guru'];
                         <!-- begin:: Footer -->
                         <div class="kt-footer kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop">
                             <div class="kt-footer__copyright">
-                                2019&nbsp;&copy;&nbsp;<a href="https://syauqizaidan.github.io/" target="_blank"
+                                2020&nbsp;&copy;&nbsp;<a href="https://syauqizaidan.github.io/" target="_blank"
                                     class="kt-link">Syaauqi Zaaidan & Descienfy</a>
                             </div>
                             <div class="kt-footer__menu">

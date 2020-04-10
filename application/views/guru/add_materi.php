@@ -299,8 +299,8 @@ echo $data['user']['nama_guru'];
                     <div class="kt-subheader   kt-grid__item" id="kt_subheader">
                         <div class="kt-subheader__main">
                             <h1 class="kt-subheader__title font-weight-bold"
-                                style="font-size: 25px !important; letter-spacing:-1px;">
-                                Tambah Materi. </h1>
+                                style="font-size: 35px !important; letter-spacing:-1px;">
+                                Tambah Materi </h1>
                         </div>
                         <div class="kt-subheader__toolbar">
                             <div class="kt-subheader__wrapper">
