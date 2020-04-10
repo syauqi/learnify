@@ -381,9 +381,9 @@ echo $data['user']['nama_guru'];
                                             </div>
                                             <div class="kt-widget19__text">
                                                 Selamat datang di halaman guru Learnify, anda dapat menambah materi .
-                                                dalam materi anda dapat memasukan video, dan deskripsi nya. semoga anda
+                                                Dalam materi anda dapat memasukan video, dan deskripsi nya. Seemoga anda
                                                 dapat menikmati Learnify!, kontak Administrator jika terjadi masalah
-                                                apapun yang terkait upload materi. terima kasih telah menggunakan
+                                                apapun yang terkait upload materi. Terima kasih telah menggunakan
                                                 learnify!
                                                 <br>
                                                 Selamat Bekerja :)

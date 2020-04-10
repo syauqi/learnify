@@ -11,10 +11,13 @@ class Materi extends CI_Controller
 
     public function belajar($id)
     {
+        $this->load->library('disqus');
+
         $this->load->model('m_materi');
         $where = array('id' => $id);
         $detail = $this->m_materi->belajar($id);
         $data['detail'] = $detail;
+        $data['disqus'] = $this->disqus->get_html();
         $this->load->view('materi/belajar', $data);
     }
 

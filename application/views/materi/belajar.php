@@ -116,6 +116,23 @@ echo $data['user']['nama'];
         </div>
     </div>
 
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card komen w-150 border-0">
+                    <div class="card-body p-5">
+                        <h1 style="color: black">Apa komentarmu ?</h1>
+                        <?php echo $disqus ?>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
 
 
     <br>
