@@ -38,7 +38,7 @@ Release date : 1 April 2020 v 0.1.0
 - Password : 123456
 
 **Teacher Default Account**
-- Email : imas@gmail.com
+- Email : zaidanline67@gmail.com
 - Password : 123456
 
 ------------
