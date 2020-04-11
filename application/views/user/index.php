@@ -72,11 +72,11 @@ echo $data['user']['nama'];
         style="width: 80%; border-radius:10px;">
         <div class="row" style="color: black; font-family: 'poppins">
             <div class="col-md-12 mt-1">
-                <h1 class="display-4" style="color: black; font-family:'poppins'" data-aos="fade-down"
+                <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down"
                     data-aos-duration="1400">Selamat Datang
-                    di Learnify !
+                    di Learnify 👋🏻
                 </h1>
-                <h4 data-aos="fade-down" data-aos-duration="1700"><?php
+                <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
