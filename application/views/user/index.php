@@ -71,16 +71,16 @@ echo $data['user']['nama'];
     <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
         style="width: 80%; border-radius:10px;">
         <div class="row" style="color: black; font-family: 'poppins">
-            <div class="col-md-12 mt-1 text-center">
+            <div class="col-md-12 mt-1">
                 <h1 class="display-4" style="color: black; font-family:'poppins'" data-aos="fade-down"
                     data-aos-duration="1400">Selamat Datang
-                    di Learnify ✨
+                    di Learnify !
                 </h1>
                 <h4 data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
-?> 😄</h3>
+?> - Learnify Students</h3>
                     <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih kelas yang akan kamu akses dibawah
                         ini!
                     </p>
