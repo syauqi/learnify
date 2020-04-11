@@ -6,6 +6,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 #  Fitur yang tersedia
 - Student Login System
 - Student Registration w/ email verification
+- Disqus Comment Every Lesson
 - Email Verification System
 - Student Data Management
 - Teacher Data Management
