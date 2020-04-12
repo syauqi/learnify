@@ -15,7 +15,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 - Administrator Page for data management
 - Student Page for learning
 - Teacher Page for uploading a lesson
-- Etc
+- And Manymore !
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
@@ -30,6 +30,7 @@ Release date : 1 April 2020 v 0.1.0
 
 
  ## 👤 Default Account for testing
+	
 **Admin Default Account**
 - Email : admin@gmail.com 
 - Password : admin
