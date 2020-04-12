@@ -1,3 +1,8 @@
+<!-- Learnify by Syauqi Zaaidan Khairan Khalaf
+syauqizaidan.js.org
+THIS PROJECT IS MIT LICENSED
+Jika anda ingin mengembangkan aplikasi web ini silahkan hubungi saya -->
+
 <!doctype html>
 <html lang="en">
 
