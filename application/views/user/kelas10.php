@@ -76,6 +76,9 @@ echo $data['user']['nama'];
                 <h1 class="display-4" style="color: black; font-family:'poppins'" data-aos="fade-down"
                     data-aos-duration="1400">Silahkan pilih mata pelajaran !
                 </h1>
+                <p>Hello Students! , Ini merupakan halaman mapel learnify ! Silahkan pilih mapel yang akan kamu akses
+                    dan taddaa video dan materi siap disaksikan! Selamat belajar ya students!</p>
+                <hr>
                 <h4 data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
