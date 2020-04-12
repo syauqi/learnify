@@ -124,7 +124,6 @@ echo $data['user']['nama'];
 
     <br>
 
-
     <script>
     $('.tab1_btn').prop('disabled', !$('.tab1_chk:checked')
         .length); //initially disable/enable button based on checked length
