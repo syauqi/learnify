@@ -174,6 +174,9 @@ echo $data['user']['username'];
                                                     <input autocomplete="off" required type="text" list="nama_guru"
                                                         onkeyup="autofill()" id="namaguru" name="nama_guru"
                                                         class="form-control">
+                                                    <small>List guru sudah tersedia di autocomplete, kalian hanya
+                                                        tinggal klik input area nya atau dengan cara menulis namanya dan
+                                                        klik guru yang akan dipilih.</small>
                                                     <datalist id=nama_guru>
                                                         <?php
 include "koneksi.php";
@@ -184,7 +187,9 @@ while ($t = mysqli_fetch_array($qry)) {
 ?>
                                                     </datalist>
                                                 </div>
+
                                             </div>
+
                                             <!-- <div class="form-group">
                                                 <label for="inputState">Nama Mata Pelajaran</label>
                                                 <select required id="inputState" name="nama_mapel" class="form-control">
@@ -198,9 +203,10 @@ while ($t = mysqli_fetch_array($qry)) {
                                             </div> -->
 
                                             <div class="form-group">
-                                                <label for="exampleFormControlInput1">Email address</label>
+                                                <label for="exampleFormControlInput1">Nama Mata Pelajaran</label>
                                                 <input type="text" class="form-control" name="nama_mapel"
-                                                    id="nama_mapel" placeholder="name@example.com">
+                                                    id="nama_mapel"
+                                                    placeholder="Nama mapel akan terotomatis muncul disini" readonly>
                                             </div>
 
                                             <div class="form-group">
