@@ -205,14 +205,19 @@ while ($t = mysqli_fetch_array($qry)) {
                                             <div class="form-group">
                                                 <label for="exampleFormControlInput1">Nama Mata Pelajaran</label>
                                                 <input type="text" class="form-control" name="nama_mapel"
-                                                    id="nama_mapel"
-                                                    placeholder="Nama mapel akan terotomatis muncul disini" readonly>
+                                                    id="nama_mapel" required
+                                                    placeholder="Pilih nama guru yang valid agar nama mapel muncul"
+                                                    readonly>
+                                                <small>Jika nama mapel sudah berganti artinya nama guru yang kamu
+                                                    masukan di input area adalah valid! jika tidak muncul nama mapel
+                                                    anda harus klik input area nama guru dan pilih guru yang tersedia
+                                                    disana.</small>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="custom-file">
-                                                        <input required type="file" name="video"
+                                                        <input required type="file" name="video" required
                                                             class="custom-file-input" id="inputGroupFile01"
                                                             aria-describedby="inputGroupFileAddon01">
                                                         <label class="custom-file-label" for="inputGroupFile01">Upload
