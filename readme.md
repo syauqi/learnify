@@ -1,7 +1,7 @@
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
 
 ### 🤔 Apa itu Learnify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan selamat bekerja! .
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
 
 #  Fitur yang tersedia
 - Student Login System
@@ -11,20 +11,21 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 - Student Data Management
 - Teacher Data Management
 - Lesson Data Management
-- Minimalist UI Design
-- Administrator Page for data management
+- Minimalist UI Designs
+- Administrator Page for Data Management ( Students, Lesson and Teacher Data)
 - Student Page for learning
 - Teacher Page for uploading a lesson
+- Fancy Animations!
 - And Manymore !
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
 ### ✨ <a href="http://syauqi.js.org/">Demo</a>
-Demo sementara ini belum saya hosting. dikarenakan project ini masih beta dan dana yang kurang. kalian cukup fork dan jalankan di localhost saja ya!
+Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang. Kalian cukup fork dan jalankan di localhost saja ya!
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
-Release date : 1 April 2020 v 0.1.0 
+Release date : 1 April 2020 v 0.1.0 ( BETA )
 
 ------------
 
@@ -90,6 +91,7 @@ This project is MIT licensed.
 ------------
 
 Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
+
 Copyright 2020 Syauqi Zaidan . All rights reserved
 
 
