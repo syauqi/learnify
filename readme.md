@@ -1,7 +1,7 @@
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
 
 ### 🤔 Apa itu Learnify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan selamat bekerja! .
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
 
 #  Fitur yang tersedia
 - Student Login System
