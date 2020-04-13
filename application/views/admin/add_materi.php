@@ -41,7 +41,7 @@
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" style="margin-bottom:4px !important;"
-                                src="../../assets/stisla-assets/img/avatar/avatar-2.png"
+                                src="../assets/stisla-assets/img/avatar/avatar-2.png"
                                 class="rounded-circle mr-1 my-auto">
                             <div class="d-sm-none d-lg-inline-block" style="font-size:15px;">Hello, <?php
 $data['user'] = $this->db->get_where('admin', ['email' =>
@@ -172,7 +172,8 @@ echo $data['user']['username'];
                                                 <div class="form-group col-md-12">
                                                     <label for="inputEmail4">Nama Guru</label>
                                                     <input autocomplete="off" required type="text" list="nama_guru"
-                                                        name="nama_guru" class="form-control" id="inputEmail4">
+                                                        onkeyup="autofill()" id="namaguru" name="nama_guru"
+                                                        class="form-control">
                                                     <datalist id=nama_guru>
                                                         <?php
 include "koneksi.php";
@@ -184,7 +185,7 @@ while ($t = mysqli_fetch_array($qry)) {
                                                     </datalist>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <label for="inputState">Nama Mata Pelajaran</label>
                                                 <select required id="inputState" name="nama_mapel" class="form-control">
                                                     <option selected>Pilih disini</option>
@@ -194,6 +195,12 @@ while ($t = mysqli_fetch_array($qry)) {
                                                     <option>Bahasa Indonesia</option>
                                                     <option>Pendidikan Agama Islam</option>
                                                 </select>
+                                            </div> -->
+
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Email address</label>
+                                                <input type="text" class="form-control" name="nama_mapel"
+                                                    id="nama_mapel" placeholder="name@example.com">
                                             </div>
 
                                             <div class="form-group">
@@ -252,6 +259,7 @@ while ($t = mysqli_fetch_array($qry)) {
     </div>
 
     <!-- General JS Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
@@ -259,6 +267,19 @@ while ($t = mysqli_fetch_array($qry)) {
         let fileName = $(this).val().split('\\').pop();
         $(this).next('.custom-file-label').addClass("selected").html(fileName);
     });
+    </script>
+    <script>
+    function autofill() {
+        var nama_guru = $("#namaguru").val();
+        $.ajax({
+            url: '../autofill.php',
+            data: "nama_guru=" + nama_guru,
+        }).done(function(data) {
+            var json = data,
+                obj = JSON.parse(json);
+            $('#nama_mapel').val(obj.nama_mapel);
+        });
+    }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
