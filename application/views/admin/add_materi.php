@@ -185,7 +185,7 @@ while ($t = mysqli_fetch_array($qry)) {
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="inputState">Kelas</label>
+                                                <label for="inputState">Nama Mata Pelajaran</label>
                                                 <select required id="inputState" name="nama_mapel" class="form-control">
                                                     <option selected>Pilih disini</option>
                                                     <option>IPA</option>
