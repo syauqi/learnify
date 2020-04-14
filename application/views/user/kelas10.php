@@ -38,7 +38,7 @@ echo $data['user']['nama'];
 <body style="overflow-x:hidden;background-color:#fbf9fa">
 
 
-    <!-- Navigation Bar -->
+    <!-- Start Navigation Bar -->
     <header class="header_area" style="background-color: white !important;">
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -90,15 +90,13 @@ echo $data['user']['nama'];
                         akses
                         dan taddaa video dan materi siap disaksikan! Selamat belajar ya students!</p>
                     <hr>
+
                     <h4 data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
 ?> - Learnify Students</h3>
-                        <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih mapel yang akan kamu akses
-                            dibawah
-                            ini!
-                        </p>
+                        <h5>Mata Pelajaran Kelas X</h5>
                 </div>
             </div>
         </div>
@@ -109,21 +107,21 @@ echo $data['user']['nama'];
     <!-- Start Lesson Card -->
     <div class="container">
         <div class="row mt-4 mb-5">
-            <div class="col-md-4 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-right">
+            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-right">
                 <a href="<?=base_url('materi/matematika_x')?>">
                     <div class="card-kelas">
                         <img src="<?=base_url('assets/')?>img/matematika.png" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
+            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
                 <a href="<?=base_url('materi/ipa_x')?>">
                     <div class="card-kelas">
                         <img src="<?=base_url('assets/')?>img/ipa.png" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
+            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
                 <a href="<?=base_url('materi/indo_x')?>">
                     <div class="card-kelas">
                         <img src="<?=base_url('assets/')?>img/Bahasa Indonesia.png" class="card-img-top" alt="...">
@@ -135,21 +133,21 @@ echo $data['user']['nama'];
     <!-- Lesson Card 2 -->
     <div class="container">
         <div class="row mt-4 mb-5">
-            <div class="col-md-4 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-right">
+            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-right">
                 <a href="<?=base_url('materi/inggris_x')?>">
                     <div class="card-kelas">
                         <img src="<?=base_url('assets/')?>img/Bahasa Inggris.png" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
+            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
                 <a href="<?=base_url('materi/agama_x')?>">
                     <div class="card-kelas">
                         <img src="<?=base_url('assets/')?>img/agama.png" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
+            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
                 <a href="<?=base_url('user')?>">
                     <div class="card-kelas">
                         <img src="<?=base_url('assets/')?>img/Kembali.png" class="card-img-top" alt="...">
