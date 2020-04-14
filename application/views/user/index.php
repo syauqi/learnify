@@ -95,34 +95,36 @@ echo $data['user']['nama'];
     <br>
 
     <div class="container">
-        <div class="row mt-4 mb-5">
+        <div class="row mt-4 mb-5 justify-content-center">
             <div class="col-md-12">
-
                 <div class="row">
-                    <div class="col-md-4" data-aos-duration="1900" data-aos="fade-right">
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
+                        data-aos="fade-right">
                         <a href="<?=base_url('user/kelas10')?>">
-                            <div class="card" style="width: 11rem;">
-                                <img src="<?=base_url('assets/')?>img/kelas10.png" class="card-img-top" alt="...">
+                            <div class="card-kelas text-center">
+                                <img src="<?=base_url('assets/')?>img/kelas10.png" style="object-fit: cover;"
+                                    class="card-img-top img-fluid" alt="...">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4" data-aos-duration="1900" data-aos="fade-down">
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
+                        data-aos="fade-down">
                         <a href="<?=base_url('user/kelas11')?>">
-                            <div class="card" style="width: 11rem;">
+                            <div class="card-kelas">
                                 <img src="<?=base_url('assets/')?>img/kelas11.png" class="card-img-top" alt="...">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4" data-aos-duration="1900" data-aos="fade-left">
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900"
+                        data-aos="fade-left">
                         <a href="<?=base_url('user/kelas12')?>">
-                            <div class="card" style="width: 11rem;">
+                            <div class="card-kelas">
                                 <img src="<?=base_url('assets/')?>img/kelas12.png" class="card-img-top" alt="...">
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
