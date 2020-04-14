@@ -1,8 +1,3 @@
-<!-- Learnify by Syauqi Zaaidan Khairan Khalaf
-syauqizaidan.js.org
-THIS PROJECT IS MIT LICENSED
-Jika anda ingin mengembangkan aplikasi web ini silahkan hubungi saya -->
-
 <!doctype html>
 <html lang="en">
 
@@ -54,76 +49,80 @@ Jika anda ingin mengembangkan aplikasi web ini silahkan hubungi saya -->
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="<?=base_url('user')?>">Beranda</a>
                             </li>
-                            </li>
-                            </li>
                             <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Hai, <?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
 ?>
+                            </li>
                             <li class="nav-item "><a class="nav-link text-danger"
                                     href="<?=base_url('welcome/logout')?>">Log Out</a>
                             </li>
-                    </div></a></li>
-
-                    </ul>
+                    </div>
                 </div>
-        </div>
-        </nav>
+            </nav>
         </div>
     </header>
-    <!--================Header Menu Area =================-->
-    <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
-        style="width: 80%; border-radius:10px;">
-        <div class="row" style="color: black; font-family: 'poppins">
-            <div class="col-md-12 mt-1">
-                <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down"
-                    data-aos-duration="1400">Selamat Datang
-                    di Learnify <span style="font-size: 40px;">👋🏻
-                    </span> </h1>
-                <p>Hello Students! , Ini merupakan halaman utama learnify ! Silahkan pilih kelas yang akan kamu akses
-                    dan pilih mata pelajaran yang ingin kamu pelajari. Selamat belajar ya students!</p>
-                <hr>
-                <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700"><?php
+
+    <div class="container">
+        <!--================Header Menu Area =================-->
+        <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
+            style="width: 100%; border-radius:10px;">
+            <div class="row" style="color: black; font-family: 'poppins">
+                <div class="col-md-12 mt-1">
+                    <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down"
+                        data-aos-duration="1400">Selamat Datang
+                        di Learnify <span style="font-size: 40px;">👋🏻
+                        </span> </h1>
+                    <p>Hello Students! , Ini merupakan halaman utama learnify ! Silahkan pilih kelas yang akan kamu
+                        akses
+                        dan pilih mata pelajaran yang ingin kamu pelajari. Selamat belajar ya students!</p>
+                    <hr>
+                    <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
 ?> - Learnify Students</h3>
-                    <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih kelas yang akan kamu akses dibawah
-                        ini!
-                    </p>
+                        <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih kelas yang akan kamu akses
+                            dibawah
+                            ini!
+                        </p>
+                </div>
             </div>
         </div>
     </div>
+
     <br>
 
-    <div class="row mt-4 mb-5">
-        <div class="container">
+    <div class="container">
+        <div class="row mt-4 mb-5">
             <div class="col-md-12">
-                <div class="row mx-auto">
+
+                <div class="row">
                     <div class="col-md-4" data-aos-duration="1900" data-aos="fade-right">
                         <a href="<?=base_url('user/kelas10')?>">
-                            <div class="card" style="width: 21rem;">
+                            <div class="card" style="width: 11rem;">
                                 <img src="<?=base_url('assets/')?>img/kelas10.png" class="card-img-top" alt="...">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4" data-aos-duration="1900" data-aos="fade-down">
                         <a href="<?=base_url('user/kelas11')?>">
-                            <div class="card" style="width: 21rem;">
+                            <div class="card" style="width: 11rem;">
                                 <img src="<?=base_url('assets/')?>img/kelas11.png" class="card-img-top" alt="...">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4" data-aos-duration="1900" data-aos="fade-left">
                         <a href="<?=base_url('user/kelas12')?>">
-                            <div class="card" style="width: 21rem;">
+                            <div class="card" style="width: 11rem;">
                                 <img src="<?=base_url('assets/')?>img/kelas12.png" class="card-img-top" alt="...">
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
