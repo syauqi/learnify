@@ -16,6 +16,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 - Student Page for learning
 - Teacher Page for uploading a lesson
 - Fancy Animations!
+- 5 MAPEL ( Matematika, IPA, Bahasa Indonesia, Bahasa Inggris dan Pendidikan Agama Islam.
 - And Manymore !
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
