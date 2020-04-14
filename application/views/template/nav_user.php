@@ -69,7 +69,7 @@
                                     role="button" aria-haspopup="true" aria-expanded="false">Pelajaran</a>
                             </li>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Hai, <?php
+                            <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Hello!, <?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];

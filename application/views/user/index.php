@@ -82,7 +82,7 @@ echo $data['user']['nama'];
                     di Learnify <span style="font-size: 40px;">👋🏻
                     </span> </h1>
                 <p>Hello Students! , Ini merupakan halaman utama learnify ! Silahkan pilih kelas yang akan kamu akses
-                    dan pilih mata pelajarn yang ingin kamu pelajari. Selamat belajar ya students!</p>
+                    dan pilih mata pelajaran yang ingin kamu pelajari. Selamat belajar ya students!</p>
                 <hr>
                 <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
