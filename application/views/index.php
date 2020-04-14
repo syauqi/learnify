@@ -1,3 +1,17 @@
+<!--
+@Project: Learnify
+@Author/Programmer: Syauqi Zaidan Khairan Khalaf
+@URL: syauqi.js.org
+Author E-mail: Zaidanline67@Gmail.com
+
+@About-Learnify :
+Web Edukasi Open Source yang
+dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
+yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
+dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+-->
+
 <!--================Home Banner Area =================-->
 <section class="home_banner_area">
     <div class="banner_inner d-flex align-items-center">
