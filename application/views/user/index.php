@@ -2,11 +2,17 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
-    <title>Learnify - Belajar Dimana Saja & Kapan Saja !</title>
+    <!-- Title -->
+    <title>Selamat datang - <?php
+$data['user'] = $this->db->get_where('siswa', ['email' =>
+    $this->session->userdata('email')])->row_array();
+echo $data['user']['nama'];
+?> - Learnify Student Page</title>
     <!-- Bootstrap CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/bootstrap.css">
@@ -17,19 +23,22 @@
     <link rel="stylesheet" href="<?=base_url('assets/')?>vendors/nice-select/css/nice-select.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>vendors/animate-css/animate.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>vendors/popup/magnific-popup.css">
-    <!-- main css -->
+    <!-- Main css -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/user_style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/responsive.css">
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Library -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
 
 </head>
 
 <body style="overflow-x:hidden;background-color:#fbf9fa">
 
-    <!--================Header Menu Area =================-->
+
+    <!-- Start Navigation Bar -->
     <header class="header_area" style="background-color: white !important;">
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -47,25 +56,28 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="<?=base_url('user')?>">Beranda</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Hai, <?php
+                            <li class="nav-item "><a class="nav-link" href="javascript:void(0)">Hai, <?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
-?>
+?></a>
                             </li>
-                            <li class="nav-item "><a class="nav-link text-danger"
+                            <li class="nav-item active"><a class="nav-link" href="<?=base_url('user')?>">Beranda</a>
+                            </li>
+                            <li class=" nav-item "><a class=" nav-link text-danger"
                                     href="<?=base_url('welcome/logout')?>">Log Out</a>
                             </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+    <!-- End Navigation Bar -->
 
+
+    <!-- Start Greetings Card -->
     <div class="container">
-        <!--================Header Menu Area =================-->
         <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
             style="width: 100%; border-radius:10px;">
             <div class="row" style="color: black; font-family: 'poppins">
@@ -90,59 +102,56 @@ echo $data['user']['nama'];
                 </div>
             </div>
         </div>
-        </!doctype>
+    </div>
+    <!-- End Greetings Card -->
 
-        <br>
 
-        <div class="container">
-            <div class="row mt-4 mb-5 justify-content-center">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
-                            data-aos="fade-right">
-                            <a href="<?=base_url('user/kelas10')?>">
-                                <div class="card-kelas text-center">
-                                    <img src="<?=base_url('assets/')?>img/kelas10.png" style="object-fit: cover;"
-                                        class="card-img-top img-fluid" alt="...">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
-                            data-aos="fade-down">
-                            <a href="<?=base_url('user/kelas11')?>">
-                                <div class="card-kelas">
-                                    <img src="<?=base_url('assets/')?>img/kelas11.png" class="card-img-top" alt="...">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900"
-                            data-aos="fade-left">
-                            <a href="<?=base_url('user/kelas12')?>">
-                                <div class="card-kelas">
-                                    <img src="<?=base_url('assets/')?>img/kelas12.png" class="card-img-top" alt="...">
-                                </div>
-                            </a>
-                        </div>
+    <br>
+
+
+    <!-- Start Class Card -->
+    <div class="container">
+        <div class="row mt-4 mb-5 justify-content-center">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
+                        data-aos="fade-right">
+                        <a href="<?=base_url('user/kelas10')?>">
+                            <div class="card-kelas text-center">
+                                <img src="<?=base_url('assets/')?>img/kelas10.png" style="object-fit: cover;"
+                                    class="card-img-top img-fluid" alt="...">
+                            </div>
+                        </a>
                     </div>
-                    </!doctype>
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
+                        data-aos="fade-down">
+                        <a href="<?=base_url('user/kelas11')?>">
+                            <div class="card-kelas">
+                                <img src="<?=base_url('assets/')?>img/kelas11.png" class="card-img-top" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900"
+                        data-aos="fade-left">
+                        <a href="<?=base_url('user/kelas12')?>">
+                            <div class="card-kelas">
+                                <img src="<?=base_url('assets/')?>img/kelas12.png" class="card-img-top" alt="...">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- End Class Card -->
 
-            <br>
 
-            <script>
-            $('.tab1_btn').prop('disabled', !$('.tab1_chk:checked')
-                .length); //initially disable/enable button based on checked length
-            $('input[type=checkbox]').click(function() {
-                if ($('.tab1_chk:checkbox:checked').length > 0) {
-                    $('.btn-submit').prop('disabled', false);
-                } else {
-                    $('.btn-submit').prop('disabled', true);
-                }
-            });
-            </script>
+    <br>
 
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script>
-            AOS.init();
-            </script>
+
+    <!-- Start Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!-- End Animate On Scroll -->
