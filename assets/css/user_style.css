@@ -50,9 +50,24 @@ body {
 
 .card-kelas {
 	align-items: center;
+	border-radius: 25px;
+	border: none;
+	box-shadow:
+		0 1.7px 1.7px rgba(0, 0, 0, 0.011),
+		0 3.9px 3.9px rgba(0, 0, 0, 0.016),
+		0 6.7px 6.7px rgba(0, 0, 0, 0.02),
+		0 10.3px 10.3px rgba(0, 0, 0, 0.023),
+		0 15.2px 15.2px rgba(0, 0, 0, 0.027),
+		0 22.3px 22.3px rgba(0, 0, 0, 0.03),
+		0 33.5px 33.5px rgba(0, 0, 0, 0.034),
+		0 53.4px 53.4px rgba(0, 0, 0, 0.039),
+		0 100px 100px rgba(0, 0, 0, 0.05);
+
+	transition: 0.5s ease;
+	cursor: pointer;
 }
 
-.card:hover {
+.card-kelas:hover {
 	transform: scale(1.15);
 }
 

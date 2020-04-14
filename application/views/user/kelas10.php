@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,15 +22,17 @@
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/user_style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>css/responsive.css">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- library -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
 
 </head>
 
 <body style="overflow-x:hidden;background-color:#fbf9fa">
 
-    <!--================Header Menu Area =================-->
+    <!-- Navigation Bar -->
     <header class="header_area" style="background-color: white !important;">
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -50,25 +53,24 @@
                             <li class="nav-item active"><a class="nav-link" href="<?=base_url('user')?>">Beranda</a>
                             </li>
                             </li>
-
                             </li>
                             <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Hai, <?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama'];
 ?>
-                            <li class="nav-item "><a class="nav-link text-danger"
-                                    href="<?=base_url('welcome/logout')?>">Log Out</a>
-                            </li>
-                    </div></a></li>
-
-                    </ul>
+                        </ul>
+                        <li class="nav-item "><a class="nav-link text-danger" href="<?=base_url('welcome/logout')?>">Log
+                                Out</a>
+                        </li>
+                    </div>
                 </div>
-        </div>
-        </nav>
+            </nav>
         </div>
     </header>
-    <!--================Header Menu Area =================-->
+    <!-- End Navigation Bar -->
+
+
     <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
         style="width: 80%; border-radius:10px;">
         <div class="row" style="color: black; font-family: 'poppins">
