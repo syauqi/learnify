@@ -40,6 +40,7 @@ body {
 .materi {
 	background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
 	color: white !important;
+	width: 100%;
 }
 
 .btn-white {
@@ -78,4 +79,30 @@ body {
 		0 15px 279px rgba(0, 0, 0, 0.03);
 
 
+}
+
+@media (max-width: 575.98px) {
+
+	.buat-text {
+		margin-top: 100px;
+		box-shadow:
+			0 2.3px 1.9px rgba(0, 0, 0, 0.002),
+			0 5.4px 4.3px rgba(0, 0, 0, 0.005),
+			0 9.7px 7.7px rgba(0, 0, 0, 0.007),
+			0 16.1px 12.8px rgba(0, 0, 0, 0.01),
+			0 26.5px 21.2px rgba(0, 0, 0, 0.014),
+			0 46.2px 37px rgba(0, 0, 0, 0.019),
+			0 100px 80px rgba(0, 0, 0, 0.03);
+	}
+
+	.card-kelas {
+		width: 28rem;
+		margin-bottom: 30px;
+		transition: 0.5s ease;
+		cursor: pointer;
+	}
+
+	.card-kelas:hover {
+		transform: scale(1.05);
+	}
 }
