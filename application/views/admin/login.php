@@ -16,6 +16,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Learnify - Admin Login</title>
@@ -25,18 +26,19 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
     <!-- CSS Libraries -->
     <link rel="stylesheet"
         href="<?=base_url('assets/')?>stisla-assets/node_modules/bootstrap-social/bootstrap-social.css">
-
     <!-- Template CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
+
 </head>
 
-<body style="">
+<body>
+
+    <!-- Main Content -->
     <div id="app">
         <section class="section">
             <div class="d-flex flex-wrap align-items-stretch">
@@ -59,7 +61,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     Harap isi bidang email
                                 </div>
                             </div>
-
                             <div class="form-group">
                                 <div class="d-block">
                                     <label for="password" class="control-label">Password</label>
@@ -77,12 +78,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     Masuk
                                 </button>
                             </div>
-
                         </form>
-
-
                     </div>
                 </div>
+
                 <div class="col-lg-8 col-12 order-lg-2 order-1 min-vh-100 background-walk-y position-relative overlay-gradient-bottom"
                     data-background="<?=base_url('assets/')?>stisla-assets/img/unsplash/login-bg.jpg">
                     <div class="absolute-bottom-left index-2">
@@ -102,8 +101,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             </div>
         </section>
     </div>
+    <!-- End Main Content -->
 
-    <!-- sweetalert -->
+
+    <!-- Sweetalert Flashdata -->
 
     <?php if ($this->session->flashdata('success-reg')): ?>
     <script>
@@ -140,7 +141,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     })
     </script>
     <?php endif;?>
-
 
     <?php if ($this->session->flashdata('success-logout')): ?>
     <script>
@@ -201,8 +201,8 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     });
     </script>
     <?php endif;?>
-
     <!-- end sweetalert -->
+
 
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -216,13 +216,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/stisla.js"></script>
-
-    <!-- JS Libraies -->
-
     <!-- Template JS File -->
     <script src="<?=base_url('assets/')?>stisla-assets/js/scripts.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
-
     <!-- Page Specific JS File -->
 </body>
 
