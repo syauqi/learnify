@@ -16,6 +16,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -100,9 +101,8 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             </nav>
         </div>
     </header>
+    <!--================End Header Menu Area =================-->
 
-
-    <!--================Header Menu Area =================-->
 
     <!--================Home Banner Area =================-->
     <section class="banner_area">
@@ -123,9 +123,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         <div id="registration"></div>
 
     </section>
-    <!--================End Home Banner Area =================-->
+    <!--================ End Home Banner Area =================-->
 
-
+    <!--================ Registration Form Area =================-->
     <div class="container mt-5 mb-5" id="registration">
         <div class="row bg-registration p-3">
             <div class="col-md-12 text-center">
@@ -182,6 +182,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             </div>
         </div>
     </div>
+    <!--================ End Registration Form Area =================-->
 
     <script>
     $('.tab1_btn').prop('disabled', !$('.tab1_chk:checked')
