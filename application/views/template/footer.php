@@ -12,7 +12,8 @@ yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar par
 dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
-<!--================ start footer Area  =================-->
+
+<!--================ Start footer Area  =================-->
 <footer class="footer-area p_60">
     <div class="container">
         <div class="row">
@@ -87,7 +88,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </div>
 </footer>
 <!--================ End footer Area  =================-->
-<!-- Modal -->
+
+
+<!-- Start Login Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -151,12 +154,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </div>
     </div>
 </div>
-<!-- modal -->
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- End Login Modal -->
+
 
 <!-- Sweetaler Flashdata -->
-
 <?php if ($this->session->flashdata('success-reg')): ?>
 <script>
 Swal.fire({
@@ -169,6 +170,7 @@ Swal.fire({
 </script>
 <?php endif;?>
 
+
 <?php if ($this->session->flashdata('login-success')): ?>
 <script>
 Swal.fire({
@@ -180,6 +182,7 @@ Swal.fire({
 })
 </script>
 <?php endif;?>
+
 
 <?php if ($this->session->flashdata('success-verify')): ?>
 <script>
@@ -206,6 +209,7 @@ Swal.fire({
 </script>
 <?php endif;?>
 
+
 <?php if ($this->session->flashdata('fail-login')): ?>
 <script>
 Swal.fire({
@@ -217,6 +221,7 @@ Swal.fire({
 });
 </script>
 <?php endif;?>
+
 
 <?php if ($this->session->flashdata('fail-email')): ?>
 <script>
@@ -230,6 +235,7 @@ Swal.fire({
 </script>
 <?php endif;?>
 
+
 <?php if ($this->session->flashdata('fail-pass')): ?>
 <script>
 Swal.fire({
@@ -241,6 +247,7 @@ Swal.fire({
 });
 </script>
 <?php endif;?>
+
 
 <?php if ($this->session->flashdata('not-login')): ?>
 <script>
