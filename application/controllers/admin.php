@@ -301,7 +301,7 @@ class Admin extends CI_Controller
             $upload_video = $_FILES['video'];
 
             if ($upload_video) {
-                $config['allowed_types'] = 'mp4|mkv';
+                $config['allowed_types'] = 'mp4|mkv|mov';
                 $config['max_size'] = '0';
                 $config['upload_path'] = './assets/materi_video';
 
