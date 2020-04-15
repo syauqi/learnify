@@ -16,6 +16,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Learnify - Teacher Login</title>
@@ -35,9 +36,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
+
 </head>
 
-<body style="">
+<body>
     <div id="app">
         <section class="section">
             <div class="d-flex flex-wrap align-items-stretch">
@@ -60,7 +62,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     Harap isi bidang email
                                 </div>
                             </div>
-
                             <div class="form-group">
                                 <div class="d-block">
                                     <label for="password" class="control-label">Password</label>
@@ -78,12 +79,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     Masuk
                                 </button>
                             </div>
-                            <!-- <div class="mt-5 text-center">
-                                Don't have an account? <a href="auth-register.html">Create new one</a>
-                            </div> -->
                         </form>
-
-
                     </div>
                 </div>
                 <div class="col-lg-8 col-12 order-lg-2 order-1 min-vh-100 background-walk-y position-relative overlay-gradient-bottom"
@@ -106,7 +102,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </section>
     </div>
 
-    <!-- sweetalert -->
+    <!-- Start Sweetalert Flashdata -->
 
     <?php if ($this->session->flashdata('success-reg')): ?>
     <script>
@@ -120,6 +116,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </script>
     <?php endif;?>
 
+
     <?php if ($this->session->flashdata('login-success')): ?>
     <script>
     Swal.fire({
@@ -131,6 +128,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     })
     </script>
     <?php endif;?>
+
 
     <?php if ($this->session->flashdata('success-verify')): ?>
     <script>
@@ -157,6 +155,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </script>
     <?php endif;?>
 
+
     <?php if ($this->session->flashdata('fail-login')): ?>
     <script>
     Swal.fire({
@@ -168,6 +167,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     });
     </script>
     <?php endif;?>
+
 
     <?php if ($this->session->flashdata('fail-email')): ?>
     <script>
@@ -181,6 +181,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </script>
     <?php endif;?>
 
+
     <?php if ($this->session->flashdata('fail-pass')): ?>
     <script>
     Swal.fire({
@@ -192,6 +193,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     });
     </script>
     <?php endif;?>
+
 
     <?php if ($this->session->flashdata('not-login')): ?>
     <script>
@@ -205,7 +207,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </script>
     <?php endif;?>
 
-    <!-- end sweetalert -->
+    <!-- End Sweetalert -->
 
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -219,13 +221,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/stisla.js"></script>
-
-    <!-- JS Libraies -->
-
     <!-- Template JS File -->
     <script src="<?=base_url('assets/')?>stisla-assets/js/scripts.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
-
     <!-- Page Specific JS File -->
 </body>
 
