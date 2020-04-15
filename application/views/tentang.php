@@ -12,6 +12,7 @@ yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar par
 dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
+
 <!--================Home Banner Area =================-->
 <section class="banner_area">
     <div class="banner_inner d-flex align-items-center">
@@ -144,6 +145,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 </section>
 <!--================End About Area =================-->
 
+
 <!--================Team Area =================-->
 <section class="team_area p_20">
     <div class="container">
@@ -214,6 +216,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </section>
     </div>
 </section>
+
 
 <!--================Impress Area =================-->
 <section class="impress_area p_120">
