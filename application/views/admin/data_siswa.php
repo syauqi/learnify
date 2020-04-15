@@ -17,6 +17,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 
 <head>
+
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Data Siswa - Learnify</title>
@@ -37,9 +38,12 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.0/dist/sweetalert2.all.min.js"></script>
+
 </head>
 
 <body>
+
+    <!-- Start Sidebar -->
     <div id="app">
         <div class="main-wrapper">
             <div class="navbar-bg"></div>
@@ -50,7 +54,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     class="fas fa-bars"></i></a>
                         </li>
                     </ul>
-
                 </form>
                 <ul class="navbar-nav navbar-right">
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
@@ -84,18 +87,15 @@ echo $data['user']['username'];
                                 Learnify</a>
                         </div>
                     </div>
-
                     <div class="sidebar-brand sidebar-brand-sm">
                         <a href="<?=base_url('admin')?>">LY</a>
                     </div>
-
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
                         <li class="nav-item dropdown">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
                                     class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
-
                         <li class="menu-header">Management Siswa</li>
 
                         <li class="nav-item dropdown active">
@@ -105,7 +105,6 @@ echo $data['user']['username'];
                                 <li><a class="nav-link" href="<?=base_url('admin/data_siswa')?>">Data Siswa</a></li>
                             </ul>
                         </li>
-
                         <li class="menu-header">Management Guru</li>
 
                         <li class="nav-item dropdown">
@@ -118,9 +117,7 @@ echo $data['user']['username'];
                                 </li>
                             </ul>
                         </li>
-
                         <li class="menu-header">Management Materi</li>
-
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i>
                                 <span>Materi</span></a>
@@ -132,8 +129,6 @@ echo $data['user']['username'];
 
                             </ul>
                         </li>
-
-
                         <li class="menu-header">About Developer</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-address-card"></i>
@@ -145,12 +140,12 @@ echo $data['user']['username'];
                                 <li><a class="nav-link" href="<?=base_url('admin/about_learnify')?>">Tentang
                                         Learnify</a>
                                 </li>
-
                             </ul>
                         </li>
-
                 </aside>
             </div>
+            <!-- End Sidebar -->
+
 
             <!-- Main Content -->
             <div class="main-content">
@@ -244,9 +239,15 @@ foreach ($user as $u) {
                             </div>
                         </div>
                     </div>
+                </section>
             </div>
         </div>
     </div>
+    <!-- End Main Content -->
+
+
+    <!-- Start Sweetalert -->
+
     <?php if ($this->session->flashdata('success-edit')): ?>
     <script>
     Swal.fire({
@@ -258,6 +259,7 @@ foreach ($user as $u) {
     })
     </script>
     <?php endif;?>
+
     <?php if ($this->session->flashdata('user-delete')): ?>
     <script>
     Swal.fire({
@@ -269,6 +271,11 @@ foreach ($user as $u) {
     })
     </script>
     <?php endif;?>
+
+    <!-- End Sweetalert -->
+
+
+    <!-- Start Footer -->
     <footer class="main-footer">
         <div class="footer-left">
             Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
@@ -278,8 +285,7 @@ foreach ($user as $u) {
             Made with <span class="text-danger"> &#10084;</span> by Syaauqi
         </div>
     </footer>
-    </div>
-    </div>
+    <!-- End Footer -->
 
 
     <!-- General JS Scripts -->
@@ -294,7 +300,6 @@ foreach ($user as $u) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/stisla.js"></script>
-
     <!-- JS Libraies -->
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
@@ -303,12 +308,9 @@ foreach ($user as $u) {
         $('#example').DataTable();
     });
     </script>
-
     <!-- Template JS File -->
     <script src="<?=base_url('assets/')?>stisla-assets/js/scripts.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
-
-    <!-- Page Specific JS File -->
 </body>
 
 </html>
