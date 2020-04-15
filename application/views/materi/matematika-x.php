@@ -41,7 +41,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 </head>
 
-<body style="overflow-x:hidden;background-color:#fbf9fa">
+<body style="overflow-x:hidden;background-color:#fbf9fa;">
 
     <!--================Header Menu Area =================-->
     <header class="header_area" style="background-color: white !important;">
@@ -86,10 +86,10 @@ echo $data['user']['nama'];
     <div class="container">
         <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
             style="width: 100%; border-radius:10px;">
-            <div class="row" style="color: black; font-family: 'poppins">
+            <div class="row" style="color: black; font-family: 'poppins';">
                 <div class="col-md-12 mt-1 text-center">
-                    <h1 class="display-4" style="color: black; font-family:'poppins'" data-aos="fade-down"
-                        data-aos-duration="1400">Silahkan pilih materi yang akan kamu pelajari.
+                    <h1 class="display-4" data-aos="fade-down" data-aos-duration="1400">Silahkan pilih materi yang akan
+                        kamu pelajari.
                     </h1>
                     <h4 data-aos="fade-down" data-aos-duration="1700"><?php
 $data['user'] = $this->db->get_where('siswa', ['email' =>
@@ -132,19 +132,8 @@ echo $data['user']['nama'];
     <br>
 
 
-    <script>
-    $('.tab1_btn').prop('disabled', !$('.tab1_chk:checked')
-        .length); //initially disable/enable button based on checked length
-    $('input[type=checkbox]').click(function() {
-        if ($('.tab1_chk:checkbox:checked').length > 0) {
-            $('.btn-submit').prop('disabled', false);
-        } else {
-            $('.btn-submit').prop('disabled', true);
-        }
-    });
-    </script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
     AOS.init();
     </script>
