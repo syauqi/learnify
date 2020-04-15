@@ -95,9 +95,9 @@ echo $data['user']['nama'];
     <div class="container">
         <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400"
             style="width: 100%; border-radius:10px;">
-            <div class="row" style="color: black; font-family: 'poppins">
+            <div class="row" style="color: black; font-family: 'poppins';">
                 <div class="col-md-12 mt-1">
-                    <h1 class="display-4" style="color: black; font-family:'poppins'" data-aos="fade-down"
+                    <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down"
                         data-aos-duration="1400">Silahkan pilih mata pelajaran !
                     </h1>
                     <p>Hello Students! , Ini merupakan halaman mapel learnify ! Silahkan pilih mapel yang akan kamu
