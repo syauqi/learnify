@@ -16,6 +16,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Data Detail Guru - Learnify </title>
@@ -30,15 +31,15 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
-    <!-- CSS Libraries -->
-
     <!-- Template CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
+
 </head>
 
 <body>
 
+    <!-- Start Sidebar -->
     <div id="app">
         <div class="main-wrapper">
             <div class="navbar-bg"></div>
@@ -49,7 +50,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     class="fas fa-bars"></i></a>
                         </li>
                     </ul>
-
                 </form>
                 <ul class="navbar-nav navbar-right">
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
@@ -86,14 +86,12 @@ echo $data['user']['username'];
                     <div class="sidebar-brand sidebar-brand-sm">
                         <a href="<?=base_url('admin')?>">LY</a>
                     </div>
-
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
                         <li class="nav-item dropdown ">
                             <a href="<?=base_url('admin')?>" class="nav-link"><i
                                     class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
-
                         <li class="menu-header">Management Siswa</li>
                         <li class="nav-item dropdown ">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-user"></i>
@@ -102,7 +100,6 @@ echo $data['user']['username'];
                                 <li><a class="nav-link" href="<?=base_url('admin/data_siswa')?>">Data Siswa</a></li>
                             </ul>
                         </li>
-
                         <li class="menu-header">Management Guru</li>
                         <li class="nav-item dropdown active">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
@@ -115,7 +112,6 @@ echo $data['user']['username'];
 
                             </ul>
                         </li>
-
                         <li class="menu-header">Management Materi</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i>
@@ -128,8 +124,6 @@ echo $data['user']['username'];
 
                             </ul>
                         </li>
-
-
                         <li class="menu-header">About Developer</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-address-card"></i>
@@ -141,11 +135,11 @@ echo $data['user']['username'];
                                 <li><a class="nav-link" href="<?=base_url('admin/about_learnify')?>">Tentang
                                         Learnify</a>
                                 </li>
-
                             </ul>
                         </li>
                 </aside>
             </div>
+            <!-- End Sidebar -->
 
             <!-- Main Content -->
             <div class="main-content">
@@ -163,7 +157,6 @@ echo $data['user']['username'];
                                 ingin melanjutkan</a>
                         </div>
                     </div>
-
                     <div id="detail" class="col-md-12 bg-white p-3"
                         style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
                         <h1 class="font-weight-bold card-title text-center" style="color: black;">Detail Guru </h1>
@@ -199,12 +192,14 @@ echo $data['user']['username'];
                         </p>
                         <a href="<?=base_url('admin/data_guru')?>" class="btn btn-success btn-block">Kembali</a>
                     </div>
-
-
+                </section>
             </div>
         </div>
     </div>
-    </div>
+    <!-- End Main Content -->
+
+
+    <!-- Start Footer -->
     <footer class="main-footer">
         <div class="footer-left">
             Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
@@ -214,8 +209,8 @@ echo $data['user']['username'];
             Made with <span class="text-danger"> &#10084;</span> by Syaauqi
         </div>
     </footer>
-    </div>
-    </div>
+    <!-- End Footer -->
+
 
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -229,7 +224,6 @@ echo $data['user']['username'];
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/stisla.js"></script>
-
     <!-- JS Libraies -->
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
@@ -238,12 +232,9 @@ echo $data['user']['username'];
         $('#example').DataTable();
     });
     </script>
-
     <!-- Template JS File -->
     <script src="<?=base_url('assets/')?>stisla-assets/js/scripts.js"></script>
     <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
-
-    <!-- Page Specific JS File -->
 </body>
 
 </html>
