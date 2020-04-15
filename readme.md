@@ -57,7 +57,7 @@ Release date : 1 April 2020 v 0.1.0 ( BETA )
 - XAMPP ( Atau apps web server lain )
 
 ## 💻 Install
-Clone repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
+Clone/Download repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
 Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 
 ## 🧑 Author
