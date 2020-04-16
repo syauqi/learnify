@@ -72,7 +72,7 @@ Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 
 ## 🤝 Contributing
 Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.
+Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
 
 ## 💙 Thanks to
 - Colorlib.com untuk template landing page.
