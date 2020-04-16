@@ -75,11 +75,12 @@ Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
 
 ## 💙 Thanks to
+- My Family
 - Anak Anak Devover
 - Colorlib.com untuk template landing page.
 - Student page made by me.
 - Mas Nauval Irvansyah untuk Stisla Admin Dashboard
-- My Family
+
 
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
