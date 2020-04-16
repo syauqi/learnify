@@ -26,7 +26,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
 $config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
-
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -38,7 +37,6 @@ $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERV
 |
  */
 $config['index_page'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | URI PROTOCOL
@@ -67,7 +65,6 @@ $config['uri_protocol'] = 'PATH_INFO';
 | https://codeigniter.com/user_guide/general/urls.html
  */
 $config['url_suffix'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Default Language
@@ -79,7 +76,6 @@ $config['url_suffix'] = '';
 |
  */
 $config['language'] = 'english';
-
 /*
 |--------------------------------------------------------------------------
 | Default Character Set
@@ -92,7 +88,6 @@ $config['language'] = 'english';
 |
  */
 $config['charset'] = 'UTF-8';
-
 /*
 |--------------------------------------------------------------------------
 | Enable/Disable System Hooks
@@ -103,7 +98,6 @@ $config['charset'] = 'UTF-8';
 |
  */
 $config['enable_hooks'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Class Extension Prefix
