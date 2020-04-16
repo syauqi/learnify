@@ -23,7 +23,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
 ### ✨ <a href="http://syauqi.js.org/">Demo</a>
-Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang. Kalian cukup fork dan jalankan di localhost saja ya!
+Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang. Kalian cukup fork lalu clone dan jalankan di localhost saja ya!
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
 Release date : 1 April 2020 v 0.1.0 ( BETA )
