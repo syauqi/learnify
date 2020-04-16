@@ -113,8 +113,8 @@ class User extends CI_Controller
         $config = [
             'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
-            'smtp_user' => 'LearnifyEdu@gmail.com',
-            'smtp_pass' => '123syauqy123',
+            'smtp_user' => 'Learnifyeducations@gmail.com',
+            'smtp_pass' => '123learnify123',
             'smtp_port' => 465,
             'mailtype' => 'html',
             'charset' => 'utf-8',
