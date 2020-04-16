@@ -96,7 +96,7 @@ This project is MIT licensed. All rights reserved
 ------------
 
 Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
-
+Terima kasih atas support nya semua!
 Copyright 2020 Syauqi Zaidan . All rights reserved
 
 
