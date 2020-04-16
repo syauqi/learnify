@@ -128,7 +128,7 @@ class User extends CI_Controller
             'link' => ' ' . base_url() . 'welcome/verify?email=' . $this->input->post('email') . '& token' . urlencode($token) . '"',
         );
 
-        $this->email->from('LearnifyEdu@gmail.com', 'Learnify');
+        $this->email->from('LearnifyEducations@gmail.com', 'Learnify');
         $this->email->to($this->input->post('email'));
 
         if ($type == 'verify') {
