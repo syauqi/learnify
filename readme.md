@@ -75,6 +75,7 @@ Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
 
 ## 💙 Thanks to
+- Anak Anak Devover
 - Colorlib.com untuk template landing page.
 - Student page made by me.
 - Mas Nauval Irvansyah untuk Stisla Admin Dashboard
@@ -82,7 +83,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhub
 
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-This project is MIT licensed.
+This project is MIT licensed. All rights reserved
 
 ## 💾 Back-up
 - Github : https://github.com/Syauqizaidan/Learnify .
