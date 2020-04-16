@@ -111,7 +111,6 @@ $config['enable_hooks'] = false;
 |
  */
 $config['subclass_prefix'] = 'MY_';
-
 /*
 |--------------------------------------------------------------------------
 | Composer auto-loading
@@ -133,7 +132,6 @@ $config['subclass_prefix'] = 'MY_';
 |    autoloading (application/config/autoload.php)
  */
 $config['composer_autoload'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Allowed URL Characters
@@ -155,7 +153,6 @@ $config['composer_autoload'] = false;
 |
  */
 $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
-
 /*
 |--------------------------------------------------------------------------
 | Enable Query Strings
@@ -182,7 +179,6 @@ $config['enable_query_strings'] = false;
 $config['controller_trigger'] = 'c';
 $config['function_trigger'] = 'm';
 $config['directory_trigger'] = 'd';
-
 /*
 |--------------------------------------------------------------------------
 | Allow $_GET array
@@ -196,7 +192,6 @@ $config['directory_trigger'] = 'd';
 |
  */
 $config['allow_get_array'] = true;
-
 /*
 |--------------------------------------------------------------------------
 | Error Logging Threshold
@@ -220,7 +215,6 @@ $config['allow_get_array'] = true;
 |
  */
 $config['log_threshold'] = 0;
-
 /*
 |--------------------------------------------------------------------------
 | Error Logging Directory Path
@@ -231,7 +225,6 @@ $config['log_threshold'] = 0;
 |
  */
 $config['log_path'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Log File Extension
@@ -245,7 +238,6 @@ $config['log_path'] = '';
 |
  */
 $config['log_file_extension'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Log File Permissions
@@ -257,7 +249,6 @@ $config['log_file_extension'] = '';
 |            integer notation (i.e. 0700, 0644, etc.)
  */
 $config['log_file_permissions'] = 0644;
-
 /*
 |--------------------------------------------------------------------------
 | Date Format for Logs
@@ -268,7 +259,6 @@ $config['log_file_permissions'] = 0644;
 |
  */
 $config['log_date_format'] = 'Y-m-d H:i:s';
-
 /*
 |--------------------------------------------------------------------------
 | Error Views Directory Path
@@ -279,7 +269,6 @@ $config['log_date_format'] = 'Y-m-d H:i:s';
 |
  */
 $config['error_views_path'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Cache Directory Path
@@ -290,7 +279,6 @@ $config['error_views_path'] = '';
 |
  */
 $config['cache_path'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Cache Include Query String
@@ -308,7 +296,6 @@ $config['cache_path'] = '';
 |
  */
 $config['cache_query_string'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Encryption Key
@@ -321,7 +308,6 @@ $config['cache_query_string'] = false;
 |
  */
 $config['encryption_key'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Session Variables
@@ -380,7 +366,6 @@ $config['sess_save_path'] = null;
 $config['sess_match_ip'] = false;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Cookie Related Variables
@@ -401,7 +386,6 @@ $config['cookie_domain'] = '';
 $config['cookie_path'] = '/';
 $config['cookie_secure'] = false;
 $config['cookie_httponly'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Standardize newlines
@@ -415,7 +399,6 @@ $config['cookie_httponly'] = false;
 |
  */
 $config['standardize_newlines'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Global XSS Filtering
@@ -429,7 +412,6 @@ $config['standardize_newlines'] = false;
 |
  */
 $config['global_xss_filtering'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Cross Site Request Forgery
@@ -450,7 +432,6 @@ $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = true;
 $config['csrf_exclude_uris'] = array();
-
 /*
 |--------------------------------------------------------------------------
 | Output Compression
@@ -472,7 +453,6 @@ $config['csrf_exclude_uris'] = array();
 |
  */
 $config['compress_output'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Master Time Reference
@@ -485,7 +465,6 @@ $config['compress_output'] = false;
 |
  */
 $config['time_reference'] = 'local';
-
 /*
 |--------------------------------------------------------------------------
 | Rewrite PHP Short Tags
@@ -499,7 +478,6 @@ $config['time_reference'] = 'local';
 |
  */
 $config['rewrite_short_tags'] = false;
-
 /*
 |--------------------------------------------------------------------------
 | Reverse Proxy IPs
