@@ -80,7 +80,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhub
 - Anak Anak Devover
 - Colorlib.com untuk template landing page.
 - Student page made by me.
-- Mas Nauval Irvansyah untuk Stisla Admin Dashboard
+- Mas Muhammad Nauval Azhar untuk Stisla Admin Dashboard
 
 
 ## 📝 License
