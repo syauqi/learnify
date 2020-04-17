@@ -81,6 +81,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhub
 - Colorlib.com untuk template landing page.
 - Student page made by me.
 - Mas Muhammad Nauval Azhar @nauvalazhar untuk Stisla Admin Dashboard
+Follow him @nauvalazhar https://github.com/nauvalazhar
 
 
 ## 📝 License
