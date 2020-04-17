@@ -163,7 +163,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 Swal.fire({
     icon: 'success',
     title: 'Kamu berhasil daftar!',
-    text: 'Silahkan Cek Email Kamu, Buat Verifikasi!',
+    text: 'Sekarang kamu boleh login!',
     showConfirmButton: false,
     timer: 2500
 })

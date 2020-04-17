@@ -85,23 +85,23 @@ class User extends CI_Controller
                 'email' => htmlspecialchars($email),
                 'image' => 'default.jpg',
                 'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
-                'is_active' => 0,
+                'is_active' => 1,
                 'date_created' => time(),
             ];
 
             //siapkan token
 
-            $token = base64_encode(random_bytes(32));
-            $user_token = [
-                'email' => $email,
-                'token' => $token,
-                'date_created' => time(),
-            ];
+            // $token = base64_encode(random_bytes(32));
+            // $user_token = [
+            //     'email' => $email,
+            //     'token' => $token,
+            //     'date_created' => time(),
+            // ];
 
             $this->db->insert('siswa', $data);
-            $this->db->insert('token', $user_token);
+            // $this->db->insert('token', $user_token);
 
-            $this->_sendEmail($token, 'verify');
+            // $this->_sendEmail($token, 'verify');
 
             $this->session->set_flashdata('success-reg', 'Berhasil!');
             redirect(base_url('welcome'));
