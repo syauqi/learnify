@@ -29,6 +29,7 @@ Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan da
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
 Release date : 1 April 2020 v 0.1.0 ( BETA )
+Final Release : 17 April ! thanks guys!
 
 ------------
 
