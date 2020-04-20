@@ -7,7 +7,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 
 #  Fitur yang tersedia di Learnify
 - Student Login System
-- Student Registration w/ email verification
+- Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya)
 - Disqus Comment Every Lesson
 - Email Verification System
 - Student Data Management
