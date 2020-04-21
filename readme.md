@@ -19,7 +19,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 - Teacher Page for uploading a lesson
 - Fancy Animations!
 - Tidio Chat
-- Well designer admin page
+- Well designed admin page
 - 5 MAPEL ( Matematika, IPA, Bahasa Indonesia, Bahasa Inggris dan Pendidikan Agama Islam.
 - And Manymore !
 
