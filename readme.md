@@ -85,6 +85,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhub
 - Student page made by me.
 - Mas Muhammad Nauval Azhar @nauvalazhar untuk Stisla Admin Dashboard
 Follow him @nauvalazhar https://github.com/nauvalazhar
+- Terima kasih buat kalian! Learnify skrg telah mencapai 52 star dan 101 forks! wow! <3
 
 
 ## 📝 License
