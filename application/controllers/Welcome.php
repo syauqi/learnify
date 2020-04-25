@@ -6,6 +6,13 @@ class Welcome extends CI_Controller
 
     public function index()
     {
+      $this->load->view('template/nav');
+      $this->load->view('index');
+      $this->load->view('template/footer');
+    }
+
+    public function validateLogin()
+    {
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email', [
             'required' => 'Harap isi bidang email!',
             'valid_email' => 'Email tidak valid!',
@@ -14,10 +21,10 @@ class Welcome extends CI_Controller
             'required' => 'Harap isi bidang password!',
         ]);
         if ($this->form_validation->run() == false) {
-
-            $this->load->view('template/nav');
-            $this->load->view('index');
-            $this->load->view('template/footer');
+            $this->session->set_flashdata('false-login', true);
+            $this->session->set_flashdata('validateLoginFalse', $this->form_validation->error_array());
+            $this->load->library('user_agent');
+            redirect($this->agent->referrer());
         } else {
             //validasi sukses
             $this->login();

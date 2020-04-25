@@ -112,7 +112,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 class="img-fluid img-responsive mx-auto " style="height: 350px;">
                         </div>
                         <div class=" col-md-6">
-                            <form action="<?=base_url('welcome/index')?>" method="post">
+                            <form action="<?=base_url('welcome/validateLogin')?>" method="post">
                                 <div class="form-group">
                                     <label class="label-font" for="
                                         exampleFormControlInput1">
@@ -120,7 +120,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     <input type="text" value="<?=set_value('email');?>" class="form-control"
                                         name="email" autocomplete="off" id="email"
                                         placeholder="Masukan email mu disini ..">
-                                    <?=form_error('email', '<small class="text-danger">', '</small>');?>
+                                        <small class="text-danger"><?=$this->session->flashdata('validateLoginFalse')["email"];?></small>
                                 </div>
                                 <div class="form-group">
                                     <label class="label-font" for="
@@ -128,7 +128,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                         Password</label>
                                     <input type="password" name="password" class="form-control" id="password"
                                         placeholder="Masukan password mu disini ..">
-                                    <?=form_error('password', '<small class="text-danger">', '</small>');?>
+                                    <small class="text-danger"><?=$this->session->flashdata('validateLoginFalse')["password"];?></small>
                                 </div>
                                 <div class="form-check mt-2">
                                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -258,6 +258,12 @@ Swal.fire({
     showConfirmButton: false,
     timer: 2500
 });
+</script>
+<?php endif;?>
+
+<?php if ($this->session->flashdata('false-login')): ?>
+<script>
+  $("#exampleModalCenter").modal("show")
 </script>
 <?php endif;?>
 
