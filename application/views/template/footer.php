@@ -261,10 +261,6 @@ Swal.fire({
 </script>
 <?php endif;?>
 
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
-<script src="<?=base_url('assets/')?>js/jquery-3.3.1.min.js"></script>
-<script src="<?=base_url('assets/')?>js/popper.js"></script>
-<script src="<?=base_url('assets/')?>js/bootstrap.min.js"></script>
 <script src="<?=base_url('assets/')?>js/stellar.js"></script>
 <script src="<?=base_url('assets/')?>vendors/lightbox/simpleLightbox.min.js"></script>
 <script src="<?=base_url('assets/')?>vendors/nice-select/js/jquery.nice-select.min.js"></script>

@@ -37,6 +37,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
+    <script src="<?=base_url('assets/')?>js/jquery-3.3.1.min.js"></script>
+    <script src="<?=base_url('assets/')?>js/popper.js"></script>
+    <script src="<?=base_url('assets/')?>js/bootstrap.min.js"></script>
 
 </head>
 
