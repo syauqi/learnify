@@ -119,21 +119,21 @@ class Welcome extends CI_Controller
 
     public function tentang()
     {
-        $this->load->view('template/nav-tentang');
+        $this->load->view('template/nav');
         $this->load->view('tentang');
         $this->load->view('template/footer');
     }
 
     public function pelajaran()
     {
-        $this->load->view('template/nav-pelajaran');
+        $this->load->view('template/nav');
         $this->load->view('pelajaran');
         $this->load->view('template/footer');
     }
 
     public function kontak()
     {
-        $this->load->view('template/nav-kontak');
+        $this->load->view('template/nav');
         $this->load->view('kontak');
         $this->load->view('template/footer');
     }
