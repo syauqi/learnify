@@ -37,7 +37,14 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
-
+    <script src="<?=base_url('assets/')?>js/jquery-3.3.1.min.js"></script>
+    <script src="<?=base_url('assets/')?>js/popper.js"></script>
+    <script src="<?=base_url('assets/')?>js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(()=>{
+        $("#nav<?=$this->uri->segment(2);?>").addClass('active')
+      })
+    </script>
 </head>
 
 <body>
@@ -76,14 +83,14 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?=base_url('welcome/tentang')?>">Tentang</a>
+                            <li class="nav-item" id="nav"><a class="nav-link" href="<?=base_url('welcome')?>">Beranda</a></li>
+                            <li class="nav-item" id="navtentang"><a class="nav-link" href="<?=base_url('welcome/tentang')?>">Tentang</a>
                             </li>
-                            <li class="nav-item submenu dropdown">
+                            <li class="nav-item submenu dropdown" id="navpelajaran">
                                 <a href="<?=base_url('welcome/pelajaran')?>" class="nav-link dropdown-toggle"
                                     role="button" aria-haspopup="true" aria-expanded="false">Pelajaran</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="<?=base_url('welcome/kontak')?>">Kontak</a>
+                            <li class="nav-item" id="navkontak"><a class="nav-link" href="<?=base_url('welcome/kontak')?>">Kontak</a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal"
                                     data-target="#exampleModalCenter">Masuk</a></li>
