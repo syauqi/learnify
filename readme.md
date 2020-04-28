@@ -6,22 +6,20 @@
 Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
 
 #  Fitur yang tersedia di Learnify
-- Student Login System
-- Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya)
-- Disqus Comment Every Lesson
-- Email Verification System
-- Student Data Management
-- Teacher Data Management
-- Lesson Data Management
-- Minimalist UI Designs
-- Administrator Page for Data Management ( Students, Lesson and Teacher Data)
-- Student Page for learning
-- Teacher Page for uploading a lesson
+- Student Login System.
+- Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya )
+- Disqus Comment Every Lesson make it more interactive !
+- Email Verification System.
+- Student Data Management.
+- Teacher Data Management.
+- Lesson Data Management.
+- Administrator Page for Data Management ( Students, Lesson and Teacher Data )
+- Student Page for learning.
+- Teacher Page for uploading a lesson.
 - Fancy Animations!
-- Tidio Chat
-- Well designed admin page
-- 5 MAPEL ( Matematika, IPA, Bahasa Indonesia, Bahasa Inggris dan Pendidikan Agama Islam.
-- And Manymore !
+- Well designed admin page customized stisla.
+- Tersedia lima mapel | Matematika, IPA, Bahasa Inggris, Bahasa Indonesia, Pendidikan agama islam .
+- Dan masih banyak lagi !
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
@@ -64,7 +62,7 @@ untuk saat ini saya tidak akan melanjutkan projek ini.
 - XAMPP ( Atau apps web server lain )
 
 ## 💻 Install
-Clone/Download repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
+Clone/Download repository ini lalu simpan di folder htdocs ( jika memakai XAMPP )
 Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 
 ## 🧑 Author
@@ -81,18 +79,19 @@ Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
 
 ## 💙 Thanks to
+- Allah SWT 
 - My Family
 - Anak Anak Devover
 - Colorlib.com untuk template landing page.
-- Student page made by me.
 - Mas Muhammad Nauval Azhar @nauvalazhar untuk Stisla Admin Dashboard
 Follow him @nauvalazhar https://github.com/nauvalazhar
-- Terima kasih buat kalian! Learnify skrg telah mencapai 52 star dan 101 forks! wow! <3
+- Terima kasih buat kalian!
+Learnify sekarang telah mencapai 59 Star dan 112 Forks  ❤️
 
 
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-This project is MIT licensed. All rights reserved
+This project is MIT licensed. All rights reserved.
 
 ## 💾 Back-up
 - Github : https://github.com/Syauqizaidan/Learnify .
