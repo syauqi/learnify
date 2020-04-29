@@ -95,7 +95,7 @@ Learnify sekarang telah mencapai 59 Star dan 112 Forks  ❤️
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 
-This project is MIT licensed. All rights reserved.
+Learnify is open-sourced software licensed under the MIT license.
 
 ## ▶️ Video Source
 Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.
@@ -129,6 +129,7 @@ Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
 
 Terima kasih atas support nya semua!
 
-Copyright 2020 Syauqi Zaidan . All rights reserved.
+Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 
+Learnify is open-sourced software licensed under the MIT license.
 
