@@ -91,6 +91,7 @@ Learnify sekarang telah mencapai 59 Star dan 112 Forks  ❤️
 
 ## 📝 License
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+
 This project is MIT licensed. All rights reserved.
 
 ## ▶️ Video Source
