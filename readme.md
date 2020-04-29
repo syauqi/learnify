@@ -8,7 +8,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaida
 ### 🎉 Kenapa dibuat Open Source?
 Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
 
-# ◾️  Fitur yang tersedia di Learnify
+### 🤨 Fitur apa saja yang tersedia di learnify?
 - Student Login System.
 - Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya )
 - Disqus Comment Every Lesson make it more interactive !
@@ -25,21 +25,20 @@ Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat un
 - Dan masih banyak lagi !
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
-Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
+**Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
 ### ✨ <a href="http://syauqi.js.org/">Demo</a>
-Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang. Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github
+**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
-Release date : 1 April 2020 v 0.1.0 ( BETA )
-Final Release : 17 April ! thanks guys!
-Project ini dapat kalian kembangkan dan modifikasi sesuai kebutuhan kalian.
-untuk saat ini saya tidak akan melanjutkan projek ini.
+**Release date : 1 April 2020
+Version 1 Release : 17 April 2020**
+> Learnify dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, Learnify tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
 
 ------------
 
 
- ## 👤 Default Account for testing
+ ### 👤 Default Account for testing
 	
 **Admin Default Account**
 - Email : admin@gmail.com 
@@ -56,17 +55,20 @@ untuk saat ini saya tidak akan melanjutkan projek ini.
 ------------
 
 
-# 〰️ Prasyarat yang diperlukan 
+### 🧐 Prasyarat yang diperlukan 
 - Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
 - Internet ( Karena saya memakai CDN Bootstrap )
+- XAMPP ( Atau apps web server lain )
 - Setting max_upload di php.ini
 - Setting post_max di php.ini
 - Web Browser
-- XAMPP ( Atau apps web server lain )
+
 
 ## 💻 Install
-Clone/Download repository ini lalu simpan di folder htdocs ( jika memakai XAMPP )
-Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
+- Download learnify atau fork lalu clone di computer kalian.
+- Upload database " Learnify.sql " ke dbms favourite kalian.
+- Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
+- Selamat Menikmati !
 
 ## 🧑 Author
 
@@ -79,26 +81,23 @@ Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 
 ## 🤝 Contributing
 Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
+Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
 
 ## 💙 Thanks to
-- Allah SWT 
-- My Family
-- Anak Anak Devover
-- Colorlib.com untuk template landing page.
-- Mas Muhammad Nauval Azhar @nauvalazhar untuk Stisla Admin Dashboard
-Follow him @nauvalazhar https://github.com/nauvalazhar
-- Terima kasih buat kalian!
-Learnify sekarang telah mencapai 59 Star dan 112 Forks  ❤️
+- Allah SWT  😇
+- Family 🤗
+- Devover 🤩
+- Colorlib.com 😬
+- Nauval Azhar 🥰
+- Kalian yang support Learnify 😚
 
 
 ## 📝 License
-Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-
-Learnify is open-sourced software licensed under the MIT license.
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- **Learnify is open-sourced software licensed under the MIT license.**
 
 ## ▶️ Video Source
-Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.
+**Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.**
 - https://www.youtube.com/watch?v=TX4S2ly0AdE
 - https://www.youtube.com/watch?v=S5zpeGLek-U
 - https://www.youtube.com/watch?v=aUKKZ9vlft0
@@ -125,11 +124,8 @@ Thanks to youtube dan para uploader video yang ada di learnify yang bersedia unt
 
 ------------
 
-Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
-
-Terima kasih atas support nya semua!
-
-Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-
-Learnify is open-sourced software licensed under the MIT license.
+- **Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
+- Terima kasih atas support nya semua!
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- Learnify is open-sourced software licensed under the MIT license.
 
