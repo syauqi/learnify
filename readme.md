@@ -56,7 +56,7 @@ untuk saat ini saya tidak akan melanjutkan projek ini.
 ------------
 
 
-# 🔸 Prasyarat yang diperlukan 
+# 〰️ Prasyarat yang diperlukan 
 - Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
 - Internet ( Karena saya memakai CDN Bootstrap )
 - Setting max_upload di php.ini
