@@ -93,12 +93,6 @@ Learnify sekarang telah mencapai 59 Star dan 112 Forks  ❤️
 Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 This project is MIT licensed. All rights reserved.
 
-## 💾 Back-up
-- Github : https://github.com/Syauqizaidan/Learnify .
-- .htaccess : https://drive.google.com/file/d/19lRNVEC_qJPkJxGlR0NwSndEcUctHSNm/view
-- Google Drive : https://drive.google.com/open?id=1nJTBlqFPa1gDPJ7s3ojVHhB5bK7qJc4-
-- Database (sql) : https://drive.google.com/open?id=1DVCUqXwy4dDvIijX6Cex1oS4DeM5oPvG
-
 ## ▶️ Video Source
 Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.
 - https://www.youtube.com/watch?v=TX4S2ly0AdE
