@@ -3,9 +3,12 @@
 ![Learnify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587210779/Learnify-Landing-Page_2_edttvu.png "Learnify")
 
 ### 🤔 Apa itu Learnify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
-#  Fitur yang tersedia di Learnify
+### 🎉 Kenapa dibuat Open Source?
+Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
+
+# ◾️  Fitur yang tersedia di Learnify
 - Student Login System.
 - Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya )
 - Disqus Comment Every Lesson make it more interactive !
@@ -53,7 +56,7 @@ untuk saat ini saya tidak akan melanjutkan projek ini.
 ------------
 
 
-# Prasyarat yang diperlukan 
+# 🔸 Prasyarat yang diperlukan 
 - Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
 - Internet ( Karena saya memakai CDN Bootstrap )
 - Setting max_upload di php.ini
@@ -123,6 +126,7 @@ Thanks to youtube dan para uploader video yang ada di learnify yang bersedia unt
 ------------
 
 Made with ❤️ by Syauqi Zaidan Khairan Khalaf .
+
 Terima kasih atas support nya semua!
 
 Copyright 2020 Syauqi Zaidan . All rights reserved.
