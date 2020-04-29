@@ -96,31 +96,9 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 - Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 - **Learnify is open-sourced software licensed under the MIT license.**
 
-## ▶️ Video Source
+## 🎥 Video Source
 **Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.**
-- https://www.youtube.com/watch?v=TX4S2ly0AdE
-- https://www.youtube.com/watch?v=S5zpeGLek-U
-- https://www.youtube.com/watch?v=aUKKZ9vlft0
-- https://www.youtube.com/watch?v=V_dMYlTVLXc
-- https://www.youtube.com/watch?v=Bk1FQNnk9IM
-- https://www.youtube.com/watch?v=t8nwnan6gEo
-- https://www.youtube.com/watch?v=A6RNFClmL3s
-- https://www.youtube.com/watch?v=0k1IBqHpE3c
-- https://www.youtube.com/watch?v=GyPXGAyOa-g
-- https://www.youtube.com/watch?v=7U5NngrN1DY
-- https://www.youtube.com/watch?v=MvEP7q-TBU4
-- https://www.youtube.com/watch?v=AD8BAFBY89E
-- https://www.youtube.com/watch?v=UYpuraCKBjU
-- https://www.youtube.com/watch?v=oWsJu9qkd78
-- https://www.youtube.com/watch?v=QcNz6p5XI7g
-- https://www.youtube.com/watch?v=K7exqgEFAS0
-- https://www.youtube.com/watch?v=G19i4YiHRJs
-- https://www.youtube.com/watch?v=F4d_MwnEt-E
-- https://www.youtube.com/watch?v=LYeUpxHRCSs
-- https://www.youtube.com/watch?v=dBze6DB2ZsM
-- https://www.youtube.com/watch?v=-0-sByluZt8
-- https://www.youtube.com/watch?v=bbqsMo2ALq8
-- https://www.youtube.com/watch?v=12Gi8KeGbRE
+https://pastebin.pl/view/c3608c25
 
 ------------
 
