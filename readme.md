@@ -2,12 +2,14 @@
 
 ![Learnify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587210779/Learnify-Landing-Page_2_edttvu.png "Learnify")
 
-<p align="center">
+
 
 [![](https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square)](https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square) ![](https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square)
 ![](https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square) ![](https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square) [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg?style=flat-square)](https://saythanks.io/to/zaidanline67%40gmail.com) [![HitCount](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify.svg)](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg?style=flat-square)](https://code.visualstudio.com/) [![GitHub followers](https://img.shields.io/github/followers/syauqizaidan.svg?style=flat-square&label=Follow&maxAge=2592000)](https://github.com/Syauqizaidan?tab=followers)
 
-<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/uses-html.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
+<p align="center">
+	
+<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/uses-html.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
 
 </p>
 
