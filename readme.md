@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
 
-![Learnify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587210779/Learnify-Landing-Page_2_edttvu.png "Learnify")
+![screely-1591521897512](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
 
 
 
