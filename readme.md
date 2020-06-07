@@ -113,8 +113,8 @@ https://pastebin.pl/view/c3608c25
 
 ------------
 
-- **Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
 - Terima kasih atas support nya semua!
 - Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- **Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
 - Learnify is open-sourced software licensed under the MIT license.
 
