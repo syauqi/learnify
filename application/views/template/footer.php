@@ -120,7 +120,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     <input type="text" value="<?=set_value('email');?>" class="form-control"
                                         name="email" autocomplete="off" id="email"
                                         placeholder="Masukan email mu disini ..">
-                                        <small class="text-danger"><?=$this->session->flashdata('validateLoginFalse')["email"];?></small>
+                                        <small class="text-danger"></small>
                                 </div>
                                 <div class="form-group">
                                     <label class="label-font" for="
@@ -128,7 +128,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                         Password</label>
                                     <input type="password" name="password" class="form-control" id="password"
                                         placeholder="Masukan password mu disini ..">
-                                    <small class="text-danger"><?=$this->session->flashdata('validateLoginFalse')["password"];?></small>
+                                    <small class="text-danger"></small>
                                 </div>
                                 <div class="form-check mt-2">
                                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
