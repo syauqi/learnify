@@ -3,7 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Guru extends CI_Controller
 {
-
     public function __construct()
     {
         parent::__construct();
@@ -24,7 +23,6 @@ class Guru extends CI_Controller
 
     public function add_materi()
     {
-
         $this->form_validation->set_rules('deskripsi', 'Deskripsi', 'required|trim|min_length[1]', [
             'required' => 'Harap isi kolom deskripsi.',
             'min_length' => 'deskripsi terlalu pendek.',
@@ -46,7 +44,6 @@ class Guru extends CI_Controller
                 } else {
                     $this->upload->display_errors();
                 }
-
             }
             $data = [
                 'nama_guru' => htmlspecialchars($this->input->post('nama_guru', true)),
@@ -80,5 +77,4 @@ class Guru extends CI_Controller
 
         return "default.mp4";
     }
-
 }
