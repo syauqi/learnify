@@ -170,5 +170,4 @@ class M_materi extends CI_Model
         $this->db->where('nama_mapel', $mapel);
         return $this->db->get('materi');
     }
-
 }

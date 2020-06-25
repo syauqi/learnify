@@ -3,7 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Admin extends CI_Controller
 {
-
     public function __construct()
     {
         parent::__construct();
@@ -49,7 +48,6 @@ class Admin extends CI_Controller
 
         $data['user'] = $this->m_siswa->tampil_data()->result();
         $this->load->view('admin/data_siswa', $data);
-
     }
 
     public function detail_siswa($id)
@@ -107,7 +105,6 @@ class Admin extends CI_Controller
         $this->m_siswa->update_data($where, $data, 'siswa');
         $this->session->set_flashdata('success-edit', 'berhasil');
         redirect('admin/data_siswa');
-
     }
 
     public function delete_siswa($id)
@@ -129,7 +126,6 @@ class Admin extends CI_Controller
 
         $data['user'] = $this->m_guru->tampil_data()->result();
         $this->load->view('admin/data_guru', $data);
-
     }
 
     public function detail_guru($nip)
@@ -170,7 +166,6 @@ class Admin extends CI_Controller
         $this->m_guru->update_data($where, $data, 'guru');
         $this->session->set_flashdata('success-edit', 'berhasil');
         redirect('admin/data_guru');
-
     }
 
     public function update_materi($id)
@@ -204,7 +199,6 @@ class Admin extends CI_Controller
         $this->m_materi->update_data($where, $data, 'materi');
         $this->session->set_flashdata('success-edit', 'berhasil');
         redirect('admin/data_materi');
-
     }
 
     public function delete_guru($nip)
@@ -218,7 +212,6 @@ class Admin extends CI_Controller
 
     public function add_guru()
     {
-
         $this->form_validation->set_rules('nip', 'Nip', 'required|trim|min_length[4]', [
             'required' => 'Harap isi kolom NIP.',
             'min_length' => 'NIP terlalu pendek.',
@@ -247,7 +240,6 @@ class Admin extends CI_Controller
         if ($this->form_validation->run() == false) {
             $this->load->view('guru/registration');
         } else {
-
             $data = [
                 'nip' => htmlspecialchars($this->input->post('nip', true)),
                 'email' => htmlspecialchars($this->input->post('email', true)),
@@ -260,9 +252,7 @@ class Admin extends CI_Controller
 
             $this->session->set_flashdata('success-reg', 'Berhasil!');
             redirect(base_url('admin/data_guru'));
-
         }
-
     }
 
     //manajemen materi
@@ -276,7 +266,6 @@ class Admin extends CI_Controller
 
         $data['user'] = $this->m_materi->tampil_data()->result();
         $this->load->view('admin/data_materi', $data);
-
     }
 
     public function delete_materi($id)
@@ -290,7 +279,6 @@ class Admin extends CI_Controller
 
     public function tambah_materi()
     {
-
         $this->form_validation->set_rules('deskripsi', 'Deskripsi', 'required|trim|min_length[1]', [
             'required' => 'Harap isi kolom deskripsi.',
             'min_length' => 'deskripsi terlalu pendek.',
@@ -312,7 +300,6 @@ class Admin extends CI_Controller
                 } else {
                     $this->upload->display_errors();
                 }
-
             }
             $data = [
                 'nama_guru' => htmlspecialchars($this->input->post('nama_guru', true)),
@@ -326,6 +313,5 @@ class Admin extends CI_Controller
             $this->session->set_flashdata('success-reg', 'Berhasil!');
             redirect(base_url('admin/data_materi'));
         }
-
     }
 }
