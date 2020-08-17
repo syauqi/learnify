@@ -2,7 +2,6 @@
 
 ![screely-1591521897512](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
 
-
 <p align="center">
 <img src="https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square">
 <img src="https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square"> 
@@ -38,8 +37,9 @@ Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat un
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 **Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
-### ✨ <a href="http://syauqi.js.org/">Demo</a>
-**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
+### ✨ <a href="http://programmer.smkn1ciamis.id/learnify/">Demo</a>
+Demo sudah kalian bisa akses di http://programmer.smkn1ciamis.id/learnify/
+Enjoy and silahkan dicoba feature yang ada ya teman teman!
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
 **Release date : 1 April 2020
@@ -72,23 +72,23 @@ Version 1 Release : 17 April 2020**
 - XAMPP ( Atau apps web server lain )
 - Setting max_upload di php.ini
 - Setting post_max di php.ini
-- Web Browser
+- Web Browser ( Chrome, Firefox, Safari & Opera )
 
 
 ## 💻 Install
 - Download learnify atau fork lalu clone di computer kalian.
-- Upload database " Learnify.sql " ke dbms favourite kalian.
+- Upload database "Learnify.sql" ke dbms favourite kalian.
 - Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
-- Selamat Menikmati !
+- Selamat Menikmati!
 
 ## 🧑 Author
 
-👤 <a href="https://web.facebook.com/zaidan.syauqi.9"> **Syaauqi Zaaidan Khairan Khalaf**</a>
-- Twitter : <a href="https://twitter.com/syauqykhairan"> @syauqykhairan</a>
-- Facebook : <a href="https://web.facebook.com/zaidan.syauqi.9"> Syauqi Zaidan Khairan Khalaf</a>
+👤 <a href="https://web.facebook.com/syaauqi"> **Syauqi Zaidan Khairan Khalaf**</a>
+- Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
+- Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
 - Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
-- Dribbble : <a href="https://dribbble.com/syauqyzaidan">@syauqyzaidan </a>
-- Behance :  <a href="https://www.behance.net/syaauqizaaidan">@syaauqizaaidan </a>
+- Dribbble : <a href="https://dribbble.com/syaufy">@syaufy </a>
+- Behance :  <a href="https://www.behance.net/syaufy">@syaufy </a>
 
 ## 🤝 Contributing
 Contributions, issues and feature requests di persilahkan.
@@ -112,9 +112,8 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 https://pastebin.pl/view/c3608c25
 
 ------------
+<p align="center">
+**Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
+</p>
 
-- Terima kasih atas support nya semua!
-- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-- **Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
-- Learnify is open-sourced software licensed under the MIT license.
 
