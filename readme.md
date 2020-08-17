@@ -3,14 +3,14 @@
 ![screely-1591521897512](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
 
 
-
-[![](https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square)](https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square) ![](https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square)
-![](https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square) ![](https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square) [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg?style=flat-square)](https://saythanks.io/to/zaidanline67%40gmail.com) [![HitCount](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify.svg)](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg?style=flat-square)](https://code.visualstudio.com/) [![GitHub followers](https://img.shields.io/github/followers/syauqizaidan.svg?style=flat-square&label=Follow&maxAge=2592000)](https://github.com/Syauqizaidan?tab=followers)
-
 <p align="center">
-	
-<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/uses-html.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
-
+<img src="https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square">
+<img src="https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square"> 
+<img src="https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square">
+<img src="https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square">
+<img src="http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify.svg">
+<img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square">
+<img src="https://img.shields.io/github/followers/syauqi.svg?style=flat-square&label=Follow&maxAge=2592000">
 </p>
 
 ### 🤔 Apa itu Learnify?
