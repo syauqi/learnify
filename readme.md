@@ -113,7 +113,7 @@ https://pastebin.pl/view/c3608c25
 
 ------------
 <p align="center">
-**Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
+**Made with ❤️ by Syauqi Zaidan Khairan Khalaf**
 </p>
 
 
