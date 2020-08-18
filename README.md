@@ -19,7 +19,7 @@ Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Sy
 Saya buat open-source agar dapat membantu sekolah sekolah agar dapat melaksanakan pembelajaran dimana saja dan kapan saja.
 
 ### 🤨 Fitur apa saja yang tersedia di learnify?
-- Student Login System.
+- Student Login System
 - Student Registration w/ email verification ( Dapat menghubungi saya untuk mengaktifkan feature tersebut )
 - Disqus comment every lesson, make it more interactive.
 - Student, lesson & teacher data management
@@ -36,13 +36,12 @@ silahkan dicoba dan ditest feature yang telah ada 🤙🏻
 - v1.0 : 17 April 2020
 - v2.0 : 25 June 2020
 
-> Learnify dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, Learnify tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
-
 ------------
 
  ### 👤 Default Account for testing
 	
 **Admin Default Account**
+- ../learnify/welcome/admin
 - Email : admin@gmail.com 
 - Password : admin
 
@@ -51,6 +50,7 @@ silahkan dicoba dan ditest feature yang telah ada 🤙🏻
 - Password : 123456
 
 **Teacher Default Account**
+- ../learnify/welcome/guru
 - Email : zaidanline67@gmail.com
 - Password : 123456
 
@@ -85,8 +85,8 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 
 
 ## 📝 License
-- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-- **Learnify is open-sourced software licensed under the MIT license.**
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf
+- **Learnify is open-sourced software licensed under the MIT license**
 
 ## 🎥 Video Source
 **Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.**
