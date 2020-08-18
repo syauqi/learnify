@@ -1,15 +1,14 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: github.com/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 <!DOCTYPE html>
@@ -37,7 +36,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 </head>
 
 <body>
-
 
     <!-- Start Sidebar -->
     <div id="app">
@@ -212,7 +210,6 @@ echo $data['user']['username'];
     </div>
     <!-- End Main Content -->
 
-
     <!-- Start Footer -->
     <footer class="main-footer">
         <div class="footer-left">
@@ -224,7 +221,6 @@ echo $data['user']['username'];
         </div>
     </footer>
     <!-- End Footer -->
-
 
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"

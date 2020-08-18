@@ -1,26 +1,23 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: github.com/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Tentang Developer - Learnify</title>
-
     <!-- General CSS Files -->
     <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
@@ -35,7 +32,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 </head>
 
 <body>
-
 
     <!-- Start Sidebar -->
     <div id="app">
@@ -139,7 +135,6 @@ echo $data['user']['username'];
             </div>
             <!-- End Sidebar -->
 
-
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
@@ -149,7 +144,7 @@ echo $data['user']['username'];
                             <div class="col-md-4 mx-auto rounded-circle bg-white p-3"
                                 style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
                                 <img src="<?=base_url('assets/')?>syauqi.jpg"
-                                    class="card-img-top  rounded-circle img-responsive" alt="...">
+                                    class="card-img-top rounded-circle img-responsive" alt="...">
                             </div>
                         </div>
                     </div>
@@ -157,57 +152,28 @@ echo $data['user']['username'];
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Tentang Syaauqi Zaaidan</h2>
+                                <h2 class="card-title" style="color: black;">Syauqi Zaidan Khairan Khalaf</h2>
                                 <hr>
-                                <p class="card-text">Syaauqi Zaaidan merupakan junior programmmer yang membuat project
-                                    learnify ini. Kalian dapat menghubungi dengan kontak atau URL yang telah saya taruh
-                                    dibawah. Saya Harap anda menikmati dan puas dengan project saya :) </p>
-                                <a href="https://syauqi.js.org/" class="btn btn-primary">Web Portofolio</a>
+                                <p class="card-text">Hi there, I'm Syauqi Zaidan Khairan Khalaf, a Web Designer and a Software Engineering Student 🚀 from Indonesia. Currently, I'm a Community Team Member 🙍🏽‍♂️ @Devover, Organizing my own class organization 👨🏽‍💻 @Devcode and a content creator 👨‍🎨 @Descienfy  </p>
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div class="">
-                        <div class="card" style="width:100%;">
-                            <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Social Media</h2>
-                                <hr>
-                                <a href="https://syauqi.js.org/" class="btn btn-primary">Web Portofolio</a>
-                                <a href="https://dribbble.com/syauqyzaidan" style="background-color:pink; color:white;"
-                                    class="btn">Dribbble</a>
-                                <a href="https://www.behance.net/syaauqizaaidan"
-                                    style="background-color:blue; color:white;" class="btn">Behance</a>
-                                <a style="background-color:purple; color:white;"
-                                    href="https://www.instagram.com/syaufy/" class="btn">Instagram</a>
-                                <a href="https://web.facebook.com/zaidan.syauqi.9/"
-                                    style="background-color:blue; color:white;" class="btn ">Facebook</a>
-                                <a href="https://github.com/Syauqizaidan" style="background-color:black; color:white;"
-                                    class="btn">Github</a>
-                                <a href="https://medium.com/@zaidanline67" style="background-color:black; color:white;"
-                                    class="btn">Medium</a>
-                            </div>
-                        </div>
-                    </div>
                 </section>
             </div>
             <!-- End Main Content -->
 
-
             <!-- Start Footer -->
             <footer class="main-footer">
                 <div class="footer-left">
-                    Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
-                        href="https://syauqizaidan.github.io/">Syaauqi</a>
-                </div>
-                <div class="footer-right">
-                    Made with <span class="text-danger"> &#10084;</span> by Syaauqi
+                    Copyright &copy; 2020 <div class="bullet"></div><a
+                        href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
                 </div>
             </footer>
             <!-- End Footer -->
 
         </div>
     </div>
-
 
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -226,5 +192,4 @@ echo $data['user']['username'];
     <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
     <!-- Page Specific JS File -->
 </body>
-
 </html>

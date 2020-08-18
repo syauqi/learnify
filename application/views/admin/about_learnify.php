@@ -1,22 +1,20 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: github.com/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Tentang Developer - Learnify</title>
@@ -137,7 +135,6 @@ echo $data['user']['username'];
             </div>
             <!-- End Sidebar -->
 
-
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
@@ -155,56 +152,7 @@ echo $data['user']['username'];
                             <div class="card-body">
                                 <h2 class="card-title" style="color: black;">Tentang Learnify</h2>
                                 <hr>
-                                <p class="card-text">SWeb Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan
-                                    Khalaf . Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal (
-                                    Coming soon ) yang didesign semenarik dan sesimple mungkin. Learnify dibuat
-                                    ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan
-                                    kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat
-                                    semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork
-                                    repository ini. </p>
-                                <a href="https://github.com/Syauqizaidan/Learnify" class="btn btn-primary">Github
-                                    Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="card" style="width:100%;">
-                            <div class="card-body">
-                                <h2 class="card-title" style="color: black;">About This Project</h2>
-                                <hr>
-                                <p> Fitur yang tersedia
-                                    Student Login System
-                                    Student Registration w/ email verification
-                                    Email Verification System
-                                    Student Data Management
-                                    Teacher Data Management
-                                    Lesson Data Management
-                                    Minimalist UI Design
-                                    Administrator Page for data management
-                                    Student Page for learning
-                                    Teacher Page for uploading a lesson
-                                    Etc</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="card" style="width:100%;">
-                            <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Social Media</h2>
-                                <hr>
-                                <a href="https://syauqi.js.org/" class="btn btn-primary">Web Portofolio</a>
-                                <a href="https://dribbble.com/syauqyzaidan" style="background-color:pink; color:white;"
-                                    class="btn">Dribbble</a>
-                                <a href="https://www.behance.net/syaauqizaaidan"
-                                    style="background-color:blue; color:white;" class="btn">Behance</a>
-                                <a style="background-color:purple; color:white;"
-                                    href="https://www.instagram.com/syaufy/" class="btn">Instagram</a>
-                                <a href="https://web.facebook.com/zaidan.syauqi.9/"
-                                    style="background-color:blue; color:white;" class="btn ">Facebook</a>
-                                <a href="https://github.com/Syauqizaidan" style="background-color:black; color:white;"
-                                    class="btn">Github</a>
-                                <a href="https://medium.com/@zaidanline67" style="background-color:black; color:white;"
-                                    class="btn">Medium</a>
+                                <p class="card-text">Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf. Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
                             </div>
                         </div>
                     </div>
@@ -212,15 +160,11 @@ echo $data['user']['username'];
             </div>
             <!-- End Main Content -->
 
-
             <!-- Start Footer -->
             <footer class="main-footer">
                 <div class="footer-left">
-                    Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
-                        href="https://syauqizaidan.github.io/">Syaauqi</a>
-                </div>
-                <div class="footer-right">
-                    Made with <span class="text-danger"> &#10084;</span> by Syaauqi
+                    Copyright &copy; 2020 <div class="bullet"></div><a
+                        href="https://syauqi.codes">Syauqi Zaidan Khairan Khalaf</a>
                 </div>
             </footer>
             <!-- End Footer -->
@@ -245,5 +189,4 @@ echo $data['user']['username'];
     <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
     <!-- Page Specific JS File -->
 </body>
-
 </html>

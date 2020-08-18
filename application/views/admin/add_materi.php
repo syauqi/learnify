@@ -1,8 +1,20 @@
+<!--
+@Project: Learnify
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: github.com/syauqi
+@Email : syaokay@gmail.com
+
+@About-Learnify :
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+-->
+
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior:smooth !important;">
 
 <head>
-
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Tambah Data Materi - Learnify </title>
@@ -19,7 +31,6 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
-
 </head>
 
 <body>
@@ -127,7 +138,6 @@ echo $data['user']['username'];
             </div>
             <!-- End Sidebar -->
 
-
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
@@ -230,19 +240,14 @@ while ($t = mysqli_fetch_array($qry)) {
         </div>
         <!-- End Main Content -->
 
-
         <!-- Start Footer -->
         <footer class="main-footer">
             <div class="footer-left">
-                Copyright &copy; 2020 <div class="bullet"></div> Code & Design by <a
-                    href="https://syauqizaidan.github.io/">Syaauqi</a>
-            </div>
-            <div class="footer-right">
-                Made with <span class="text-danger"> &#10084;</span> by Syaauqi
+                Copyright &copy; 2020 <div class="bullet"></div><a
+                    href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
             </div>
         </footer>
         <!-- End Footer -->
-
 
         <!-- General JS Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -289,5 +294,4 @@ while ($t = mysqli_fetch_array($qry)) {
         <script src="<?=base_url('assets/')?>stisla-assets/js/custom.js"></script>
         <!-- Page Specific JS File -->
 </body>
-
 </html>

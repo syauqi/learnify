@@ -1,27 +1,24 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: github.com/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 <!DOCTYPE html>
 <html lang="en">
-
 
 <head>
 
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title>Data Siswa - Learnify</title>
-
     <!-- General CSS Files -->
     <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
@@ -32,8 +29,6 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
-    <!-- CSS Libraries -->
-
     <!-- Template CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url('assets/')?>stisla-assets/css/components.css">
