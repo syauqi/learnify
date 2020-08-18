@@ -68,7 +68,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
                         <div>
-                            <a href="<?= base_url('admin') ?>" style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
+                            <a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
                                 Learnify <sup>3</sup> </a>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <!-- Start Footer -->
     <footer class="main-footer">
         <div class="text-center">
-            Copyright &copy; 2020 <div class="bullet"></div> <a href="github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
+            Copyright &copy; 2020 <div class="bullet"></div> <a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
         </div>
     </footer>
     <!-- End Footer -->

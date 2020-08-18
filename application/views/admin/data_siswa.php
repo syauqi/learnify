@@ -69,7 +69,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
                         <div>
-                            <a href="<?= base_url('admin') ?>" style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
+                            <a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
                                 Learnify <sup>3</sup> </a>
                         </div>
                     </div>
