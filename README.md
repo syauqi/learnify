@@ -33,12 +33,12 @@ Demo sudah kalian bisa akses di http://programmer.smkn1ciamis.id/learnify/
 silahkan dicoba dan ditest feature yang telah ada 🤙🏻
 
 ### 📆 <a href="#">Release Date</a>
-**v1.0 : 17 April 2020
-v2.0 : 25 June 2020**
+- v1.0 : 17 April 2020
+- v2.0 : 25 June 2020
+
 > Learnify dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, Learnify tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
 
 ------------
-
 
  ### 👤 Default Account for testing
 	
@@ -56,7 +56,6 @@ v2.0 : 25 June 2020**
 
 ------------
 
-
 ### 🧐 Prasyarat yang diperlukan 
 - Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
 - Web Browser ( Chrome, Firefox, Safari & Opera )
@@ -64,8 +63,6 @@ v2.0 : 25 June 2020**
 - XAMPP ( Atau apps web server lain )
 - Setting max_upload di php.ini
 - Setting post_max di php.ini
-
-
 
 ## 💻 Install
 - Download learnify atau fork lalu clone di computer kalian.
