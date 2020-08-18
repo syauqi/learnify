@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "arsandev",
+      "name": "ARSAN",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43356029?v=4",
+      "profile": "https://arsan.dev",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Learnify",
+  "projectOwner": "syauqi",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
