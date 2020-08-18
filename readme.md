@@ -13,7 +13,7 @@
 </p>
 
 ### 🤔 Apa itu Learnify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal (Coming soon) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 ### 🎉 Kenapa dibuat Open Source?
 Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
@@ -34,16 +34,16 @@ Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat un
 - Tersedia lima mapel | Matematika, IPA, Bahasa Inggris, Bahasa Indonesia, Pendidikan agama islam .
 - Dan masih banyak lagi !
 
-### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
+### 🏠 <a href="#">Homepage</a>
 **Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
 ### ✨ <a href="http://programmer.smkn1ciamis.id/learnify/">Demo</a>
 Demo sudah kalian bisa akses di http://programmer.smkn1ciamis.id/learnify/
 Enjoy and silahkan dicoba feature yang ada ya teman teman!
 
-### 📆 <a href="http://syauqi.js.org/">Release Date</a>
-**Release date : 1 April 2020
-Version 1 Release : 17 April 2020**
+### 📆 <a href="#">Release Date</a>
+**v1.0 : 17 April 2020
+v2.0 : 25 June 2020**
 > Learnify dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, Learnify tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
 
 ------------
