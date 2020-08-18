@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Learnify! 👋</h1>
 
-![screely-1591521897512](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
+![Learnify](https://user-images.githubusercontent.com/46257169/83959623-f946de80-a876-11ea-88db-f677be8f22e7.png)
 
 <p align="center">
 <img src="https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square">
@@ -13,33 +13,24 @@
 </p>
 
 ### 🤔 Apa itu Learnify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal (Coming soon) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf. </a> **Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 ### 🎉 Kenapa dibuat Open Source?
-Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
+Saya buat open-source agar dapat membantu sekolah sekolah agar dapat melaksanakan pembelajaran dimana saja dan kapan saja.
 
 ### 🤨 Fitur apa saja yang tersedia di learnify?
 - Student Login System.
-- Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya )
-- Disqus Comment Every Lesson make it more interactive !
-- Email Verification System.
-- Student Data Management.
-- Teacher Data Management.
-- Lesson Data Management.
-- Administrator Page for Data Management ( Students, Lesson and Teacher Data )
-- Student Page for learning.
-- Teacher Page for uploading a lesson.
-- Fancy Animations!
-- Well designed admin page customized stisla.
-- Tersedia lima mapel | Matematika, IPA, Bahasa Inggris, Bahasa Indonesia, Pendidikan agama islam .
-- Dan masih banyak lagi !
+- Student Registration w/ email verification ( Dapat menghubungi saya untuk mengaktifkan feature tersebut )
+- Disqus comment every lesson, make it more interactive.
+- Student, lesson & teacher data management
+- And manymore!
 
 ### 🏠 <a href="#">Homepage</a>
 **Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
 ### ✨ <a href="http://programmer.smkn1ciamis.id/learnify/">Demo</a>
 Demo sudah kalian bisa akses di http://programmer.smkn1ciamis.id/learnify/
-Enjoy and silahkan dicoba feature yang ada ya teman teman!
+silahkan dicoba dan ditest feature yang telah ada 🤙🏻
 
 ### 📆 <a href="#">Release Date</a>
 **v1.0 : 17 April 2020
@@ -68,18 +59,19 @@ v2.0 : 25 June 2020**
 
 ### 🧐 Prasyarat yang diperlukan 
 - Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
+- Web Browser ( Chrome, Firefox, Safari & Opera )
 - Internet ( Karena saya memakai CDN Bootstrap )
 - XAMPP ( Atau apps web server lain )
 - Setting max_upload di php.ini
 - Setting post_max di php.ini
-- Web Browser ( Chrome, Firefox, Safari & Opera )
+
 
 
 ## 💻 Install
 - Download learnify atau fork lalu clone di computer kalian.
 - Upload database "Learnify.sql" ke dbms favourite kalian.
 - Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
-- Selamat Menikmati!
+
 
 ## 🧑 Author
 
@@ -93,14 +85,6 @@ v2.0 : 25 June 2020**
 ## 🤝 Contributing
 Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
-
-## 💙 Thanks to
-- Allah SWT  😇
-- Family 🤗
-- Devover 🤩
-- Colorlib.com 😬
-- Nauval Azhar 🥰
-- Kalian yang support Learnify 😚
 
 
 ## 📝 License
