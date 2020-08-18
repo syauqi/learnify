@@ -70,7 +70,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-                                Learnify</a>
+                                Learnify <sup>3</sup> </a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
@@ -134,20 +134,18 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <!-- Main Content -->
             <div class="main-content">
                 <section class="section">
-                    <div class="">
-                        <div class="card" style="width:100%;">
-                            <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Management Data Siswa Learnify</h2>
-                                <hr>
-                                <p class="card-text"> After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? who's responsible for the ask for this request? but moving the goalposts gain traction. </p>
-                                <a href="<?= base_url('user/registration') ?>" class="btn btn-primary">Tambah
-                                    Data Siswa ⭢ </a>
-                            </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title" style="color: black;">Management Data Siswa Learnify</h2>
+                            <hr>
+                            <p class="card-text"> After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? who's responsible for the ask for this request? but moving the goalposts gain traction. </p>
+                            <a href="<?= base_url('user/registration') ?>" class="btn btn-success">Tambah
+                                Data Siswa ⭢ </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="container bg-white p-4" style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px">
+                            <div class="bg-white p-4" style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
                                 <div class="table-responsive">
                                     <table id="example" class="table align-items-center table-flush">
                                         <thead class="thead-light">

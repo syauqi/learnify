@@ -64,11 +64,11 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-                                Learnify</a>
+                                Learnify <sup>3</sup></a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="<?= base_url('admin') ?>">LY</a>
+                        <a href="<?= base_url('admin') ?>">LY <sup>3</sup></a>
                     </div>
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
@@ -126,7 +126,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
-                        <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Dashboard | Halaman Utama</h1>
+                        <h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Dashboard</h1>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -196,7 +196,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 <h2 class="card-title" style="color: black;">Tambah Materi?</h2>
                                 <hr>
                                 <p class="card-text">After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? who's responsible for the ask for this request? but moving the goalposts gain traction.</p>
-                                <a href="<?= base_url('admin/tambah_materi') ?>" class="btn btn-primary">Tambah Materi ⭢</a>
+                                <a href="<?= base_url('admin/tambah_materi') ?>" class="btn btn-success">Tambah Materi ⭢</a>
                             </div>
                         </div>
                     </div>
