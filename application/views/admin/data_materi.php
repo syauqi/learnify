@@ -189,7 +189,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                     <td class="text-center">
                                                         <a href="<?php echo site_url('admin/update_materi/' . $u->id); ?>" class="btn btn-info">Update ⭢</a>
 
-                                                        <a href="<?php echo site_url('admin/delete_materi/' . $u->id); ?>" class="btn btn-danger remove">Delete ⭢</a>
+                                                        <a href="<?php echo site_url('admin/delete_materi/' . $u->id); ?>" class="btn btn-danger remove">Delete ✖</a>
                                                     </td>
 
                                                 </tr>
