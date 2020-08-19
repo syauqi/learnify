@@ -141,7 +141,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                             <div class="card-body">
                                 <h2 class="card-title" style="color: black;">Syauqi Zaidan Khairan Khalaf</h2>
                                 <hr>
-                                <p class="card-text">Hi there, I'm Syauqi Zaidan Khairan Khalaf, a Web Designer and a Software Engineering Student 🚀 from Indonesia. Currently, I'm a Community Team Member 🙍🏽‍♂️ @Devover, Organizing my own class organization 👨🏽‍💻 @Devcode and a content creator 👨‍🎨 @Descienfy </p>
+                                <p class="card-text">Perfectionist Web Developer with one years of experience as a Web Developer and Web Designer. Skilled at Designing and developing Websites. Excellent written and oral communication skills; capable of explaining complex software issues in easy-to-understand terms. </p>
                             </div>
                         </div>
                     </div>

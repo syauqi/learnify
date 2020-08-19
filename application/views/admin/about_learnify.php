@@ -142,7 +142,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                             <div class="card-body">
                                 <h2 class="card-title" style="color: black;">Tentang Learnify</h2>
                                 <hr>
-                                <p class="card-text">Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf. Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
+                                <p class="card-text">Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf. <br> Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. <br> Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
                             </div>
                         </div>
                     </div>
