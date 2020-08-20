@@ -1,15 +1,14 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: https://linktr.ee/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 
@@ -21,9 +20,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Tentang Kami</h6>
                     <ul class="list">
-                        <li><a href="<?=base_url('welcome/tentang')?>">Tentang Learnify</a></li>
-                        <li><a href="<?=base_url('welcome/materi')?>">Materi Learnify</a></li>
-                        <li><a href="<?=base_url('welcome/kontak')?>">Kontak Learnify</a></li>
+                        <li><a href="<?= base_url('welcome/tentang') ?>">Tentang Learnify</a></li>
+                        <li><a href="<?= base_url('welcome/materi') ?>">Materi Learnify</a></li>
+                        <li><a href="<?= base_url('welcome/kontak') ?>">Kontak Learnify</a></li>
                         <li><a href="http://smkn1ciamis.id/">Website Resmi Sekolah</a></li>
                     </ul>
                 </div>
@@ -33,7 +32,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <h6 class="footer_title">Masuk - Sign in</h6>
                     <ul class="list">
                         <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter">Untuk Siswa</a></li>
-                        <li><a href="<?=base_url('welcome/guru')?>">Untuk Guru</a></li>
+                        <li><a href="<?= base_url('welcome/guru') ?>">Untuk Guru</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,7 +71,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <p class="col-lg-8 col-md-8 footer-text m-0">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Thank you colorlib for allow me to use this template. <br> Copyright &copy;<script>
-                document.write(new Date().getFullYear());
+                    document.write(new Date().getFullYear());
                 </script> All rights reserved | This template is made with <span class="text-danger"> &#10084;</span> by
                 <a href="https://colorlib.com" target="_blank">Colorlib</a> <br>
                 Made with <span class="text-danger"> &#10084;</span> by syaauqi
@@ -91,13 +90,11 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 
 <!-- Start Login Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title text-dark font-weight-bold" style="color:#212529 !important;"
-                    id="exampleModalCenterTitle">
+                <h2 class="modal-title text-dark font-weight-bold" style="color:#212529 !important;" id="exampleModalCenterTitle">
                     Learnify - Masuk Sekarang</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -108,26 +105,22 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <br>
                     <div class="row">
                         <div class="col-md-6 text-center">
-                            <img src="<?=base_url('assets/');?>img/modal-login-2.png"
-                                class="img-fluid img-responsive mx-auto " style="height: 350px;">
+                            <img src="<?= base_url('assets/'); ?>img/modal-login-2.png" class="img-fluid img-responsive mx-auto " style="height: 350px;">
                         </div>
                         <div class=" col-md-6">
-                            <form action="<?=base_url('welcome/validateLogin')?>" method="post">
+                            <form action="<?= base_url('welcome/validateLogin') ?>" method="post">
                                 <div class="form-group">
                                     <label class="label-font" for="
                                         exampleFormControlInput1">
                                         Email</label>
-                                    <input type="text" value="<?=set_value('email');?>" class="form-control"
-                                        name="email" autocomplete="off" id="email"
-                                        placeholder="Masukan email mu disini ..">
-                                        <small class="text-danger"></small>
+                                    <input type="text" value="<?= set_value('email'); ?>" class="form-control" name="email" autocomplete="off" id="email" placeholder="Masukan email mu disini ..">
+                                    <small class="text-danger"></small>
                                 </div>
                                 <div class="form-group">
                                     <label class="label-font" for="
                                         exampleFormControlInput1">
                                         Password</label>
-                                    <input type="password" name="password" class="form-control" id="password"
-                                        placeholder="Masukan password mu disini ..">
+                                    <input type="password" name="password" class="form-control" id="password" placeholder="Masukan password mu disini ..">
                                     <small class="text-danger"></small>
                                 </div>
                                 <div class="form-check mt-2">
@@ -140,11 +133,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     menyetujui
                                     <i>privasi dan persyaratan ketentuan
                                         hukum kami </i> .
-                                    belum punya akun? daftar <a href=" <?=base_url('user/registration')?>">
+                                    belum punya akun? daftar <a href=" <?= base_url('user/registration') ?>">
                                         disini.</a>
                                 </p>
-                                <button class="btn btn-block font-weight-bold"
-                                    style="background-color: #4dbf1c;color:white;font-size:18px;">Login
+                                <button class="btn btn-block font-weight-bold" style="background-color: #4dbf1c;color:white;font-size:18px;">Login
                                     Sekarang!</button>
                             </form>
                         </div>
@@ -158,127 +150,127 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 
 <!-- Sweetaler Flashdata -->
-<?php if ($this->session->flashdata('success-reg')): ?>
-<script>
-Swal.fire({
-    icon: 'success',
-    title: 'Kamu berhasil daftar!',
-    text: 'Sekarang kamu boleh login!',
-    showConfirmButton: false,
-    timer: 2500
-})
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('success-reg')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu berhasil daftar!',
+            text: 'Sekarang kamu boleh login!',
+            showConfirmButton: false,
+            timer: 2500
+        })
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('login-success')): ?>
-<script>
-Swal.fire({
-    icon: 'success',
-    title: 'Kamu berhasil daftar!',
-    text: 'Sekarang login yuk!',
-    showConfirmButton: false,
-    timer: 2500
-})
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('login-success')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu berhasil daftar!',
+            text: 'Sekarang login yuk!',
+            showConfirmButton: false,
+            timer: 2500
+        })
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('success-verify')): ?>
-<script>
-Swal.fire({
-    icon: 'success',
-    title: 'Email Telah Diverifikasi!',
-    text: 'Sekarang login yuk!',
-    showConfirmButton: false,
-    timer: 2500
-})
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('success-verify')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Email Telah Diverifikasi!',
+            text: 'Sekarang login yuk!',
+            showConfirmButton: false,
+            timer: 2500
+        })
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('success-logout')): ?>
-<script>
-Swal.fire({
-    icon: 'success',
-    title: 'Kamu berhasil logout!',
-    text: 'Selamat tinggal, Sampai jumpa lagi!',
-    showConfirmButton: false,
-    timer: 2500
-})
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('success-logout')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu berhasil logout!',
+            text: 'Selamat tinggal, Sampai jumpa lagi!',
+            showConfirmButton: false,
+            timer: 2500
+        })
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('fail-login')): ?>
-<script>
-Swal.fire({
-    icon: 'error',
-    title: 'Gagal login!',
-    text: 'Silahkan Periksa Kembali Email dan Password Kamu!',
-    showConfirmButton: false,
-    timer: 2500
-});
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('fail-login')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Gagal login!',
+            text: 'Silahkan Periksa Kembali Email dan Password Kamu!',
+            showConfirmButton: false,
+            timer: 2500
+        });
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('fail-email')): ?>
-<script>
-Swal.fire({
-    icon: 'error',
-    title: 'Email Belum Diverifikasi!',
-    text: 'Silahkan Cek Email Kamu Dahulu!',
-    showConfirmButton: false,
-    timer: 2500
-})
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('fail-email')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Email Belum Diverifikasi!',
+            text: 'Silahkan Cek Email Kamu Dahulu!',
+            showConfirmButton: false,
+            timer: 2500
+        })
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('fail-pass')): ?>
-<script>
-Swal.fire({
-    icon: 'error',
-    title: 'Password Salah!',
-    text: 'Silahkan Periksa Kembali Password Kamu!',
-    showConfirmButton: false,
-    timer: 2500
-});
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('fail-pass')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Password Salah!',
+            text: 'Silahkan Periksa Kembali Password Kamu!',
+            showConfirmButton: false,
+            timer: 2500
+        });
+    </script>
+<?php endif; ?>
 
 
-<?php if ($this->session->flashdata('not-login')): ?>
-<script>
-Swal.fire({
-    icon: 'error',
-    title: 'Harap Login Terlebih Dahulu !',
-    text: 'Silahkan Login Dahulu !',
-    showConfirmButton: false,
-    timer: 2500
-});
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('not-login')) : ?>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Harap Login Terlebih Dahulu !',
+            text: 'Silahkan Login Dahulu !',
+            showConfirmButton: false,
+            timer: 2500
+        });
+    </script>
+<?php endif; ?>
 
-<?php if ($this->session->flashdata('false-login')): ?>
-<script>
-  $("#exampleModalCenter").modal("show")
-</script>
-<?php endif;?>
+<?php if ($this->session->flashdata('false-login')) : ?>
+    <script>
+        $("#exampleModalCenter").modal("show")
+    </script>
+<?php endif; ?>
 
-<script src="<?=base_url('assets/')?>js/stellar.js"></script>
-<script src="<?=base_url('assets/')?>vendors/lightbox/simpleLightbox.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/nice-select/js/jquery.nice-select.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/isotope/isotope.pkgd.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/popup/jquery.magnific-popup.min.js"></script>
-<script src="<?=base_url('assets/')?>js/jquery.ajaxchimp.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/counter-up/jquery.waypoints.min.js"></script>
-<script src="<?=base_url('assets/')?>vendors/counter-up/jquery.counterup.js"></script>
-<script src="<?=base_url('assets/')?>js/mail-script.js"></script>
-<script src="<?=base_url('assets/')?>js/theme.js"></script>
+<script src="<?= base_url('assets/') ?>js/stellar.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/lightbox/simpleLightbox.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/isotope/isotope.pkgd.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/popup/jquery.magnific-popup.min.js"></script>
+<script src="<?= base_url('assets/') ?>js/jquery.ajaxchimp.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/counter-up/jquery.waypoints.min.js"></script>
+<script src="<?= base_url('assets/') ?>vendors/counter-up/jquery.counterup.js"></script>
+<script src="<?= base_url('assets/') ?>js/mail-script.js"></script>
+<script src="<?= base_url('assets/') ?>js/theme.js"></script>
 </body>
 
 </html>

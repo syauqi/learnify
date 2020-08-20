@@ -1,7 +1,7 @@
 <!--
 @Project: Learnify
 @Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: github.com/syauqi
+@Website: https://linktr.ee/syauqi
 @Email : syaokay@gmail.com
 
 @About-Learnify :
