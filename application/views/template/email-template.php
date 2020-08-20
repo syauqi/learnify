@@ -1,20 +1,18 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: https://linktr.ee/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-    xmlns:o="urn:schemas-microsoft-com:office:office">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
     <title> Verifikasi Akun - GameINA </title>
@@ -25,38 +23,38 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap" rel="stylesheet">
     <style type="text/css">
-    #outlook a {
-        padding: 0;
-    }
+        #outlook a {
+            padding: 0;
+        }
 
-    body {
-        margin: 0;
-        padding: 0;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        font-family: 'Poppins', sans-serif !important;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            font-family: 'Poppins', sans-serif !important;
+        }
 
-    table,
-    td {
-        border-collapse: collapse;
-        mso-table-lspace: 0pt;
-        mso-table-rspace: 0pt;
-    }
+        table,
+        td {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
 
-    img {
-        border: 0;
-        height: auto;
-        line-height: 100%;
-        outline: none;
-        text-decoration: none;
-        -ms-interpolation-mode: bicubic;
-    }
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
 
-    p {
-        display: block;
-        margin: 13px 0;
-    }
+        p {
+            display: block;
+            margin: 13px 0;
+        }
     </style>
     <!--[if mso]>
         <xml>
@@ -72,38 +70,36 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </style>
         <![endif]-->
     <style type="text/css">
-    @media only screen and (min-width:480px) {
-        .mj-column-per-100 {
-            width: 100% !important;
-            max-width: 100%;
-        }
+        @media only screen and (min-width:480px) {
+            .mj-column-per-100 {
+                width: 100% !important;
+                max-width: 100%;
+            }
 
-        .mj-column-per-50 {
-            width: 50% !important;
-            max-width: 50%;
+            .mj-column-per-50 {
+                width: 50% !important;
+                max-width: 50%;
+            }
         }
-    }
     </style>
     <style type="text/css">
-    @media only screen and (max-width:480px) {
-        table.mj-full-width-mobile {
-            width: 100% !important;
-        }
+        @media only screen and (max-width:480px) {
+            table.mj-full-width-mobile {
+                width: 100% !important;
+            }
 
-        td.mj-full-width-mobile {
-            width: auto !important;
+            td.mj-full-width-mobile {
+                width: auto !important;
+            }
         }
-    }
     </style>
 </head>
 
 <body style="background-color:#296e32; font-family: 'Poppins', sans-serif !important;">
-    <div
-        style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
     </div>
     <div style="background-color:#E7E7E7;">
-        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-            style="background:#040B4F;background-color:#296e32;width:100%;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#040B4F;background-color:#296e32;width:100%;">
             <tbody>
                 <tr>
                     <td>
@@ -115,12 +111,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
                         <div style="margin:0px auto;max-width:600px;">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                style="width:100%;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                 <tbody>
                                     <tr>
-                                        <td
-                                            style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;text-align:center;">
+                                        <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;text-align:center;">
                                             <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
 
@@ -130,26 +124,16 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                class="" style="vertical-align:top;width:600px;"
             >
           <![endif]-->
-                                            <div class="mj-column-per-100 mj-outlook-group-fix"
-                                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                    style="vertical-align:top;" width="100%">
+                                            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                                     <tr>
-                                                        <td align="center"
-                                                            style="font-size:0px;padding:0;word-break:break-word;">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                                role="presentation"
-                                                                style="border-collapse:collapse;border-spacing:0px;">
+                                                        <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td style="width:600px;"> <a
-                                                                                href="https://google.com"
-                                                                                target="_blank">
+                                                                        <td style="width:600px;"> <a href="https://google.com" target="_blank">
 
-                                                                                <img alt="" height="auto"
-                                                                                    src="https://res.cloudinary.com/dc0rn8rch/image/upload/v1584968561/header-top-learnify_ldyrss.png"
-                                                                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                                                                    width="600">
+                                                                                <img alt="" height="auto" src="https://res.cloudinary.com/dc0rn8rch/image/upload/v1584968561/header-top-learnify_ldyrss.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
 
                                                                             </a> </td>
                                                                     </tr>
@@ -188,8 +172,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
         <div style="background:#1f2e78;background-color:#296e32;margin:0px auto;max-width:600px;">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                style="background:#296e32;background-color:#296e32;width:100%;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#296e32;background-color:#296e32;width:100%;">
                 <tbody>
                     <tr>
                         <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
@@ -202,23 +185,16 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                class="" style="vertical-align:top;width:600px;"
             >
           <![endif]-->
-                            <div class="mj-column-per-100 mj-outlook-group-fix"
-                                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="vertical-align:top;" width="100%">
+                            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                     <tr>
                                         <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                style="border-collapse:collapse;border-spacing:0px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                                 <tbody>
                                                     <tr>
-                                                        <td style="width:600px;"> <a href="https://google.com"
-                                                                target="_blank">
+                                                        <td style="width:600px;"> <a href="https://google.com" target="_blank">
 
-                                                                <img alt="" height="auto"
-                                                                    src="https://res.cloudinary.com/dc0rn8rch/image/upload/v1584969678/header-bottom-learnify_vw6bmf.png"
-                                                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                                                    width="600">
+                                                                <img alt="" height="auto" src="https://res.cloudinary.com/dc0rn8rch/image/upload/v1584969678/header-bottom-learnify_vw6bmf.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
 
                                                             </a> </td>
                                                     </tr>
@@ -251,13 +227,11 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
-        <div class="body-section"
-            style="-webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); margin: 0px auto; max-width: 600px;">
+        <div class="body-section" style="-webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); margin: 0px auto; max-width: 600px;">
             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                 <tbody>
                     <tr>
-                        <td
-                            style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center;">
+                        <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center;">
                             <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
 
@@ -273,12 +247,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
                             <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                    style="background:#ffffff;background-color:#ffffff;width:100%;">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
                                     <tbody>
                                         <tr>
-                                            <td
-                                                style="direction:ltr;font-size:0px;padding:20px 0;padding-left:15px;padding-right:15px;text-align:center;">
+                                            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-left:15px;padding-right:15px;text-align:center;">
                                                 <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
 
@@ -288,31 +260,23 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                class="" style="vertical-align:top;width:570px;"
             >
           <![endif]-->
-                                                <div class="mj-column-per-100 mj-outlook-group-fix"
-                                                    style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                                    <table border="0" cellpadding="0" cellspacing="0"
-                                                        role="presentation" style="vertical-align:top;" width="100%">
+                                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                                         <tr>
-                                                            <td align="left"
-                                                                style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                                <div
-                                                                    style="font-family: 'Poppins', sans-serif !important;font-size:20px;font-weight:bold;line-height:24px;text-align:left;color:#212b35;">
+                                                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                                <div style="font-family: 'Poppins', sans-serif !important;font-size:20px;font-weight:bold;line-height:24px;text-align:left;color:#212b35;">
                                                                     Learnify - Verifikasi Akun</div>
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="left"
-                                                                style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                                <div
-                                                                    style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
+                                                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                                <div style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
                                                                     Hello Students!,</div>
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="left"
-                                                                style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                                <div
-                                                                    style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
+                                                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                                <div style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
                                                                     Sebelum resmi menjadi siswa di website Learnify,
                                                                     Kamu harus terlebih dahulu memverifikasi akun kamu.
                                                                     dengan begitu kami mengetahui kalau kamu bukan
@@ -320,10 +284,8 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="left"
-                                                                style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                                <div
-                                                                    style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
+                                                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                                <div style="font-family: 'Poppins', sans-serif !important;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;">
                                                                     Cukup klik tombol dibawah untuk memverifikasi akun
                                                                     kamu, dan akan langsung kami arahakan ke website
                                                                     Learnify!
@@ -331,19 +293,10 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="center" vertical-align="middle"
-                                                                style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                                <table border="0" cellpadding="0" cellspacing="0"
-                                                                    role="presentation"
-                                                                    style="border-collapse:separate;width:300px;line-height:100%;">
+                                                            <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:300px;line-height:100%;">
                                                                     <tr>
-                                                                        <td align="center" bgcolor="#5e6ebf"
-                                                                            role="presentation"
-                                                                            style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#296e32;"
-                                                                            valign="middle"> <a
-                                                                                href="<?php echo $link ?>"
-                                                                                style="display:inline-block;width:250px;background:#296e32;color:#ffffff;font-family: 'Poppins', sans-serif !important;font-size:17px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;"
-                                                                                target="_blank">
+                                                                        <td align="center" bgcolor="#5e6ebf" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#296e32;" valign="middle"> <a href="<?php echo $link ?>" style="display:inline-block;width:250px;background:#296e32;color:#ffffff;font-family: 'Poppins', sans-serif !important;font-size:17px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank">
                                                                                 Klik disini untuk verifikasi !
                                                                             </a> </td>
                                                                     </tr>

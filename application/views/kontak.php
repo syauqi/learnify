@@ -1,15 +1,14 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: https://linktr.ee/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 
@@ -22,8 +21,8 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <div class="banner_content text-center">
                 <h2>Kontak</h2>
                 <div class="page_link">
-                    <a href="<?=base_url('welcome')?>">Beranda</a>
-                    <a href="<?=base_url('welcome/kontak')?>">Kontak</a>
+                    <a href="<?= base_url('welcome') ?>">Beranda</a>
+                    <a href="<?= base_url('welcome/kontak') ?>">Kontak</a>
                 </div>
             </div>
         </div>
@@ -35,10 +34,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <!--================Contact Area =================-->
 <section class="contact_area p_40">
     <div class="container">
-        <div style="width: 100%"><iframe width="100%" height="600"
-                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=SMKN%201%20CIAMIS+(Learnify)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=A&amp;output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-                    href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe></div><br />
+        <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=SMKN%201%20CIAMIS+(Learnify)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe></div><br />
         <div class="row">
             <div class="col-lg-3">
                 <div class="contact_info">
@@ -61,26 +57,21 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 </div>
             </div>
             <div class="col-lg-9">
-                <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
-                    novalidate="novalidate">
+                <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name"
-                                placeholder="Masukan nama anda ">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Masukan nama anda ">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email"
-                                placeholder="Masukan email anda">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Masukan email anda">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="subject" name="subject"
-                                placeholder="Masukan subject anda ">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Masukan subject anda ">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" rows="1"
-                                placeholder="Masukan pesan anda "></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="1" placeholder="Masukan pesan anda "></textarea>
                         </div>
                     </div>
                     <div class="col-md-12 text-right">

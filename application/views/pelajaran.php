@@ -1,15 +1,14 @@
 <!--
 @Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
+@Programmer: Syauqi Zaidan Khairan Khalaf
+@Website: https://linktr.ee/syauqi
+@Email : syaokay@gmail.com
 
 @About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
+Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
+yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
+guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
 
@@ -22,8 +21,8 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <div class="banner_content text-center">
                 <h2>Pelajaran</h2>
                 <div class="page_link">
-                    <a href="<?=base_url('welcome')?>">Beranda</a>
-                    <a href="<?=base_url('welcome/pelajaran')?>">Pelajaran</a>
+                    <a href="<?= base_url('welcome') ?>">Beranda</a>
+                    <a href="<?= base_url('welcome/pelajaran') ?>">Pelajaran</a>
                 </div>
             </div>
         </div>
@@ -46,7 +45,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="grid_inner">
                     <div class="grid_item wd55">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-1.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-1.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="#">
@@ -63,7 +62,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="grid_item wd44">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-2.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-2.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="#">
@@ -79,7 +78,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="grid_item wd44">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-4.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-4.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="#">
@@ -95,7 +94,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="grid_item wd55">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-5.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-5.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="#">
@@ -114,7 +113,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             </div>
             <div class="col-lg-3">
                 <div class="course_item">
-                    <img src="<?=base_url('assets/')?>img/courses/course-3.jpg" alt="">
+                    <img src="<?= base_url('assets/') ?>img/courses/course-3.jpg" alt="">
                     <div class="hover_text">
                         <a class="cat" href="#">Gratis</a>
                         <a href="#">
