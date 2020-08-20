@@ -20,6 +20,9 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis." name="Description" />
+    <meta content="Learnify, E-learning, Open Source, Syauqi Zaidan Khairan Khalaf, github, programmer indonesia" name="keywords" />
+
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
     <title>Learnify - Belajar Dimana Saja & Kapan Saja !</title>
     <!-- Bootstrap CSS -->
@@ -55,10 +58,12 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <div class="container">
                 <div class="float-left">
                     <ul class="list header_social">
-                        <li><a href="https://www.facebook.com/zaidan.syauqi.9"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/syauqykhairan"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://dribbble.com/syauqyzaidan"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="https://www.behance.net/syaauqizaaidan"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="https://www.facebook.com/syaaauqi"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/syaaauqi"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://dribbble.com/syaufy"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://www.behance.net/syaufy"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="https://www.github.com/syauqi"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/syaufy"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
                 <div class="float-right">
