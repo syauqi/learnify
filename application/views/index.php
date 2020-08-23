@@ -1,17 +1,3 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
-
 <!--================Home Banner Area =================-->
 <section class="home_banner_area">
     <div class="banner_inner d-flex align-items-center">
@@ -21,15 +7,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <div class="banner_content text-center">
                 <h3>Belajar Dimana Saja & Kapan Saja <br /> Mudah Dengan Learnify</h3>
                 <p>Dengan Learnify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat
-                    belajar meski banyak halangan atau rintangan. Pembelajaran Terstruktur dan Efektif hanya di
-                    Learnify! Nikmati kemudahan belajar dan materi terlengkap dari kami! </p>
+                    belajar meski banyak halangan atau rintangan. Nikmati Pembelajaran terstruktur dan efektif menggunakan Learnify serta kemudahan belajar dengan menggunakan aplikasi kami. </p>
                 <a class="main_btn" href="<?= base_url('user/registration') ?>#registration">Daftar Sekarang</a>
             </div>
         </div>
     </div>
 </section>
-<!--================End Home Banner Area =================-->
-
+<!-- ================End Home Banner Area ================= -->
 
 <!--================Finance Area =================-->
 <section class="finance_area">
@@ -39,10 +23,10 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="finance_item">
                     <div class="media">
                         <div class="d-flex">
-                            <i class="lnr lnr-rocket"></i>
+                            <i class="lnr lnr-users"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Cepat & <br />Mudah</h5>
+                            <h5>Siswa & <br />Guru</h5>
                         </div>
                     </div>
                 </div>
@@ -63,10 +47,10 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="finance_item">
                     <div class="media">
                         <div class="d-flex">
-                            <i class="lnr lnr-smile"></i>
+                            <i class="lnr lnr-camera-video"></i>
                         </div>
                         <div class="media-body">
-                            <h5>User <br /> Friendly</h5>
+                            <h5>Video <br /> Materi</h5>
                         </div>
                     </div>
                 </div>
@@ -87,7 +71,6 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </div>
 </section>
 <!--================End Finance Area =================-->
-
 
 <!--================Courses Area =================-->
 <section class="courses_area p_40">
@@ -190,7 +173,6 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 </section>
 <!--================End Courses Area =================-->
 
-
 <!--================Team Area =================-->
 <section class="team_area p_20">
     <div class="container">
@@ -206,7 +188,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="item">
                         <div class="testi_item">
                             <img src="<?= base_url('assets/') ?>img/testimonials/testi-3.png" alt="">
-                            <h4>Syaauqi Zaaidan</h4>
+                            <h4>Syauqi Zaidan Khairan Khalaf</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -263,7 +245,6 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </div>
 </section>
 <!--================End Team Area =================-->
-
 
 <!--================Impress Area =================-->
 <section class="impress_area p_120">
