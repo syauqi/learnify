@@ -235,11 +235,10 @@
 <section class="impress_area p_120">
     <div class="container">
         <div class="impress_inner text-center">
-            <h2>JADILAH PENGAJAR DAN MENGAJAR DI LEARNIFY</h2>
-            <p>Jika anda adalah seorang guru, anda dapat mendaftar dan masuk untuk mengajar para siswa di Learnify.
-                Tidak dikenakan biaya dan anda dapat segera mengajar setelah disetujui oleh pihak sekolah.
+            <h2>LOGIN SEBAGAI GURU DAN UPLOAD MATERI & VIDEO SEKARANG</h2>
+            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.
             </p>
-            <a class="main_btn2" href="<?= base_url('welcome/guru') ?>">Login sebagai Guru</a>
+            <a class="main_btn2" href="<?= base_url('welcome/guru') ?>">Login Sebagai Guru <span class="lnr lnr-arrow-right text-black"></span></a>
         </div>
     </div>
 </section>
