@@ -8,7 +8,7 @@
                 <h3>Belajar Dimana Saja & Kapan Saja <br /> Mudah Dengan Learnify</h3>
                 <p>Dengan Learnify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat
                     belajar meski banyak halangan atau rintangan. Nikmati Pembelajaran terstruktur dan efektif menggunakan Learnify serta kemudahan belajar dengan menggunakan aplikasi kami. </p>
-                <a class="main_btn" href="<?= base_url('user/registration') ?>#registration">Daftar Sekarang</a>
+                <a class="main_btn" href="<?= base_url('user/registration') ?>#registration">Bergabung Sekarang <span class="lnr lnr-arrow-right"></span></a>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
                             <i class="lnr lnr-users"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Siswa & <br />Guru</h5>
+                            <h5>Admin, User & Guru Data Management</h5>
                         </div>
                     </div>
                 </div>
@@ -35,10 +35,10 @@
                 <div class="finance_item">
                     <div class="media">
                         <div class="d-flex">
-                            <i class="lnr lnr-earth"></i>
+                            <i class="lnr lnr-file-empty"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Kompetensi <br />Internasional</h5>
+                            <h5>Dokumentasi lengkap & Jelas</h5>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                             <i class="lnr lnr-camera-video"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Video <br /> Materi</h5>
+                            <h5>E-Learning Berbasis Video dan Disqus</h5>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                             <i class="lnr lnr-tag"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Simple & <br />Tinggal Belajar!</h5>
+                            <h5>Gratis dengan Lisensi MIT Open-Source</h5>
                         </div>
                     </div>
                 </div>
@@ -76,10 +76,8 @@
 <section class="courses_area p_40">
     <div class="container">
         <div class="main_title">
-            <h2>Pelajaran yang tersedia di Learnify</h2>
-            <p>Dibawah ini merupakan mata pelajaran yang tersedia di website Learnify. Tiap kelas mempunyai
-                materi yang berbeda namun dengan mata pelajaran yang sama. Oleh karena itu nikmati materi dan selamat
-                belajar! tunggu update selanjutnya untuk penambahan mata pelajaran!</p>
+            <h2>Pelajaran Yang Tersedia di Learnify</h2>
+            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
         </div>
         <div class="row courses_inner">
             <div class="col-lg-9">
@@ -178,9 +176,7 @@
     <div class="container">
         <div class="main_title">
             <h2>Testimonial Para Siswa Learnify</h2>
-            <p>Berikut kesan dan pesan para siswa yang sudah menggunakan layanan website Learnify. Pastikan kamu
-                juga mencoba layanan kami ya! di Learnify semoga kamu menikmati semua materi dan pelajaran yang guru
-                guru kami buat! Selamat Belajar! </p>
+            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
         </div>
         <section class="testimonials_area p_20">
             <div class="container">
@@ -196,12 +192,7 @@
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                             </ul>
-                            <p>Materi nya lengkap, Gurunya keren keren semua dan dapat mudah dimengerti materinya.
-                                Pokoknya Semangat Learnify! Tetap jadi yang terbaik untuk SMKN 1 Ciamis. Semoga
-                                dengan adanya website learnify yang saya kembangkan ini ,siswa SMKN 1
-                                Ciamis dapat belajar dengan mudah dan para siswa dapat mencetak prestrasi untuk
-                                sekolah kita tercinta ini. Made with <span class="text-danger"> &#10084;</span> by
-                                syaauqi</p>
+                            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.</p>
                         </div>
                     </div>
                     <div class="item">
@@ -215,11 +206,7 @@
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                             </ul>
-                            <p>Gurunya baik baik, materinya terstruktur dan materi nya terus update. Meski Guru
-                                tidak ada, kita masih bisa melihat materi yang dibuat guru di Website Learnify.
-                                Terima kasih Learnify!. Semoga dengan adanya learnify ini kita para siswa lebih
-                                produktif dan dapat meningkatkan kualitas SDM untuk negara kita tercinta ini yaitu
-                                negara Indonesia</p>
+                            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.</p>
                         </div>
                     </div>
                     <div class="item">
@@ -233,9 +220,7 @@
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                             </ul>
-                            <p>Website yang sangat berguna untuk para siswa millenial. Karena dengan Learnify ini
-                                kalian bisa belajar dimana saja dan kapan saja! . Meski guru tidak bisa hadir atau
-                                kita tidak masuk sekolah karena sakit kita masih bisa belajar di website learnify
+                            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.
                             </p>
                         </div>
                     </div>

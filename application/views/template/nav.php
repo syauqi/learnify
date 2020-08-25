@@ -18,7 +18,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta content="Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis." name="Description" />
+    <meta content="Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja." name="Description" />
     <meta content="Learnify, E-learning, Open Source, Syauqi Zaidan Khairan Khalaf, github, programmer indonesia" name="keywords" />
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
     <title>Learnify - Belajar Dimana Saja & Kapan Saja !</title>
