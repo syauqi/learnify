@@ -1,16 +1,3 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
 <!doctype html>
 <html lang="en">
 
@@ -37,6 +24,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Scripts -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
     <script src="<?= base_url('assets/') ?>js/jquery-3.3.1.min.js"></script>
     <script src="<?= base_url('assets/') ?>js/popper.js"></script>
@@ -46,6 +34,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             $("#nav<?= $this->uri->segment(2); ?>").addClass('active')
         })
     </script>
+
 </head>
 
 <body>
