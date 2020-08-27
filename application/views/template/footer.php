@@ -268,6 +268,27 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <script src="<?= base_url('assets/') ?>vendors/counter-up/jquery.counterup.js"></script>
 <script src="<?= base_url('assets/') ?>js/mail-script.js"></script>
 <script src="<?= base_url('assets/') ?>js/theme.js"></script>
+<script>
+    var animateButton = function(e) {
+        e.preventDefault;
+        e.target.classList.remove('animate');
+        e.target.classList.add('animate');
+        setTimeout(function() {
+            e.target.classList.remove('animate');
+        }, 700);
+    };
+
+    var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+    for (var i = 0; i < bubblyButtons.length; i++) {
+        bubblyButtons[i].addEventListener('click', animateButton, false);
+    }
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 
 </html>
