@@ -1,17 +1,3 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
-
 <!--================Home Banner Area =================-->
 <section class="banner_area">
     <div class="banner_inner d-flex align-items-center">
@@ -19,9 +5,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </div>
         <div class="container">
             <div class="banner_content text-center">
-                <h2>Tentang Learnify</h2>
-                <div class="page_link">
-                    <a href="<?=base_url('welcome')?>">Beranda</a>
+                <h2 data-aos="fade-up" data-aos-duration="1600">Tentang Learnify</h2>
+                <div data-aos="fade-up" data-aos-duration="1800" class="page_link">
+                    <a href="<?= base_url('welcome') ?>">Beranda</a>
                     <a href="">Tentang</a>
                 </div>
             </div>
@@ -30,18 +16,16 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 </section>
 <!--================End Home Banner Area =================-->
 
-
 <!--================About Area =================-->
 <section class="about_area p_60">
     <div class="container">
         <div class="main_title">
-            <h2 style="font-size: 33px !important;">Tentang Learnify - Web Edukasi Open Source</h2>
-            <p>Learnify adalah web open source yang dibuat oleh <a
-                    href="https://web.facebook.com/zaidan.syauqi.9">Syauqi Zaidan Khairan Khalaf</a> website
+            <h2 data-aos="fade-up" data-aos-duration="1600" style="font-size: 33px !important;">Tentang Learnify - Web Edukasi Open Source</h2>
+            <p data-aos="fade-up" data-aos-duration="1800">Learnify adalah Web Edukasi Open-Source yang dibuat oleh <a href="https://web.facebook.com/syaaauqi">Syauqi Zaidan Khairan Khalaf.</a> Website
                 pembelajaran dimana para siswa dapat belajar dimana saja dan kapan saja.
                 Guru dapat mengupload video dirinya sendiri sedang mengajar, sehingga tanpa takut adanya jam
                 kosong atau pun keadaan yang tidak terduga apapun karena Learnify dapat diakses dimana saja dan
-                kapan saja untuk belajar.
+                kapan saja.
             </p>
         </div>
         <div class="row about_inner">
@@ -49,74 +33,57 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Visi
                                 <i class="lnr lnr-chevron-down"></i>
                                 <i class="lnr lnr-chevron-up"></i>
                             </button>
                         </div>
-
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                            data-parent="#accordionExample">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                Membuat para siswa di SMKN 1 Ciamis lebih pintar dan belajar dengan terstruktur. agar
-                                menjadi generasi emas yang menghasilkan beragam prestasi untuk mengharumkan nama SMKN 1
-                                CIAMIS.
-
+                                Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous.
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header" id="headingTwo">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Misi
                                 <i class="lnr lnr-chevron-down"></i>
                                 <i class="lnr lnr-chevron-up"></i>
                             </button>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                            data-parent="#accordionExample">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                Membuat para siswa lebih rajin dan mengatasi beragam rintangan yang menghambat proses
-                                kegiatan belajar mengajar
+                                Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous.
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header" id="headingThree">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Tujuan
                                 <i class="lnr lnr-chevron-down"></i>
                                 <i class="lnr lnr-chevron-up"></i>
                             </button>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordionExample">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
-                                Mengatasi beragam hambatan yang dilalui selama KBM Dan membuat para siswa bisa belajar
-                                dimana saja dan kapan saja dengan Learnify.
+                                Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous.
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header" id="headingfour">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
                                 Manfaat
                                 <i class="lnr lnr-chevron-down"></i>
                                 <i class="lnr lnr-chevron-up"></i>
                             </button>
                         </div>
-                        <div id="collapsefour" class="collapse" aria-labelledby="headingfour"
-                            data-parent="#accordionExample">
+                        <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
                             <div class="card-body">
-                                - Mengatasi Beragam Rintangan dalam proses KBM <br>
-                                - Membuat para siswa bisa belajar dimana saja dan kapan saja <br>
-                                - Meningkatkan Prestasi Siswa <br>
-                                - Materi Terstruktur
+                                Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous.
                             </div>
                         </div>
                     </div>
@@ -124,42 +91,36 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             </div>
             <div class="col-lg-6">
                 <div class="video_area" id="video">
-                    <img class="img-fluid" src="<?=base_url('assets/')?>img/video-1.jpg" alt="" />
+                    <img class="img-fluid" src="<?= base_url('assets/') ?>img/video-1.jpg" alt="" />
                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=FZmbSq2W1hY">
-                        <img src="<?=base_url('assets/')?>img/icon/video-icon-1.png" alt="" />
+                        <img src="<?= base_url('assets/') ?>img/icon/video-icon-1.png" alt="" />
                     </a>
                 </div>
             </div>
         </div>
-        <div class="about_details">
+        <div class="about_details" data-aos="fade-up" data-aos-duration="1600">
             <p>
-                Learnify adalah website pembelajaran dimana para siswa dapat belajar dimana saja dan kapan saja.
-                dan guru dapat mengupload video dirinya sendiri sedang mengajar. sehingga tanpa takut adanya Jam
-                kosong atau pun keadaan yang tidak terduga apapun karena Learnify dapat diakses dimana saja dan
-                kapan saja untuk belajar.
+                Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.
             </p>
-
         </div>
     </div>
 </section>
 <!--================End About Area =================-->
 
-
 <!--================Team Area =================-->
 <section class="team_area p_20">
     <div class="container">
         <div class="main_title">
-            <h2>Testimonial Para Siswa Learnify</h2>
-            <p>Berikut kesan dan pesan para siswa yang sudah menggunakan layanan website Learnify. Pastikan kamu
-                juga mencoba layanan kami ya! selamat belajar!</p>
+            <h2 data-aos="fade-up" data-aos-duration="1800">Testimonial Para Siswa Learnify</h2>
+            <p data-aos="fade-up" data-aos-duration="2000">Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
         </div>
         <section class="testimonials_area p_20">
             <div class="container">
                 <div class="testi_slider owl-carousel">
                     <div class="item">
                         <div class="testi_item">
-                            <img src="<?=base_url('assets/')?>img/testimonials/testi-3.png" alt="">
-                            <h4>Syaauqi Zaaidan</h4>
+                            <img src="<?= base_url('assets/') ?>img/testimonials/testi-3.png" alt="">
+                            <h4>Syauqi Zaidan Khairan Khalaf</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -167,17 +128,12 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                             </ul>
-                            <p>Materi nya lengkap, Gurunya keren keren semua dan dapat mudah dimengerti materinya.
-                                Pokoknya Semangat Learnify! Tetap jadi yang terbaik untuk SMKN 1 Ciamis. Semoga
-                                dengan adanya website learnify yang saya kembangkan ini , siswa SMKN 1
-                                Ciamis dapat belajar dengan mudah dan para siswa dapat mencetak prestrasi untuk
-                                sekolah kita tercinta ini. Made with <span class="text-danger"> &#10084;</span> by
-                                syaauqi</p>
+                            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.</p>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testi_item">
-                            <img src="<?=base_url('assets/')?>img/testimonials/testi-2.png" alt="">
+                            <img src="<?= base_url('assets/') ?>img/testimonials/testi-2.png" alt="">
                             <h4>Taupik Hidayat</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -186,16 +142,12 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                             </ul>
-                            <p>Gurunya baik baik, materinya terstruktur dan materi nya terus update. Meski Guru
-                                tidak ada, kita masih bisa melihat materi yang dibuat guru di Website Learnify.
-                                Terima kasih Learnify!. Semoga dengan adanya learnify ini kita para siswa lebih
-                                produktif dan dapat meningkatkan kualitas SDM untuk negara kita tercinta ini yaitu
-                                negara Indonesia</p>
+                            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.</p>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testi_item">
-                            <img src="<?=base_url('assets/')?>img/testimonials/testi-1.png" alt="">
+                            <img src="<?= base_url('assets/') ?>img/testimonials/testi-1.png" alt="">
                             <h4>Diki Ramdani</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -204,9 +156,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
                             </ul>
-                            <p>Website yang sangat berguna untuk para siswa millenial. Karena dengan Learnify ini
-                                kalian bisa belajar dimana saja dan kapan saja! . Meski guru tidak bisa hadir atau
-                                kita tidak masuk sekolah karena sakit kita masih bisa belajar di website learnify
+                            <p>Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.
                             </p>
                         </div>
                     </div>
@@ -215,17 +165,16 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </section>
     </div>
 </section>
-
+<!--================End Team Area =================-->
 
 <!--================Impress Area =================-->
 <section class="impress_area p_120">
     <div class="container">
         <div class="impress_inner text-center">
-            <h2>JADILAH PENGAJAR DAN MENGAJAR DI LEARNIFY</h2>
-            <p>Jika anda adalah seorang guru, anda dapat mendaftar dan masuk untuk mengajar para siswa di Learnify.
-                Tidak dikenakan biaya dan anda dapat segera mengajar setelah disetujui oleh pihak sekolah.
+            <h2 data-aos="fade-up" data-aos-duration="1800">LOGIN SEBAGAI GURU DAN UPLOAD MATERI & VIDEO SEKARANG</h2>
+            <p data-aos="fade-up" data-aos-duration="2000">Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free. Abstract chaos snare play truth ultimate good self. God overcome sexuality pious abstract good decieve revaluation aversion good. Virtues chaos overcome society holiest truth.
             </p>
-            <a class="main_btn2" href="<?=base_url('welcome/guru')?>">Login sebagai Guru</a>
+            <a data-aos="fade-up" data-aos-duration="2200" class="main_btn" href="<?= base_url('welcome/guru') ?>">Login Sebagai Guru <span class="lnr lnr-arrow-right text-black"></span></a>
         </div>
     </div>
 </section>

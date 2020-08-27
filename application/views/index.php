@@ -72,6 +72,7 @@
 </section>
 <!--================End Finance Area =================-->
 
+<!--================ Illustrations Area =================-->
 <section class="learnify-for-indonesia p_20">
     <div class="container">
         <div class="row">
@@ -90,7 +91,7 @@
         </div>
     </div>
 </section>
-
+<!--================End Illustrations Area =================-->
 
 <!--================Courses Area =================-->
 <section class="courses_area p_40">
