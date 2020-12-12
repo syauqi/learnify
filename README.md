@@ -13,7 +13,7 @@
 </p>
 
 ### 🤔 Apa itu Learnify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf. </a> **Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> SYAUQIZAIDAN KHAIRAN KHALAF. </a> **Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 ### 🎉 Kenapa dibuat Open Source?
 Saya buat open-source agar dapat membantu sekolah sekolah agar dapat melaksanakan pembelajaran dimana saja dan kapan saja.
