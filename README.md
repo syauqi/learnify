@@ -72,7 +72,7 @@ silahkan dicoba dan ditest feature yang telah ada 🤙🏻
 
 ## 🧑 Author
 
-👤 <a href="https://web.facebook.com/syaauqi"> **Syauqi Zaidan Khairan Khalaf**</a>
+👤 <a href="https://web.facebook.com/syaauqi"> **SYAUQIZAIDAN KHAIRAN KHALAF**</a>
 - Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
 - Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
 - Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
@@ -85,7 +85,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 
 
 ## 📝 License
-- Copyright © 2020 Syauqi Zaidan Khairan Khalaf
+- Copyright © 2020 SYAUQIZAIDAN KHAIRAN KHALAF
 - **Learnify is open-sourced software licensed under the MIT license**
 
 ## 🎥 Video Source
@@ -93,4 +93,4 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 https://pastebin.pl/view/c3608c25
 
 ------------
-**Made with ❤️ by Syauqi Zaidan Khairan Khalaf**
+**Made with ❤️ SYAUQIZAIDAN KHAIRAN KHALAF**
