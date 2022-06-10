@@ -31,7 +31,7 @@
 
 <h2 id="tentang">👨🏻‍🏫 Tentang Learnify</h2>
 
-Website edukasi yang dibuat dalam rangka mengatasi solusi pembelajaran kala pandemi, Learnify dibuat agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
+Website edukasi yang dibuat dalam rangka mengatasi solusi pembelajaran kala pandemi, learnify dibuat agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 <p></p>
 
@@ -44,7 +44,7 @@ Website edukasi yang dibuat dalam rangka mengatasi solusi pembelajaran kala pand
   - Pengguna [akses video pembelajaran dan memberi comment juga reaksi]
   - Guru [upload materi berdasarkan kelas dan mata pelajaran]
   - Admin [mengatur data siswa, guru sekaligus materi]
-- Diskusi dan reaksi dengan integrasi disqus
+- Diskusi dan Reaksi Dengan Integrasi Disqus
 - Ujian Online [segera hadir]
 
 <p></p>
@@ -59,7 +59,7 @@ Update: anda dapat mengakses di http://programmer.smkn1ciamis.id/learnify/ namun
 
 <h2 id="akun">🔑 Daftar Akun Tersedia</h2>
 
-Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pertama kali, nemun anda juga bisa membuat akun dengan register di halaman pendaftaran
+Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pertama kali, namun anda juga bisa membuat akun dengan daftar di halaman pendaftaran
 
 | Role  | Email                  | Password | URL                                     |
 | ----- | ---------------------- | -------- | --------------------------------------- |
@@ -69,7 +69,7 @@ Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pe
 
 <h2 id="syarat">💾 Prasyarat yang Diperlukan</h2>
 
-Beriku adalah daftar layanan dan aplikasi yang wajib dan diperlukan selama anda menjalankan aplikasi Learnify jika anda belum menginstall nya maka disarankan untuk menginstall nya terlebih dahulu
+Berikut adalah daftar layanan dan aplikasi yang wajib dan diperlukan selama anda menjalankan aplikasi learnify jika anda belum menginstall nya maka disarankan untuk menginstall nya terlebih dahulu
 
 - PHP 7, 8 & Web Server [XAMPP, LAMPP, MAMP]
 - Web Browser [Chrome, Firefox, Safari & Opera]
