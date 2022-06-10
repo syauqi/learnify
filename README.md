@@ -57,13 +57,6 @@ Update: anda dapat mengakses di http://programmer.smkn1ciamis.id/learnify/ namun
 
 <p></p>
 
-<h2 id="rilis">📆 Tanggal Rilis</h2>
-
-- v1.0 : 17 April 2020
-- v2.0 : 25 June 2020
-
-<p></p>
-
 <h2 id="akun">🔑 Daftar Akun Tersedia</h2>
 
 Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pertama kali, nemun anda juga bisa membuat akun dengan register di halaman pendaftaran
@@ -71,7 +64,7 @@ Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pe
 | Role  | Email                  | Password | URL                                     |
 | ----- | ---------------------- | -------- | --------------------------------------- |
 | Admin | admin@gmail.com        | admin    | http://localhost/learnify/welcome/admin |
-| Siswa | zaidanline67@gmail.com | 123456   | http://localhost/learnify/welcome              |
+| Siswa | zaidanline67@gmail.com | 123456   | http://localhost/learnify/welcome       |
 | Guru  | zaidanline67@gmail.com | 123456   | http://localhost/learnify/welcome/guru  |
 
 <h2 id="syarat">💾 Prasyarat yang Diperlukan</h2>
