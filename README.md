@@ -95,7 +95,7 @@ Buat database dengan nama "learnify" di DMBS [phpmyadmin, dll]
 Arahkan folder ke learnify/database/learnify.sql & upload ke dbms [phpmyadmin]
 
 # Buka browser
-http://localhost/learnify/welcoe
+http://localhost/learnify/welcome
 
 # Enjoy, jika ingin login maka liat panduan akun diatas
 ```
