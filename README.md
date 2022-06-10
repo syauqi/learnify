@@ -67,6 +67,8 @@ Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pe
 | Siswa | zaidanline67@gmail.com | 123456   | http://localhost/learnify/welcome       |
 | Guru  | zaidanline67@gmail.com | 123456   | http://localhost/learnify/welcome/guru  |
 
+<p></p>
+
 <h2 id="syarat">💾 Prasyarat yang Diperlukan</h2>
 
 Berikut adalah daftar layanan dan aplikasi yang wajib dan diperlukan selama anda menjalankan aplikasi learnify jika anda belum menginstall nya maka disarankan untuk menginstall nya terlebih dahulu
@@ -75,6 +77,8 @@ Berikut adalah daftar layanan dan aplikasi yang wajib dan diperlukan selama anda
 - Web Browser [Chrome, Firefox, Safari & Opera]
 - Internet [Karena menggunakan banyak CDN]
 - Setting lanjutan PHP [max_upload & post_max di php.ini]
+
+<p></p>
 
 <h2 id="download">🐱‍💻 Panduan Menjalankan & Install Aplikasi</h2>
 
